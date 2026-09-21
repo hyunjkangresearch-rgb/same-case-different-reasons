@@ -1,0 +1,83 @@
+{
+  "notebook": "02_model_training",
+  "timestamp": "2026-09-11T11:29:52.263368",
+  "seed": 42,
+  "test_size": 0.3,
+  "cv_folds": 4,
+  "n_search_iter": 40,
+  "auc_tolerance": 0.02,
+  "library_versions": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.5",
+    "xgboost": "3.2.0",
+    "lightgbm": "4.7.0"
+  },
+  "performance": [
+    {
+      "Domain": "credit",
+      "Model": "XGBoost",
+      "CV AUC": 0.9454,
+      "Test AUC": 0.9495,
+      "Test AP": 0.906,
+      "Brier": 0.0523
+    },
+    {
+      "Domain": "credit",
+      "Model": "LightGBM",
+      "CV AUC": 0.9473,
+      "Test AUC": 0.9508,
+      "Test AP": 0.9086,
+      "Brier": 0.0513
+    },
+    {
+      "Domain": "credit",
+      "Model": "RandomForest",
+      "CV AUC": 0.932,
+      "Test AUC": 0.9385,
+      "Test AP": 0.8965,
+      "Brier": 0.0549
+    },
+    {
+      "Domain": "churn",
+      "Model": "XGBoost",
+      "CV AUC": 0.8481,
+      "Test AUC": 0.8515,
+      "Test AP": 0.6752,
+      "Brier": 0.1325
+    },
+    {
+      "Domain": "churn",
+      "Model": "LightGBM",
+      "CV AUC": 0.847,
+      "Test AUC": 0.8507,
+      "Test AP": 0.6795,
+      "Brier": 0.1327
+    },
+    {
+      "Domain": "churn",
+      "Model": "RandomForest",
+      "CV AUC": 0.8442,
+      "Test AUC": 0.8497,
+      "Test AP": 0.6783,
+      "Brier": 0.1332
+    }
+  ],
+  "parity": [
+    {
+      "Domain": "credit",
+      "AUC min": 0.9385,
+      "AUC max": 0.9508,
+      "Spread": 0.0123,
+      "Tolerance": 0.02,
+      "Parity met": true
+    },
+    {
+      "Domain": "churn",
+      "AUC min": 0.8497,
+      "AUC max": 0.8515,
+      "Spread": 0.0018,
+      "Tolerance": 0.02,
+      "Parity met": true
+    }
+  ]
+}

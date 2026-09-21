@@ -1,0 +1,217 @@
+{
+  "notebook": "10_mixed_effects",
+  "timestamp": "2026-09-21T09:13:06.490155",
+  "seed": 42,
+  "role": "robustness check for 09_delta_analysis",
+  "specification_note": "Linear mixed models on binary outcomes, case as the grouping factor and pipeline factors as fixed effects. Crossed case-and-feature random effects were not fitted in a single model; feature enters as a fixed effect and the ordering is confirmed by leave-one-out contributions.",
+  "decomposition": [
+    {
+      "Block": "A",
+      "Specification": "case only",
+      "Added factor": "-",
+      "Residual variance": 0.161734,
+      "Variance explained": 0.0,
+      "ICC case": 0.0
+    },
+    {
+      "Block": "A",
+      "Specification": "C(feature)",
+      "Added factor": "feature",
+      "Residual variance": 0.123022,
+      "Variance explained": 0.2394,
+      "ICC case": 0.0
+    },
+    {
+      "Block": "A",
+      "Specification": "C(feature) + C(model)",
+      "Added factor": "model",
+      "Residual variance": 0.123013,
+      "Variance explained": 0.0001,
+      "ICC case": 0.0
+    },
+    {
+      "Block": "A",
+      "Specification": "C(feature) + C(model) + C(xai)",
+      "Added factor": "xai",
+      "Residual variance": 0.12298,
+      "Variance explained": 0.0003,
+      "ICC case": 0.0
+    },
+    {
+      "Block": "B",
+      "Specification": "case only",
+      "Added factor": "-",
+      "Residual variance": 0.172908,
+      "Variance explained": 0.0,
+      "ICC case": 0.0
+    },
+    {
+      "Block": "B",
+      "Specification": "C(feature)",
+      "Added factor": "feature",
+      "Residual variance": 0.103717,
+      "Variance explained": 0.4002,
+      "ICC case": 0.0
+    },
+    {
+      "Block": "B",
+      "Specification": "C(feature) + C(llm)",
+      "Added factor": "llm",
+      "Residual variance": 0.10374,
+      "Variance explained": -0.0002,
+      "ICC case": 0.0
+    },
+    {
+      "Block": "B",
+      "Specification": "C(feature) + C(llm) + C(prompt)",
+      "Added factor": "prompt",
+      "Residual variance": 0.103694,
+      "Variance explained": 0.0005,
+      "ICC case": 0.0
+    }
+  ],
+  "contributions": [
+    {
+      "Block": "A",
+      "Factor": "model",
+      "Residual without factor": 0.122988,
+      "Residual with factor": 0.12298,
+      "Unique contribution": 0.0001,
+      "Factor label": "Model"
+    },
+    {
+      "Block": "A",
+      "Factor": "xai",
+      "Residual without factor": 0.123013,
+      "Residual with factor": 0.12298,
+      "Unique contribution": 0.0003,
+      "Factor label": "XAI method"
+    },
+    {
+      "Block": "B",
+      "Factor": "llm",
+      "Residual without factor": 0.103697,
+      "Residual with factor": 0.103694,
+      "Unique contribution": 0.0,
+      "Factor label": "LLM"
+    },
+    {
+      "Block": "B",
+      "Factor": "prompt",
+      "Residual without factor": 0.10374,
+      "Residual with factor": 0.103694,
+      "Unique contribution": 0.0005,
+      "Factor label": "Prompt"
+    }
+  ],
+  "repeat_reference": [
+    {
+      "Block": "D",
+      "Residual variance": 0.123762,
+      "ICC case": 0.0,
+      "N observations": 72000
+    },
+    {
+      "Block": "D0",
+      "Residual variance": 0.124016,
+      "ICC case": 0.0,
+      "N observations": 72000
+    }
+  ],
+  "direction_models": [
+    {
+      "Block": "A",
+      "Specification": "feature + model + xai",
+      "Residual variance": 0.141421,
+      "ICC case": 0.0,
+      "N claims": 23926
+    },
+    {
+      "Block": "B",
+      "Specification": "feature + llm + prompt",
+      "Residual variance": 0.156309,
+      "ICC case": 0.0,
+      "N claims": 39492
+    },
+    {
+      "Block": "D",
+      "Specification": "feature",
+      "Residual variance": 0.17046,
+      "ICC case": 0.0,
+      "N claims": 17129
+    },
+    {
+      "Block": "D0",
+      "Specification": "feature",
+      "Residual variance": 0.169181,
+      "ICC case": 0.0,
+      "N claims": 17168
+    }
+  ],
+  "diagnostics": [
+    {
+      "Block": "A",
+      "Status": "fitted",
+      "N observations": 118800,
+      "Converged": true,
+      "Group variance": 0.0,
+      "At boundary": true,
+      "Log-likelihood": Infinity
+    },
+    {
+      "Block": "B",
+      "Status": "fitted",
+      "N observations": 178200,
+      "Converged": true,
+      "Group variance": 0.0,
+      "At boundary": true,
+      "Log-likelihood": Infinity
+    }
+  ],
+  "agreement": [
+    {
+      "Block": "A",
+      "Factor": "Model",
+      "Delta": 0.325,
+      "Unique contribution": 0.0001,
+      "Rank pairwise": 2,
+      "Rank mixed": 3,
+      "Rank match": false
+    },
+    {
+      "Block": "A",
+      "Factor": "XAI method",
+      "Delta": 0.7048,
+      "Unique contribution": 0.0003,
+      "Rank pairwise": 1,
+      "Rank mixed": 2,
+      "Rank match": false
+    },
+    {
+      "Block": "B",
+      "Factor": "LLM",
+      "Delta": 0.0086,
+      "Unique contribution": 0.0,
+      "Rank pairwise": 4,
+      "Rank mixed": 4,
+      "Rank match": true
+    },
+    {
+      "Block": "B",
+      "Factor": "Prompt",
+      "Delta": 0.0157,
+      "Unique contribution": 0.0005,
+      "Rank pairwise": 3,
+      "Rank mixed": 1,
+      "Rank match": false
+    }
+  ],
+  "verdict": {
+    "models_converged": true,
+    "n_factors_compared": 4,
+    "spearman_correlation": 0.4,
+    "rank_agreement": "1/4",
+    "temperature_finding_corroborated": true,
+    "supports_primary": false
+  }
+}

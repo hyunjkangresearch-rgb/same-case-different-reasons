@@ -1,0 +1,32 @@
+# Secrets — never commit
+.env
+
+# Raw public data: redistribute via the source links in README
+data/*.csv
+# ...except the human coding record, which is part of the method
+!data/manual_coding_sheet.csv
+!data/adjudication.csv
+!data/coding_auto_reference.csv
+
+# Large derived data and models: regenerable, or published as release archives
+data/*.parquet
+data/*.joblib
+data/generations/
+data/pilot_generations/
+data/claims_cache/
+data/judge_cache/
+
+# AI-generated coding drafts are not part of the reported procedure
+*AI_draft*
+
+# Keep empty directories
+!data/.gitkeep
+
+# Jupyter, Python, OS
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+Thumbs.db

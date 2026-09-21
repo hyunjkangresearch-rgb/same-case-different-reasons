@@ -1,0 +1,7 @@
+﻿block,domain,feature_distance_mean,feature_distance_std,feature_distance_count,direction_distance_mean,direction_distance_std,direction_distance_count,rank_distance_mean,rank_distance_std,rank_distance_count
+A,credit,0.1234,0.08,300,0.0153,0.0336,300,0.0798,0.0717,300
+A_prime,churn,0.1073,0.061,300,0.0143,0.0296,300,0.0996,0.0791,300
+B,credit,0.0218,0.0209,300,0.0077,0.0232,300,0.0397,0.0499,300
+C,credit,0.102,0.045,100,0.0046,0.0126,100,0.089,0.0695,100
+D,credit,0.0486,0.0356,60,0.0136,0.0312,60,0.0692,0.0717,60
+D0,credit,0.0378,0.0343,60,0.0122,0.0373,60,0.0549,0.0607,60

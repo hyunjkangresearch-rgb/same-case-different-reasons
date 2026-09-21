@@ -1,0 +1,316 @@
+{
+  "notebook": "08_content_distance",
+  "timestamp": "2026-09-21T08:56:00.894054",
+  "extractor": {
+    "approach": "llm_only",
+    "model": "gpt-5.6-terra",
+    "temperature": null,
+    "self_stability": {
+      "N narratives": 50,
+      "Runs each": 3,
+      "Identical across runs": 0.58,
+      "Feature Jaccard": 1.0,
+      "Direction agreement": 1.0
+    },
+    "validation": {
+      "Extractor": "gpt-5.6-terra",
+      "Feature precision": 0.9979,
+      "Feature recall": 0.9923,
+      "Feature F1": 0.9951,
+      "Feature kappa": 0.9919,
+      "Direction accuracy": 1.0,
+      "Direction kappa": 1.0,
+      "Rank kappa": 0.9951,
+      "Rank tau": 0.9909,
+      "N feature units": 3600,
+      "N direction units": 1407,
+      "N rank units": 1415
+    }
+  },
+  "n_generations": 29700,
+  "n_claim_records": 29700,
+  "n_empty_extractions": 36,
+  "n_claims": 139012,
+  "n_pairs": 472500,
+  "n_case_level_rows": 4340,
+  "rank_primary": true,
+  "contrast_counts": {
+    "llm_change": 175500,
+    "multi_change": 124200,
+    "repeat": 89100,
+    "model_change": 39600,
+    "prompt_change": 24300,
+    "xai_change": 19800
+  },
+  "repeat_baseline": [
+    {
+      "block": "A",
+      "domain": "credit",
+      "feature_distance_mean": 0.1234,
+      "feature_distance_std": 0.08,
+      "feature_distance_count": 300,
+      "direction_distance_mean": 0.0153,
+      "direction_distance_std": 0.0336,
+      "direction_distance_count": 300,
+      "rank_distance_mean": 0.0798,
+      "rank_distance_std": 0.0717,
+      "rank_distance_count": 300
+    },
+    {
+      "block": "A_prime",
+      "domain": "churn",
+      "feature_distance_mean": 0.1073,
+      "feature_distance_std": 0.061,
+      "feature_distance_count": 300,
+      "direction_distance_mean": 0.0143,
+      "direction_distance_std": 0.0296,
+      "direction_distance_count": 300,
+      "rank_distance_mean": 0.0996,
+      "rank_distance_std": 0.0791,
+      "rank_distance_count": 300
+    },
+    {
+      "block": "B",
+      "domain": "credit",
+      "feature_distance_mean": 0.0218,
+      "feature_distance_std": 0.0209,
+      "feature_distance_count": 300,
+      "direction_distance_mean": 0.0077,
+      "direction_distance_std": 0.0232,
+      "direction_distance_count": 300,
+      "rank_distance_mean": 0.0397,
+      "rank_distance_std": 0.0499,
+      "rank_distance_count": 300
+    },
+    {
+      "block": "C",
+      "domain": "credit",
+      "feature_distance_mean": 0.102,
+      "feature_distance_std": 0.045,
+      "feature_distance_count": 100,
+      "direction_distance_mean": 0.0046,
+      "direction_distance_std": 0.0126,
+      "direction_distance_count": 100,
+      "rank_distance_mean": 0.089,
+      "rank_distance_std": 0.0695,
+      "rank_distance_count": 100
+    },
+    {
+      "block": "D",
+      "domain": "credit",
+      "feature_distance_mean": 0.0486,
+      "feature_distance_std": 0.0356,
+      "feature_distance_count": 60,
+      "direction_distance_mean": 0.0136,
+      "direction_distance_std": 0.0312,
+      "direction_distance_count": 60,
+      "rank_distance_mean": 0.0692,
+      "rank_distance_std": 0.0717,
+      "rank_distance_count": 60
+    },
+    {
+      "block": "D0",
+      "domain": "credit",
+      "feature_distance_mean": 0.0378,
+      "feature_distance_std": 0.0343,
+      "feature_distance_count": 60,
+      "direction_distance_mean": 0.0122,
+      "direction_distance_std": 0.0373,
+      "direction_distance_count": 60,
+      "rank_distance_mean": 0.0549,
+      "rank_distance_std": 0.0607,
+      "rank_distance_count": 60
+    }
+  ],
+  "baseline_versus_measurement_error": [
+    {
+      "Block": "D",
+      "Observed repeat baseline": 0.0486,
+      "Extractor instability": 0.0,
+      "Attributable to generation": 0.0486,
+      "Ratio": NaN
+    },
+    {
+      "Block": "D0",
+      "Observed repeat baseline": 0.0378,
+      "Extractor instability": 0.0,
+      "Attributable to generation": 0.0378,
+      "Ratio": NaN
+    }
+  ],
+  "fidelity_overall": {
+    "omission": 0.0642,
+    "hallucination": 0.0003,
+    "direction_agreement": 0.9905
+  },
+  "missingness": [
+    {
+      "Block": "A",
+      "Contrast": "model_change",
+      "N pairs": 16200,
+      "Feature undefined": 0.0001,
+      "Direction undefined": 0.0201,
+      "Rank undefined": 0.264
+    },
+    {
+      "Block": "A",
+      "Contrast": "multi_change",
+      "N pairs": 16200,
+      "Feature undefined": 0.0,
+      "Direction undefined": 0.227,
+      "Rank undefined": 0.9551
+    },
+    {
+      "Block": "A",
+      "Contrast": "repeat",
+      "N pairs": 5400,
+      "Feature undefined": 0.0002,
+      "Direction undefined": 0.0039,
+      "Rank undefined": 0.1422
+    },
+    {
+      "Block": "A",
+      "Contrast": "xai_change",
+      "N pairs": 8100,
+      "Feature undefined": 0.0,
+      "Direction undefined": 0.1756,
+      "Rank undefined": 0.9572
+    },
+    {
+      "Block": "A_prime",
+      "Contrast": "model_change",
+      "N pairs": 16200,
+      "Feature undefined": 0.0,
+      "Direction undefined": 0.0021,
+      "Rank undefined": 0.2345
+    },
+    {
+      "Block": "A_prime",
+      "Contrast": "multi_change",
+      "N pairs": 16200,
+      "Feature undefined": 0.0,
+      "Direction undefined": 0.0041,
+      "Rank undefined": 0.3757
+    },
+    {
+      "Block": "A_prime",
+      "Contrast": "repeat",
+      "N pairs": 5400,
+      "Feature undefined": 0.0,
+      "Direction undefined": 0.0013,
+      "Rank undefined": 0.0869
+    },
+    {
+      "Block": "A_prime",
+      "Contrast": "xai_change",
+      "N pairs": 8100,
+      "Feature undefined": 0.0,
+      "Direction undefined": 0.0054,
+      "Rank undefined": 0.3157
+    },
+    {
+      "Block": "B",
+      "Contrast": "llm_change",
+      "N pairs": 24300,
+      "Feature undefined": 0.0,
+      "Direction undefined": 0.0035,
+      "Rank undefined": 0.0019
+    },
+    {
+      "Block": "B",
+      "Contrast": "multi_change",
+      "N pairs": 48600,
+      "Feature undefined": 0.0,
+      "Direction undefined": 0.0035,
+      "Rank undefined": 0.0017
+    },
+    {
+      "Block": "B",
+      "Contrast": "prompt_change",
+      "N pairs": 24300,
+      "Feature undefined": 0.0,
+      "Direction undefined": 0.0035,
+      "Rank undefined": 0.0017
+    },
+    {
+      "Block": "B",
+      "Contrast": "repeat",
+      "N pairs": 8100,
+      "Feature undefined": 0.0,
+      "Direction undefined": 0.0035,
+      "Rank undefined": 0.0017
+    },
+    {
+      "Block": "C",
+      "Contrast": "llm_change",
+      "N pairs": 7200,
+      "Feature undefined": 0.0,
+      "Direction undefined": 0.0088,
+      "Rank undefined": 0.1165
+    },
+    {
+      "Block": "C",
+      "Contrast": "model_change",
+      "N pairs": 7200,
+      "Feature undefined": 0.0,
+      "Direction undefined": 0.0281,
+      "Rank undefined": 0.2278
+    },
+    {
+      "Block": "C",
+      "Contrast": "multi_change",
+      "N pairs": 43200,
+      "Feature undefined": 0.0,
+      "Direction undefined": 0.1498,
+      "Rank undefined": 0.7084
+    },
+    {
+      "Block": "C",
+      "Contrast": "repeat",
+      "N pairs": 1800,
+      "Feature undefined": 0.0,
+      "Direction undefined": 0.0094,
+      "Rank undefined": 0.1106
+    },
+    {
+      "Block": "C",
+      "Contrast": "xai_change",
+      "N pairs": 3600,
+      "Feature undefined": 0.0,
+      "Direction undefined": 0.1711,
+      "Rank undefined": 0.9433
+    },
+    {
+      "Block": "D",
+      "Contrast": "llm_change",
+      "N pairs": 72000,
+      "Feature undefined": 0.0,
+      "Direction undefined": 0.0057,
+      "Rank undefined": 0.0048
+    },
+    {
+      "Block": "D",
+      "Contrast": "repeat",
+      "N pairs": 34200,
+      "Feature undefined": 0.0001,
+      "Direction undefined": 0.0058,
+      "Rank undefined": 0.0038
+    },
+    {
+      "Block": "D0",
+      "Contrast": "llm_change",
+      "N pairs": 72000,
+      "Feature undefined": 0.0,
+      "Direction undefined": 0.0028,
+      "Rank undefined": 0.0035
+    },
+    {
+      "Block": "D0",
+      "Contrast": "repeat",
+      "N pairs": 34200,
+      "Feature undefined": 0.0,
+      "Direction undefined": 0.0027,
+      "Rank undefined": 0.0036
+    }
+  ]
+}

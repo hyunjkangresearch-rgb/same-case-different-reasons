@@ -1,0 +1,6 @@
+﻿Distance metric,Distance quartile,Mean distance,Mean quality,Mean accuracy score,N pairs
+feature distance,Q1,0.043,4.2504,3.5656,252089
+feature distance,Q2,0.657,4.1221,3.492,20788
+rank distance,Q1,0.0,4.2358,3.5354,194362
+rank distance,Q2,0.2,4.2987,3.65,23494
+rank distance,Q3,0.521,4.28,3.6578,42701

@@ -1,0 +1,100 @@
+{
+  "planned": {
+    "n_cases_main": 300,
+    "n_repeats_main": 3,
+    "n_cases_deep": 60,
+    "n_repeats_deep": 20,
+    "top_k": 5
+  },
+  "targets": {
+    "baseline_ci_halfwidth": 0.05,
+    "delta_ci_halfwidth": 0.05,
+    "delta_detect": 0.1,
+    "power": 0.8
+  },
+  "pilot_structure": {
+    "n_case_conditions": 120,
+    "mean_claims_per_explanation": 4.752777777777778,
+    "feature_distance_mean": 0.08638888888888888,
+    "feature_distance_sd": 0.1751505962094404,
+    "direction_distance_mean": 0.005833333333333333,
+    "direction_distance_sd": 0.0347193282607059
+  },
+  "scenarios": {
+    "optimistic": {
+      "base_mean": 0.0518,
+      "base_sd": 0.1226,
+      "case_sd": 0.0876
+    },
+    "pilot": {
+      "base_mean": 0.0864,
+      "base_sd": 0.1752,
+      "case_sd": 0.1401
+    },
+    "pessimistic": {
+      "base_mean": 0.1209,
+      "base_sd": 0.2277,
+      "case_sd": 0.1927
+    }
+  },
+  "verdicts": [
+    {
+      "Scenario": "optimistic",
+      "Baseline CI halfwidth": 0.0158,
+      "Baseline target met": true,
+      "Delta CI halfwidth": 0.0151,
+      "Delta precision met": true,
+      "Power at delta=0.10": 1.0,
+      "Power target met": true
+    },
+    {
+      "Scenario": "pilot",
+      "Baseline CI halfwidth": 0.026,
+      "Baseline target met": true,
+      "Delta CI halfwidth": 0.0226,
+      "Delta precision met": true,
+      "Power at delta=0.10": 1.0,
+      "Power target met": true
+    },
+    {
+      "Scenario": "pessimistic",
+      "Baseline CI halfwidth": 0.036,
+      "Baseline target met": true,
+      "Delta CI halfwidth": 0.0299,
+      "Delta precision met": true,
+      "Power at delta=0.10": 0.99,
+      "Power target met": true
+    }
+  ],
+  "minimum_requirements": [
+    {
+      "Scenario": "optimistic",
+      "Min cases for power": 100,
+      "Min repeats for baseline (60 cases)": 3,
+      "Planned cases": 300,
+      "Planned repeats (deep)": 20
+    },
+    {
+      "Scenario": "pilot",
+      "Min cases for power": 100,
+      "Min repeats for baseline (60 cases)": 3,
+      "Planned cases": 300,
+      "Planned repeats (deep)": 20
+    },
+    {
+      "Scenario": "pessimistic",
+      "Min cases for power": 100,
+      "Min repeats for baseline (60 cases)": 3,
+      "Planned cases": 300,
+      "Planned repeats (deep)": 20
+    }
+  ],
+  "design_adequate": true,
+  "final": {
+    "n_cases_main": 300,
+    "n_repeats_main": 3,
+    "n_cases_deep": 60,
+    "n_repeats_deep": 20,
+    "top_k": 5
+  }
+}

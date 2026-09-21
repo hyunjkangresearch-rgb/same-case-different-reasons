@@ -1,0 +1,17 @@
+﻿block,llm,prompt,accuracy,clarity,usefulness,completeness,quality_overall
+A,gpt-5.4-mini,basic,3.478,4.82,3.816,4.425,4.135
+B,gpt-5.4-mini,basic,3.256,4.929,3.786,4.551,4.131
+B,gpt-5.4-mini,constrained,3.624,4.685,3.721,4.76,4.197
+B,gpt-5.4-mini,verification,3.312,4.931,3.775,4.638,4.164
+B,gpt-5.6-luna,basic,3.454,4.842,3.833,4.572,4.175
+B,gpt-5.6-luna,constrained,3.954,4.867,3.961,4.79,4.393
+B,gpt-5.6-luna,verification,3.631,4.867,3.908,4.679,4.271
+B,gpt-5.6-terra,basic,3.635,4.872,3.967,4.581,4.264
+B,gpt-5.6-terra,constrained,4.185,4.925,4.16,4.729,4.5
+B,gpt-5.6-terra,verification,3.797,4.871,3.978,4.614,4.315
+D,gpt-5.4-mini,basic,3.375,4.927,3.845,4.584,4.183
+D,gpt-5.6-luna,basic,3.515,4.878,3.908,4.58,4.22
+D,gpt-5.6-terra,basic,3.728,4.912,4.041,4.62,4.325
+D0,gpt-5.4-mini,basic,3.382,4.902,3.838,4.607,4.182
+D0,gpt-5.6-luna,basic,3.572,4.885,3.931,4.579,4.242
+D0,gpt-5.6-terra,basic,3.725,4.907,4.02,4.607,4.315

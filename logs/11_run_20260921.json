@@ -1,0 +1,1104 @@
+{
+  "notebook": "11_quality_stability",
+  "timestamp": "2026-09-21T13:29:14.570390",
+  "seed": 42,
+  "judges": {
+    "gpt-5.6-terra": {
+      "vendor": "openai",
+      "api_name": "gpt-5.6-terra"
+    },
+    "gpt-5.4-mini": {
+      "vendor": "openai",
+      "api_name": "gpt-5.4-mini"
+    }
+  },
+  "judge_temperature": null,
+  "judge_seed": 42,
+  "quality_dimensions": [
+    "accuracy",
+    "clarity",
+    "usefulness",
+    "completeness"
+  ],
+  "n_generations_judged": 12600,
+  "n_judgements": 25155,
+  "n_quality_pairs": 272880,
+  "thresholds": {
+    "quality_high": 4.0,
+    "distance_high": 0.3
+  },
+  "judge_agreement": [
+    {
+      "Dimension": "accuracy",
+      "N": 12555,
+      "Pearson r": 0.1671,
+      "Spearman rho": 0.1668,
+      "Mean abs diff": 1.0229,
+      "Mean gpt-5.6-terra": 3.531,
+      "Mean gpt-5.4-mini": 3.602
+    },
+    {
+      "Dimension": "clarity",
+      "N": 12555,
+      "Pearson r": 0.2635,
+      "Spearman rho": 0.2452,
+      "Mean abs diff": 0.1665,
+      "Mean gpt-5.6-terra": 4.864,
+      "Mean gpt-5.4-mini": 4.893
+    },
+    {
+      "Dimension": "usefulness",
+      "N": 12555,
+      "Pearson r": 0.2747,
+      "Spearman rho": 0.2775,
+      "Mean abs diff": 0.6764,
+      "Mean gpt-5.6-terra": 3.867,
+      "Mean gpt-5.4-mini": 3.943
+    },
+    {
+      "Dimension": "completeness",
+      "N": 12555,
+      "Pearson r": 0.1376,
+      "Spearman rho": 0.1482,
+      "Mean abs diff": 0.7257,
+      "Mean gpt-5.6-terra": 4.932,
+      "Mean gpt-5.4-mini": 4.239
+    }
+  ],
+  "correlations": [
+    {
+      "Block": "A",
+      "Contrast": "multi_change",
+      "Distance metric": "feature distance",
+      "Quality measure": "Overall quality",
+      "Spearman rho": 0.1125,
+      "CI low": 0.0623,
+      "CI high": 0.1653,
+      "N pairs": 6480,
+      "Excludes zero": true
+    },
+    {
+      "Block": "A",
+      "Contrast": "multi_change",
+      "Distance metric": "feature distance",
+      "Quality measure": "Accuracy",
+      "Spearman rho": 0.0555,
+      "CI low": 0.0105,
+      "CI high": 0.0974,
+      "N pairs": 6480,
+      "Excludes zero": true
+    },
+    {
+      "Block": "A",
+      "Contrast": "multi_change",
+      "Distance metric": "direction distance",
+      "Quality measure": "Overall quality",
+      "Spearman rho": -0.0271,
+      "CI low": -0.0787,
+      "CI high": 0.0237,
+      "N pairs": 4915,
+      "Excludes zero": false
+    },
+    {
+      "Block": "A",
+      "Contrast": "multi_change",
+      "Distance metric": "direction distance",
+      "Quality measure": "Accuracy",
+      "Spearman rho": 0.0254,
+      "CI low": -0.0256,
+      "CI high": 0.0703,
+      "N pairs": 4915,
+      "Excludes zero": false
+    },
+    {
+      "Block": "A",
+      "Contrast": "multi_change",
+      "Distance metric": "rank distance",
+      "Quality measure": "Overall quality",
+      "Spearman rho": 0.1485,
+      "CI low": -0.051,
+      "CI high": 0.3704,
+      "N pairs": 270,
+      "Excludes zero": false
+    },
+    {
+      "Block": "A",
+      "Contrast": "multi_change",
+      "Distance metric": "rank distance",
+      "Quality measure": "Accuracy",
+      "Spearman rho": 0.2352,
+      "CI low": 0.0639,
+      "CI high": 0.4067,
+      "N pairs": 270,
+      "Excludes zero": true
+    },
+    {
+      "Block": "A",
+      "Contrast": "repeat",
+      "Distance metric": "feature distance",
+      "Quality measure": "Overall quality",
+      "Spearman rho": 0.0825,
+      "CI low": 0.0356,
+      "CI high": 0.1327,
+      "N pairs": 2160,
+      "Excludes zero": true
+    },
+    {
+      "Block": "A",
+      "Contrast": "repeat",
+      "Distance metric": "feature distance",
+      "Quality measure": "Accuracy",
+      "Spearman rho": 0.0378,
+      "CI low": -0.0094,
+      "CI high": 0.0833,
+      "N pairs": 2160,
+      "Excludes zero": false
+    },
+    {
+      "Block": "A",
+      "Contrast": "repeat",
+      "Distance metric": "direction distance",
+      "Quality measure": "Overall quality",
+      "Spearman rho": 0.0431,
+      "CI low": -0.009,
+      "CI high": 0.0963,
+      "N pairs": 2150,
+      "Excludes zero": false
+    },
+    {
+      "Block": "A",
+      "Contrast": "repeat",
+      "Distance metric": "direction distance",
+      "Quality measure": "Accuracy",
+      "Spearman rho": 0.046,
+      "CI low": -0.0009,
+      "CI high": 0.0933,
+      "N pairs": 2150,
+      "Excludes zero": false
+    },
+    {
+      "Block": "A",
+      "Contrast": "repeat",
+      "Distance metric": "rank distance",
+      "Quality measure": "Overall quality",
+      "Spearman rho": 0.0286,
+      "CI low": -0.0164,
+      "CI high": 0.0749,
+      "N pairs": 1858,
+      "Excludes zero": false
+    },
+    {
+      "Block": "A",
+      "Contrast": "repeat",
+      "Distance metric": "rank distance",
+      "Quality measure": "Accuracy",
+      "Spearman rho": 0.0186,
+      "CI low": -0.0308,
+      "CI high": 0.0676,
+      "N pairs": 1858,
+      "Excludes zero": false
+    },
+    {
+      "Block": "A",
+      "Contrast": "model_change",
+      "Distance metric": "feature distance",
+      "Quality measure": "Overall quality",
+      "Spearman rho": 0.1123,
+      "CI low": 0.0704,
+      "CI high": 0.1546,
+      "N pairs": 6480,
+      "Excludes zero": true
+    },
+    {
+      "Block": "A",
+      "Contrast": "model_change",
+      "Distance metric": "feature distance",
+      "Quality measure": "Accuracy",
+      "Spearman rho": 0.083,
+      "CI low": 0.0405,
+      "CI high": 0.1263,
+      "N pairs": 6480,
+      "Excludes zero": true
+    },
+    {
+      "Block": "A",
+      "Contrast": "model_change",
+      "Distance metric": "direction distance",
+      "Quality measure": "Overall quality",
+      "Spearman rho": 0.0236,
+      "CI low": -0.0138,
+      "CI high": 0.0597,
+      "N pairs": 6378,
+      "Excludes zero": false
+    },
+    {
+      "Block": "A",
+      "Contrast": "model_change",
+      "Distance metric": "direction distance",
+      "Quality measure": "Accuracy",
+      "Spearman rho": 0.0175,
+      "CI low": -0.0167,
+      "CI high": 0.0497,
+      "N pairs": 6378,
+      "Excludes zero": false
+    },
+    {
+      "Block": "A",
+      "Contrast": "model_change",
+      "Distance metric": "rank distance",
+      "Quality measure": "Overall quality",
+      "Spearman rho": 0.063,
+      "CI low": 0.0133,
+      "CI high": 0.1107,
+      "N pairs": 4769,
+      "Excludes zero": true
+    },
+    {
+      "Block": "A",
+      "Contrast": "model_change",
+      "Distance metric": "rank distance",
+      "Quality measure": "Accuracy",
+      "Spearman rho": 0.0733,
+      "CI low": 0.0308,
+      "CI high": 0.1144,
+      "N pairs": 4769,
+      "Excludes zero": true
+    },
+    {
+      "Block": "A",
+      "Contrast": "xai_change",
+      "Distance metric": "feature distance",
+      "Quality measure": "Overall quality",
+      "Spearman rho": 0.1274,
+      "CI low": 0.0704,
+      "CI high": 0.1844,
+      "N pairs": 3240,
+      "Excludes zero": true
+    },
+    {
+      "Block": "A",
+      "Contrast": "xai_change",
+      "Distance metric": "feature distance",
+      "Quality measure": "Accuracy",
+      "Spearman rho": 0.1116,
+      "CI low": 0.0533,
+      "CI high": 0.1644,
+      "N pairs": 3240,
+      "Excludes zero": true
+    },
+    {
+      "Block": "A",
+      "Contrast": "xai_change",
+      "Distance metric": "direction distance",
+      "Quality measure": "Overall quality",
+      "Spearman rho": 0.002,
+      "CI low": -0.0557,
+      "CI high": 0.0596,
+      "N pairs": 2593,
+      "Excludes zero": false
+    },
+    {
+      "Block": "A",
+      "Contrast": "xai_change",
+      "Distance metric": "direction distance",
+      "Quality measure": "Accuracy",
+      "Spearman rho": 0.0356,
+      "CI low": -0.0234,
+      "CI high": 0.0878,
+      "N pairs": 2593,
+      "Excludes zero": false
+    },
+    {
+      "Block": "A",
+      "Contrast": "xai_change",
+      "Distance metric": "rank distance",
+      "Quality measure": "Overall quality",
+      "Spearman rho": -0.1315,
+      "CI low": -0.352,
+      "CI high": 0.0653,
+      "N pairs": 123,
+      "Excludes zero": false
+    },
+    {
+      "Block": "A",
+      "Contrast": "xai_change",
+      "Distance metric": "rank distance",
+      "Quality measure": "Accuracy",
+      "Spearman rho": -0.1626,
+      "CI low": -0.4147,
+      "CI high": 0.0836,
+      "N pairs": 123,
+      "Excludes zero": false
+    },
+    {
+      "Block": "B",
+      "Contrast": "multi_change",
+      "Distance metric": "feature distance",
+      "Quality measure": "Overall quality",
+      "Spearman rho": 0.0327,
+      "CI low": -0.0065,
+      "CI high": 0.0728,
+      "N pairs": 19440,
+      "Excludes zero": false
+    },
+    {
+      "Block": "B",
+      "Contrast": "multi_change",
+      "Distance metric": "feature distance",
+      "Quality measure": "Accuracy",
+      "Spearman rho": 0.0196,
+      "CI low": -0.0174,
+      "CI high": 0.0579,
+      "N pairs": 19440,
+      "Excludes zero": false
+    },
+    {
+      "Block": "B",
+      "Contrast": "multi_change",
+      "Distance metric": "direction distance",
+      "Quality measure": "Overall quality",
+      "Spearman rho": 0.0402,
+      "CI low": 0.0155,
+      "CI high": 0.0642,
+      "N pairs": 19332,
+      "Excludes zero": true
+    },
+    {
+      "Block": "B",
+      "Contrast": "multi_change",
+      "Distance metric": "direction distance",
+      "Quality measure": "Accuracy",
+      "Spearman rho": 0.0321,
+      "CI low": 0.0068,
+      "CI high": 0.0566,
+      "N pairs": 19332,
+      "Excludes zero": true
+    },
+    {
+      "Block": "B",
+      "Contrast": "multi_change",
+      "Distance metric": "rank distance",
+      "Quality measure": "Overall quality",
+      "Spearman rho": -0.0666,
+      "CI low": -0.1033,
+      "CI high": -0.0308,
+      "N pairs": 19380,
+      "Excludes zero": true
+    },
+    {
+      "Block": "B",
+      "Contrast": "multi_change",
+      "Distance metric": "rank distance",
+      "Quality measure": "Accuracy",
+      "Spearman rho": -0.0501,
+      "CI low": -0.0834,
+      "CI high": -0.0137,
+      "N pairs": 19380,
+      "Excludes zero": true
+    },
+    {
+      "Block": "B",
+      "Contrast": "repeat",
+      "Distance metric": "feature distance",
+      "Quality measure": "Overall quality",
+      "Spearman rho": 0.0422,
+      "CI low": 0.0029,
+      "CI high": 0.0836,
+      "N pairs": 3240,
+      "Excludes zero": true
+    },
+    {
+      "Block": "B",
+      "Contrast": "repeat",
+      "Distance metric": "feature distance",
+      "Quality measure": "Accuracy",
+      "Spearman rho": 0.001,
+      "CI low": -0.0352,
+      "CI high": 0.0378,
+      "N pairs": 3240,
+      "Excludes zero": false
+    },
+    {
+      "Block": "B",
+      "Contrast": "repeat",
+      "Distance metric": "direction distance",
+      "Quality measure": "Overall quality",
+      "Spearman rho": 0.0401,
+      "CI low": 0.006,
+      "CI high": 0.0705,
+      "N pairs": 3222,
+      "Excludes zero": true
+    },
+    {
+      "Block": "B",
+      "Contrast": "repeat",
+      "Distance metric": "direction distance",
+      "Quality measure": "Accuracy",
+      "Spearman rho": 0.0191,
+      "CI low": -0.0202,
+      "CI high": 0.06,
+      "N pairs": 3222,
+      "Excludes zero": false
+    },
+    {
+      "Block": "B",
+      "Contrast": "repeat",
+      "Distance metric": "rank distance",
+      "Quality measure": "Overall quality",
+      "Spearman rho": -0.0401,
+      "CI low": -0.0792,
+      "CI high": 0.002,
+      "N pairs": 3230,
+      "Excludes zero": false
+    },
+    {
+      "Block": "B",
+      "Contrast": "repeat",
+      "Distance metric": "rank distance",
+      "Quality measure": "Accuracy",
+      "Spearman rho": -0.0185,
+      "CI low": -0.0545,
+      "CI high": 0.0191,
+      "N pairs": 3230,
+      "Excludes zero": false
+    },
+    {
+      "Block": "B",
+      "Contrast": "prompt_change",
+      "Distance metric": "feature distance",
+      "Quality measure": "Overall quality",
+      "Spearman rho": 0.0221,
+      "CI low": -0.0128,
+      "CI high": 0.0602,
+      "N pairs": 9720,
+      "Excludes zero": false
+    },
+    {
+      "Block": "B",
+      "Contrast": "prompt_change",
+      "Distance metric": "feature distance",
+      "Quality measure": "Accuracy",
+      "Spearman rho": 0.0073,
+      "CI low": -0.0307,
+      "CI high": 0.0402,
+      "N pairs": 9720,
+      "Excludes zero": false
+    },
+    {
+      "Block": "B",
+      "Contrast": "prompt_change",
+      "Distance metric": "direction distance",
+      "Quality measure": "Overall quality",
+      "Spearman rho": 0.0538,
+      "CI low": 0.0302,
+      "CI high": 0.0782,
+      "N pairs": 9666,
+      "Excludes zero": true
+    },
+    {
+      "Block": "B",
+      "Contrast": "prompt_change",
+      "Distance metric": "direction distance",
+      "Quality measure": "Accuracy",
+      "Spearman rho": 0.0681,
+      "CI low": 0.0386,
+      "CI high": 0.0963,
+      "N pairs": 9666,
+      "Excludes zero": true
+    },
+    {
+      "Block": "B",
+      "Contrast": "prompt_change",
+      "Distance metric": "rank distance",
+      "Quality measure": "Overall quality",
+      "Spearman rho": -0.0522,
+      "CI low": -0.0892,
+      "CI high": -0.0178,
+      "N pairs": 9690,
+      "Excludes zero": true
+    },
+    {
+      "Block": "B",
+      "Contrast": "prompt_change",
+      "Distance metric": "rank distance",
+      "Quality measure": "Accuracy",
+      "Spearman rho": -0.0342,
+      "CI low": -0.0676,
+      "CI high": 0.003,
+      "N pairs": 9690,
+      "Excludes zero": false
+    },
+    {
+      "Block": "B",
+      "Contrast": "llm_change",
+      "Distance metric": "feature distance",
+      "Quality measure": "Overall quality",
+      "Spearman rho": 0.0295,
+      "CI low": -0.0029,
+      "CI high": 0.063,
+      "N pairs": 9720,
+      "Excludes zero": false
+    },
+    {
+      "Block": "B",
+      "Contrast": "llm_change",
+      "Distance metric": "feature distance",
+      "Quality measure": "Accuracy",
+      "Spearman rho": 0.0068,
+      "CI low": -0.0285,
+      "CI high": 0.0457,
+      "N pairs": 9720,
+      "Excludes zero": false
+    },
+    {
+      "Block": "B",
+      "Contrast": "llm_change",
+      "Distance metric": "direction distance",
+      "Quality measure": "Overall quality",
+      "Spearman rho": 0.0363,
+      "CI low": 0.0109,
+      "CI high": 0.0609,
+      "N pairs": 9666,
+      "Excludes zero": true
+    },
+    {
+      "Block": "B",
+      "Contrast": "llm_change",
+      "Distance metric": "direction distance",
+      "Quality measure": "Accuracy",
+      "Spearman rho": 0.0224,
+      "CI low": -0.0054,
+      "CI high": 0.0535,
+      "N pairs": 9666,
+      "Excludes zero": false
+    },
+    {
+      "Block": "B",
+      "Contrast": "llm_change",
+      "Distance metric": "rank distance",
+      "Quality measure": "Overall quality",
+      "Spearman rho": -0.0087,
+      "CI low": -0.0466,
+      "CI high": 0.0337,
+      "N pairs": 9687,
+      "Excludes zero": false
+    },
+    {
+      "Block": "B",
+      "Contrast": "llm_change",
+      "Distance metric": "rank distance",
+      "Quality measure": "Accuracy",
+      "Spearman rho": 0.0024,
+      "CI low": -0.0326,
+      "CI high": 0.0333,
+      "N pairs": 9687,
+      "Excludes zero": false
+    },
+    {
+      "Block": "D",
+      "Contrast": "llm_change",
+      "Distance metric": "feature distance",
+      "Quality measure": "Overall quality",
+      "Spearman rho": 0.0641,
+      "CI low": 0.028,
+      "CI high": 0.0998,
+      "N pairs": 72000,
+      "Excludes zero": true
+    },
+    {
+      "Block": "D",
+      "Contrast": "llm_change",
+      "Distance metric": "feature distance",
+      "Quality measure": "Accuracy",
+      "Spearman rho": 0.015,
+      "CI low": -0.0159,
+      "CI high": 0.044,
+      "N pairs": 72000,
+      "Excludes zero": false
+    },
+    {
+      "Block": "D",
+      "Contrast": "llm_change",
+      "Distance metric": "direction distance",
+      "Quality measure": "Overall quality",
+      "Spearman rho": 0.1034,
+      "CI low": 0.0663,
+      "CI high": 0.1349,
+      "N pairs": 71592,
+      "Excludes zero": true
+    },
+    {
+      "Block": "D",
+      "Contrast": "llm_change",
+      "Distance metric": "direction distance",
+      "Quality measure": "Accuracy",
+      "Spearman rho": 0.0832,
+      "CI low": 0.0428,
+      "CI high": 0.1166,
+      "N pairs": 71592,
+      "Excludes zero": true
+    },
+    {
+      "Block": "D",
+      "Contrast": "llm_change",
+      "Distance metric": "rank distance",
+      "Quality measure": "Overall quality",
+      "Spearman rho": -0.0471,
+      "CI low": -0.0992,
+      "CI high": 0.0037,
+      "N pairs": 71654,
+      "Excludes zero": false
+    },
+    {
+      "Block": "D",
+      "Contrast": "llm_change",
+      "Distance metric": "rank distance",
+      "Quality measure": "Accuracy",
+      "Spearman rho": -0.0203,
+      "CI low": -0.0666,
+      "CI high": 0.0262,
+      "N pairs": 71654,
+      "Excludes zero": false
+    },
+    {
+      "Block": "D",
+      "Contrast": "repeat",
+      "Distance metric": "feature distance",
+      "Quality measure": "Overall quality",
+      "Spearman rho": 0.0482,
+      "CI low": 0.0128,
+      "CI high": 0.0828,
+      "N pairs": 34198,
+      "Excludes zero": true
+    },
+    {
+      "Block": "D",
+      "Contrast": "repeat",
+      "Distance metric": "feature distance",
+      "Quality measure": "Accuracy",
+      "Spearman rho": 0.0071,
+      "CI low": -0.0199,
+      "CI high": 0.0311,
+      "N pairs": 34198,
+      "Excludes zero": false
+    },
+    {
+      "Block": "D",
+      "Contrast": "repeat",
+      "Distance metric": "direction distance",
+      "Quality measure": "Overall quality",
+      "Spearman rho": 0.0898,
+      "CI low": 0.0545,
+      "CI high": 0.1208,
+      "N pairs": 34003,
+      "Excludes zero": true
+    },
+    {
+      "Block": "D",
+      "Contrast": "repeat",
+      "Distance metric": "direction distance",
+      "Quality measure": "Accuracy",
+      "Spearman rho": 0.0695,
+      "CI low": 0.0388,
+      "CI high": 0.0967,
+      "N pairs": 34003,
+      "Excludes zero": true
+    },
+    {
+      "Block": "D",
+      "Contrast": "repeat",
+      "Distance metric": "rank distance",
+      "Quality measure": "Overall quality",
+      "Spearman rho": -0.0098,
+      "CI low": -0.0584,
+      "CI high": 0.0362,
+      "N pairs": 34069,
+      "Excludes zero": false
+    },
+    {
+      "Block": "D",
+      "Contrast": "repeat",
+      "Distance metric": "rank distance",
+      "Quality measure": "Accuracy",
+      "Spearman rho": 0.0176,
+      "CI low": -0.0192,
+      "CI high": 0.0514,
+      "N pairs": 34069,
+      "Excludes zero": false
+    },
+    {
+      "Block": "D0",
+      "Contrast": "llm_change",
+      "Distance metric": "feature distance",
+      "Quality measure": "Overall quality",
+      "Spearman rho": 0.0841,
+      "CI low": 0.0298,
+      "CI high": 0.14,
+      "N pairs": 72000,
+      "Excludes zero": true
+    },
+    {
+      "Block": "D0",
+      "Contrast": "llm_change",
+      "Distance metric": "feature distance",
+      "Quality measure": "Accuracy",
+      "Spearman rho": 0.0624,
+      "CI low": 0.0183,
+      "CI high": 0.1138,
+      "N pairs": 72000,
+      "Excludes zero": true
+    },
+    {
+      "Block": "D0",
+      "Contrast": "llm_change",
+      "Distance metric": "direction distance",
+      "Quality measure": "Overall quality",
+      "Spearman rho": 0.0438,
+      "CI low": -0.0053,
+      "CI high": 0.0862,
+      "N pairs": 71800,
+      "Excludes zero": false
+    },
+    {
+      "Block": "D0",
+      "Contrast": "llm_change",
+      "Distance metric": "direction distance",
+      "Quality measure": "Accuracy",
+      "Spearman rho": 0.0317,
+      "CI low": -0.0158,
+      "CI high": 0.0789,
+      "N pairs": 71800,
+      "Excludes zero": false
+    },
+    {
+      "Block": "D0",
+      "Contrast": "llm_change",
+      "Distance metric": "rank distance",
+      "Quality measure": "Overall quality",
+      "Spearman rho": -0.048,
+      "CI low": -0.102,
+      "CI high": 0.008,
+      "N pairs": 71750,
+      "Excludes zero": false
+    },
+    {
+      "Block": "D0",
+      "Contrast": "llm_change",
+      "Distance metric": "rank distance",
+      "Quality measure": "Accuracy",
+      "Spearman rho": -0.0201,
+      "CI low": -0.072,
+      "CI high": 0.0344,
+      "N pairs": 71750,
+      "Excludes zero": false
+    },
+    {
+      "Block": "D0",
+      "Contrast": "repeat",
+      "Distance metric": "feature distance",
+      "Quality measure": "Overall quality",
+      "Spearman rho": 0.0985,
+      "CI low": 0.0581,
+      "CI high": 0.1353,
+      "N pairs": 34199,
+      "Excludes zero": true
+    },
+    {
+      "Block": "D0",
+      "Contrast": "repeat",
+      "Distance metric": "feature distance",
+      "Quality measure": "Accuracy",
+      "Spearman rho": 0.054,
+      "CI low": 0.0229,
+      "CI high": 0.0834,
+      "N pairs": 34199,
+      "Excludes zero": true
+    },
+    {
+      "Block": "D0",
+      "Contrast": "repeat",
+      "Distance metric": "direction distance",
+      "Quality measure": "Overall quality",
+      "Spearman rho": 0.0505,
+      "CI low": 0.0052,
+      "CI high": 0.0846,
+      "N pairs": 34107,
+      "Excludes zero": true
+    },
+    {
+      "Block": "D0",
+      "Contrast": "repeat",
+      "Distance metric": "direction distance",
+      "Quality measure": "Accuracy",
+      "Spearman rho": 0.0546,
+      "CI low": 0.0156,
+      "CI high": 0.0911,
+      "N pairs": 34107,
+      "Excludes zero": true
+    },
+    {
+      "Block": "D0",
+      "Contrast": "repeat",
+      "Distance metric": "rank distance",
+      "Quality measure": "Overall quality",
+      "Spearman rho": -0.0278,
+      "CI low": -0.0824,
+      "CI high": 0.0264,
+      "N pairs": 34077,
+      "Excludes zero": false
+    },
+    {
+      "Block": "D0",
+      "Contrast": "repeat",
+      "Distance metric": "rank distance",
+      "Quality measure": "Accuracy",
+      "Spearman rho": 0.0072,
+      "CI low": -0.0284,
+      "CI high": 0.0457,
+      "N pairs": 34077,
+      "Excludes zero": false
+    }
+  ],
+  "blind_spot": [
+    {
+      "Block": "A",
+      "Contrast": "model_change",
+      "N pairs": 6480,
+      "Both high quality": 3291,
+      "Share high quality": 0.5079,
+      "High quality and divergent": 2619,
+      "Blind spot share": 0.7958,
+      "High quality with direction conflict": 80,
+      "Direction conflict share": 0.0243
+    },
+    {
+      "Block": "A",
+      "Contrast": "multi_change",
+      "N pairs": 6480,
+      "Both high quality": 3088,
+      "Share high quality": 0.4765,
+      "High quality and divergent": 3061,
+      "Blind spot share": 0.9913,
+      "High quality with direction conflict": 311,
+      "Direction conflict share": 0.1007
+    },
+    {
+      "Block": "A",
+      "Contrast": "repeat",
+      "N pairs": 2160,
+      "Both high quality": 1192,
+      "Share high quality": 0.5519,
+      "High quality and divergent": 145,
+      "Blind spot share": 0.1216,
+      "High quality with direction conflict": 25,
+      "Direction conflict share": 0.021
+    },
+    {
+      "Block": "A",
+      "Contrast": "xai_change",
+      "N pairs": 3240,
+      "Both high quality": 1562,
+      "Share high quality": 0.4821,
+      "High quality and divergent": 1555,
+      "Blind spot share": 0.9955,
+      "High quality with direction conflict": 156,
+      "Direction conflict share": 0.0999
+    },
+    {
+      "Block": "B",
+      "Contrast": "llm_change",
+      "N pairs": 9720,
+      "Both high quality": 6409,
+      "Share high quality": 0.6594,
+      "High quality and divergent": 22,
+      "Blind spot share": 0.0034,
+      "High quality with direction conflict": 45,
+      "Direction conflict share": 0.007
+    },
+    {
+      "Block": "B",
+      "Contrast": "multi_change",
+      "N pairs": 19440,
+      "Both high quality": 12604,
+      "Share high quality": 0.6484,
+      "High quality and divergent": 58,
+      "Blind spot share": 0.0046,
+      "High quality with direction conflict": 125,
+      "Direction conflict share": 0.0099
+    },
+    {
+      "Block": "B",
+      "Contrast": "prompt_change",
+      "N pairs": 9720,
+      "Both high quality": 6364,
+      "Share high quality": 0.6547,
+      "High quality and divergent": 24,
+      "Blind spot share": 0.0038,
+      "High quality with direction conflict": 78,
+      "Direction conflict share": 0.0123
+    },
+    {
+      "Block": "B",
+      "Contrast": "repeat",
+      "N pairs": 3240,
+      "Both high quality": 2175,
+      "Share high quality": 0.6713,
+      "High quality and divergent": 5,
+      "Blind spot share": 0.0023,
+      "High quality with direction conflict": 10,
+      "Direction conflict share": 0.0046
+    },
+    {
+      "Block": "D",
+      "Contrast": "llm_change",
+      "N pairs": 72000,
+      "Both high quality": 46172,
+      "Share high quality": 0.6413,
+      "High quality and divergent": 854,
+      "Blind spot share": 0.0185,
+      "High quality with direction conflict": 784,
+      "Direction conflict share": 0.017
+    },
+    {
+      "Block": "D",
+      "Contrast": "repeat",
+      "N pairs": 34200,
+      "Both high quality": 22297,
+      "Share high quality": 0.652,
+      "High quality and divergent": 342,
+      "Blind spot share": 0.0153,
+      "High quality with direction conflict": 271,
+      "Direction conflict share": 0.0122
+    },
+    {
+      "Block": "D0",
+      "Contrast": "llm_change",
+      "N pairs": 72000,
+      "Both high quality": 47103,
+      "Share high quality": 0.6542,
+      "High quality and divergent": 1046,
+      "Blind spot share": 0.0222,
+      "High quality with direction conflict": 884,
+      "Direction conflict share": 0.0188
+    },
+    {
+      "Block": "D0",
+      "Contrast": "repeat",
+      "N pairs": 34200,
+      "Both high quality": 22949,
+      "Share high quality": 0.671,
+      "High quality and divergent": 255,
+      "Blind spot share": 0.0111,
+      "High quality with direction conflict": 267,
+      "Direction conflict share": 0.0116
+    }
+  ],
+  "stratified": [
+    {
+      "Distance metric": "feature distance",
+      "Distance quartile": "Q1",
+      "Mean distance": 0.043,
+      "Mean quality": 4.2504,
+      "Mean accuracy score": 3.5656,
+      "N pairs": 252089
+    },
+    {
+      "Distance metric": "feature distance",
+      "Distance quartile": "Q2",
+      "Mean distance": 0.657,
+      "Mean quality": 4.1221,
+      "Mean accuracy score": 3.492,
+      "N pairs": 20788
+    },
+    {
+      "Distance metric": "rank distance",
+      "Distance quartile": "Q1",
+      "Mean distance": 0.0,
+      "Mean quality": 4.2358,
+      "Mean accuracy score": 3.5354,
+      "N pairs": 194362
+    },
+    {
+      "Distance metric": "rank distance",
+      "Distance quartile": "Q2",
+      "Mean distance": 0.2,
+      "Mean quality": 4.2987,
+      "Mean accuracy score": 3.65,
+      "N pairs": 23494
+    },
+    {
+      "Distance metric": "rank distance",
+      "Distance quartile": "Q3",
+      "Mean distance": 0.521,
+      "Mean quality": 4.28,
+      "Mean accuracy score": 3.6578,
+      "N pairs": 42701
+    }
+  ],
+  "judge_vs_fidelity": [
+    {
+      "Judge dimension": "accuracy",
+      "Fidelity metric": "direction agreement",
+      "Spearman rho": 0.1112,
+      "CI low": 0.0823,
+      "CI high": 0.1384,
+      "N": 12571,
+      "Excludes zero": true
+    },
+    {
+      "Judge dimension": "accuracy",
+      "Fidelity metric": "hallucination rate",
+      "Spearman rho": -0.0083,
+      "CI low": -0.0237,
+      "CI high": 0.0057,
+      "N": 12583,
+      "Excludes zero": false
+    },
+    {
+      "Judge dimension": "accuracy",
+      "Fidelity metric": "omission rate",
+      "Spearman rho": -0.0536,
+      "CI low": -0.1098,
+      "CI high": 0.0001,
+      "N": 12600,
+      "Excludes zero": false
+    },
+    {
+      "Judge dimension": "quality_overall",
+      "Fidelity metric": "direction agreement",
+      "Spearman rho": 0.1059,
+      "CI low": 0.0787,
+      "CI high": 0.1314,
+      "N": 12571,
+      "Excludes zero": true
+    },
+    {
+      "Judge dimension": "quality_overall",
+      "Fidelity metric": "hallucination rate",
+      "Spearman rho": -0.0104,
+      "CI low": -0.0269,
+      "CI high": 0.0049,
+      "N": 12583,
+      "Excludes zero": false
+    },
+    {
+      "Judge dimension": "quality_overall",
+      "Fidelity metric": "omission rate",
+      "Spearman rho": -0.1064,
+      "CI low": -0.1638,
+      "CI high": -0.05,
+      "N": 12600,
+      "Excludes zero": true
+    }
+  ],
+  "rq5_answer": {
+    "question": "Do existing quality metrics detect content variability?",
+    "judge_agreement_overall": 0.2094,
+    "median_correlation_distance_quality": 0.0401,
+    "median_correlation_distance_accuracy": 0.021,
+    "blind_spot_share": 0.057,
+    "direction_conflict_among_high_quality": 0.0173,
+    "quality_drop_across_distance_quartiles": 0.0421,
+    "judge_accuracy_vs_measured_fidelity": 0.1112
+  }
+}

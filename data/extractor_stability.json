@@ -1,0 +1,4918 @@
+[
+ {
+  "domain": "churn",
+  "prompt": "basic",
+  "case_id": 1589,
+  "runs": [
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "Time with the service also played a major role and increased the chance of leaving."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "Their internet service type added to the risk as well, especially the fiber-optic service category."
+    },
+    {
+     "feature": "InternetService_No",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "Another contract category also raised the risk, along with the “no internet service” factor, though these had smaller effects."
+    }
+   ],
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- Time with the service also played a major role and increased the chance of leaving."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- Their internet service type added to the risk as well, especially the fiber-optic service category."
+    },
+    {
+     "feature": "InternetService_No",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- Another contract category also raised the risk, along with the “no internet service” factor, though these had smaller effects."
+    }
+   ],
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "Time with the service also played a major role and increased the chance of leaving."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "Their internet service type added to the risk as well, especially the fiber-optic service category."
+    },
+    {
+     "feature": "InternetService_No",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "Another contract category also raised the risk, along with the “no internet service” factor, though these had smaller effects."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "churn",
+  "prompt": "verification",
+  "case_id": 1589,
+  "runs": [
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest factor was **tenure**, which pushed the result upward."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- **Fiber optic internet** also pushed the result upward."
+    },
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- **Two-year contract** and **electronic check payment** both pushed the result upward as well."
+    },
+    {
+     "feature": "PaymentMethod_Electronic_check",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- **Two-year contract** and **electronic check payment** both pushed the result upward as well."
+    },
+    {
+     "feature": "PaperlessBilling_Yes",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "- **Paperless billing** was the only factor that pushed the result downward, but not enough to offset the others."
+    }
+   ],
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest factor was **tenure**, which pushed the result upward."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- **Fiber optic internet** also pushed the result upward."
+    },
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- **Two-year contract** and **electronic check payment** both pushed the result upward as well."
+    },
+    {
+     "feature": "PaymentMethod_Electronic_check",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- **Two-year contract** and **electronic check payment** both pushed the result upward as well."
+    },
+    {
+     "feature": "PaperlessBilling_Yes",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "- **Paperless billing** was the only factor that pushed the result downward, but not enough to offset the others."
+    }
+   ],
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest factor was **tenure**, which pushed the result upward."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- **Fiber optic internet** also pushed the result upward."
+    },
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- **Two-year contract** and **electronic check payment** both pushed the result upward as well."
+    },
+    {
+     "feature": "PaymentMethod_Electronic_check",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- **Two-year contract** and **electronic check payment** both pushed the result upward as well."
+    },
+    {
+     "feature": "PaperlessBilling_Yes",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "- **Paperless billing** was the only factor that pushed the result downward, but not enough to offset the others."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "churn",
+  "prompt": "constrained",
+  "case_id": 1221,
+  "runs": [
+   [
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- **Two-year contract**: this raised the chance of leaving."
+    },
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- **Tenure**: this also raised the chance of leaving."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- **Fiber optic internet service**: this lowered the chance of leaving."
+    },
+    {
+     "feature": "Contract_One_year",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- **One-year contract** and **no internet service**: both raised the chance of leaving."
+    },
+    {
+     "feature": "InternetService_No",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- **One-year contract** and **no internet service**: both raised the chance of leaving."
+    }
+   ],
+   [
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- **Two-year contract**: this raised the chance of leaving."
+    },
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- **Tenure**: this also raised the chance of leaving."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- **Fiber optic internet service**: this lowered the chance of leaving."
+    },
+    {
+     "feature": "Contract_One_year",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- **One-year contract** and **no internet service**: both raised the chance of leaving."
+    },
+    {
+     "feature": "InternetService_No",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- **One-year contract** and **no internet service**: both raised the chance of leaving."
+    }
+   ],
+   [
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- **Two-year contract**: this raised the chance of leaving."
+    },
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- **Tenure**: this also raised the chance of leaving."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- **Fiber optic internet service**: this lowered the chance of leaving."
+    },
+    {
+     "feature": "Contract_One_year",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- **One-year contract** and **no internet service**: both raised the chance of leaving."
+    },
+    {
+     "feature": "InternetService_No",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- **One-year contract** and **no internet service**: both raised the chance of leaving."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "churn",
+  "prompt": "basic",
+  "case_id": 1221,
+  "runs": [
+   [
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest factor pushing the assessment up is the **contract type**: a **two-year contract** is strongly associated with a higher chance of leaving in this case."
+    },
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- **Longer time as a customer** also pushed the assessment up."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- Two things pulled the assessment down: having **fiber-optic internet** and **lower monthly charges**."
+    },
+    {
+     "feature": "MonthlyCharges",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "- Two things pulled the assessment down: having **fiber-optic internet** and **lower monthly charges**."
+    },
+    {
+     "feature": "Contract_One_year",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- A **one-year contract** also contributed to the higher assessment, but less than the two-year contract."
+    }
+   ],
+   [
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest factor pushing the assessment up is the **contract type**: a **two-year contract** is strongly associated with a higher chance of leaving in this case."
+    },
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- **Longer time as a customer** also pushed the assessment up."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- Two things pulled the assessment down: having **fiber-optic internet** and **lower monthly charges**."
+    },
+    {
+     "feature": "MonthlyCharges",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "- Two things pulled the assessment down: having **fiber-optic internet** and **lower monthly charges**."
+    },
+    {
+     "feature": "Contract_One_year",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- A **one-year contract** also contributed to the higher assessment, but less than the two-year contract."
+    }
+   ],
+   [
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest factor pushing the assessment up is the **contract type**: a **two-year contract** is strongly associated with a higher chance of leaving in this case."
+    },
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- **Longer time as a customer** also pushed the assessment up."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- Two things pulled the assessment down: having **fiber-optic internet** and **lower monthly charges**."
+    },
+    {
+     "feature": "MonthlyCharges",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "- Two things pulled the assessment down: having **fiber-optic internet** and **lower monthly charges**."
+    },
+    {
+     "feature": "Contract_One_year",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- A **one-year contract** also contributed to the higher assessment, but less than the two-year contract."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "credit",
+  "prompt": "constrained",
+  "case_id": 358,
+  "runs": [
+   [
+    {
+     "feature": "loan_percent_income",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason was that the loan amount is large compared with the applicant’s income, which raised the risk a lot."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- Renting the home also raised the risk, followed by the loan amount itself, which added more concern."
+    },
+    {
+     "feature": "loan_amnt",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- Renting the home also raised the risk, followed by the loan amount itself, which added more concern."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- Owning the home raised the risk a little as well."
+    },
+    {
+     "feature": "loan_int_rate",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "- The loan interest rate slightly lowered the risk, but not enough to offset the other factors."
+    }
+   ],
+   [
+    {
+     "feature": "loan_percent_income",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "The biggest reason was that the loan amount is large compared with the applicant’s income, which raised the risk a lot."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "Renting the home also raised the risk, followed by the loan amount itself, which added more concern."
+    },
+    {
+     "feature": "loan_amnt",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "Renting the home also raised the risk, followed by the loan amount itself, which added more concern."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "Owning the home raised the risk a little as well."
+    },
+    {
+     "feature": "loan_int_rate",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "The loan interest rate slightly lowered the risk, but not enough to offset the other factors."
+    }
+   ],
+   [
+    {
+     "feature": "loan_percent_income",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "The biggest reason was that the loan amount is large compared with the applicant’s income, which raised the risk a lot."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "Renting the home also raised the risk, followed by the loan amount itself, which added more concern."
+    },
+    {
+     "feature": "loan_amnt",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "Renting the home also raised the risk, followed by the loan amount itself, which added more concern."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "Owning the home raised the risk a little as well."
+    },
+    {
+     "feature": "loan_int_rate",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "The loan interest rate slightly lowered the risk, but not enough to offset the other factors."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "credit",
+  "prompt": "basic",
+  "case_id": 7192,
+  "runs": [
+   [
+    {
+     "feature": "person_income",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason is **higher income**, which makes repayment look more likely."
+    },
+    {
+     "feature": "loan_percent_income",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "- A **smaller share of income going toward the loan** also lowers the risk."
+    },
+    {
+     "feature": "loan_grade_D",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- A **loan grade of D** and the **interest rate** both helped reduce the risk in this case."
+    },
+    {
+     "feature": "loan_int_rate",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "- A **loan grade of D** and the **interest rate** both helped reduce the risk in this case."
+    },
+    {
+     "feature": "loan_intent_VENTURE",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- One factor, **applying for a venture-related loan**, slightly increased the risk, but not enough to outweigh the lower-risk signs."
+    }
+   ],
+   [
+    {
+     "feature": "person_income",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason is **higher income**, which makes repayment look more likely."
+    },
+    {
+     "feature": "loan_percent_income",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "- A **smaller share of income going toward the loan** also lowers the risk."
+    },
+    {
+     "feature": "loan_grade_D",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- A **loan grade of D** and the **interest rate** both helped reduce the risk in this case."
+    },
+    {
+     "feature": "loan_int_rate",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "- A **loan grade of D** and the **interest rate** both helped reduce the risk in this case."
+    },
+    {
+     "feature": "loan_intent_VENTURE",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- One factor, **applying for a venture-related loan**, slightly increased the risk, but not enough to outweigh the lower-risk signs."
+    }
+   ],
+   [
+    {
+     "feature": "person_income",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "The biggest reason is **higher income**, which makes repayment look more likely."
+    },
+    {
+     "feature": "loan_percent_income",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "A **smaller share of income going toward the loan** also lowers the risk."
+    },
+    {
+     "feature": "loan_grade_D",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "A **loan grade of D** and the **interest rate** both helped reduce the risk in this case."
+    },
+    {
+     "feature": "loan_int_rate",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "A **loan grade of D** and the **interest rate** both helped reduce the risk in this case."
+    },
+    {
+     "feature": "loan_intent_VENTURE",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "One factor, **applying for a venture-related loan**, slightly increased the risk, but not enough to outweigh the lower-risk signs."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "credit",
+  "prompt": "basic",
+  "case_id": 4942,
+  "runs": [
+   [
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "The **largest concern** is the applicant’s **home ownership status**: owning a home pushed the risk up, while renting pushed it down."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "The **largest concern** is the applicant’s **home ownership status**: owning a home pushed the risk up, while renting pushed it down."
+    },
+    {
+     "feature": "person_income",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "A **higher income** lowered the risk, which makes sense because it suggests more ability to repay."
+    },
+    {
+     "feature": "loan_percent_income",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "The **loan size compared with income** also helped lower the risk, meaning the loan may look manageable relative to earnings."
+    },
+    {
+     "feature": "person_age",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "**Age** added a bit of risk, but it was a smaller factor than income and home ownership."
+    }
+   ],
+   [
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "The **largest concern** is the applicant’s **home ownership status**: owning a home pushed the risk up, while renting pushed it down."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "The **largest concern** is the applicant’s **home ownership status**: owning a home pushed the risk up, while renting pushed it down."
+    },
+    {
+     "feature": "person_income",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "A **higher income** lowered the risk, which makes sense because it suggests more ability to repay."
+    },
+    {
+     "feature": "loan_percent_income",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "The **loan size compared with income** also helped lower the risk, meaning the loan may look manageable relative to earnings."
+    },
+    {
+     "feature": "person_age",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "**Age** added a bit of risk, but it was a smaller factor than income and home ownership."
+    }
+   ],
+   [
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "The **largest concern** is the applicant’s **home ownership status**: owning a home pushed the risk up, while renting pushed it down."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "The **largest concern** is the applicant’s **home ownership status**: owning a home pushed the risk up, while renting pushed it down."
+    },
+    {
+     "feature": "person_income",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "A **higher income** lowered the risk, which makes sense because it suggests more ability to repay."
+    },
+    {
+     "feature": "loan_percent_income",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "The **loan size compared with income** also helped lower the risk, meaning the loan may look manageable relative to earnings."
+    },
+    {
+     "feature": "person_age",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "**Age** added a bit of risk, but it was a smaller factor than income and home ownership."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "credit",
+  "prompt": "constrained",
+  "case_id": 4942,
+  "runs": [
+   [
+    {
+     "feature": "loan_grade_D",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "- **loan grade D** lowered the risk assessment."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "- **loan grade E** lowered the risk assessment."
+    },
+    {
+     "feature": "loan_grade_F",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- **loan grade F** lowered the risk assessment."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "- **Renting the home** lowered the risk assessment, while **owning the home** raised it."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- **Renting the home** lowered the risk assessment, while **owning the home** raised it."
+    }
+   ],
+   [
+    {
+     "feature": "loan_grade_D",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "- **loan grade D** lowered the risk assessment."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "- **loan grade E** lowered the risk assessment."
+    },
+    {
+     "feature": "loan_grade_F",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- **loan grade F** lowered the risk assessment."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "- **Renting the home** lowered the risk assessment, while **owning the home** raised it."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- **Renting the home** lowered the risk assessment, while **owning the home** raised it."
+    }
+   ],
+   [
+    {
+     "feature": "loan_grade_D",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "- **loan grade D** lowered the risk assessment."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "- **loan grade E** lowered the risk assessment."
+    },
+    {
+     "feature": "loan_grade_F",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- **loan grade F** lowered the risk assessment."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "- **Renting the home** lowered the risk assessment, while **owning the home** raised it."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- **Renting the home** lowered the risk assessment, while **owning the home** raised it."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "churn",
+  "prompt": "basic",
+  "case_id": 1096,
+  "runs": [
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest reasons pushing the risk up were **tenure**, **fiber-optic internet**, **total charges**, and **monthly charges**."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- The biggest reasons pushing the risk up were **tenure**, **fiber-optic internet**, **total charges**, and **monthly charges**."
+    },
+    {
+     "feature": "TotalCharges",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- The biggest reasons pushing the risk up were **tenure**, **fiber-optic internet**, **total charges**, and **monthly charges**."
+    },
+    {
+     "feature": "MonthlyCharges",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- The biggest reasons pushing the risk up were **tenure**, **fiber-optic internet**, **total charges**, and **monthly charges**."
+    },
+    {
+     "feature": "TechSupport_Yes",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "- One factor helped reduce the risk: **having tech support**."
+    }
+   ],
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "The biggest reasons pushing the risk up were **tenure**, **fiber-optic internet**, **total charges**, and **monthly charges**."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "The biggest reasons pushing the risk up were **tenure**, **fiber-optic internet**, **total charges**, and **monthly charges**."
+    },
+    {
+     "feature": "TotalCharges",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "The biggest reasons pushing the risk up were **tenure**, **fiber-optic internet**, **total charges**, and **monthly charges**."
+    },
+    {
+     "feature": "MonthlyCharges",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "The biggest reasons pushing the risk up were **tenure**, **fiber-optic internet**, **total charges**, and **monthly charges**."
+    },
+    {
+     "feature": "TechSupport_Yes",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "One factor helped reduce the risk: **having tech support**."
+    }
+   ],
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest reasons pushing the risk up were **tenure**, **fiber-optic internet**, **total charges**, and **monthly charges**."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- The biggest reasons pushing the risk up were **tenure**, **fiber-optic internet**, **total charges**, and **monthly charges**."
+    },
+    {
+     "feature": "TotalCharges",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- The biggest reasons pushing the risk up were **tenure**, **fiber-optic internet**, **total charges**, and **monthly charges**."
+    },
+    {
+     "feature": "MonthlyCharges",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- The biggest reasons pushing the risk up were **tenure**, **fiber-optic internet**, **total charges**, and **monthly charges**."
+    },
+    {
+     "feature": "TechSupport_Yes",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "- One factor helped reduce the risk: **having tech support**."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "churn",
+  "prompt": "basic",
+  "case_id": 43,
+  "runs": [
+   [
+    {
+     "feature": "tenure",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason is **longer time with the service**: people who have stayed longer are usually more likely to keep it."
+    },
+    {
+     "feature": "Contract_One_year",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "- Being on a **one-year contract** also lowers the chance of leaving, since longer commitments often mean more stability."
+    },
+    {
+     "feature": "MonthlyCharges",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- Their **internet service type** and **monthly price** also point toward staying rather than leaving."
+    }
+   ],
+   [
+    {
+     "feature": "tenure",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason is **longer time with the service**: people who have stayed longer are usually more likely to keep it."
+    },
+    {
+     "feature": "Contract_One_year",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "- Being on a **one-year contract** also lowers the chance of leaving, since longer commitments often mean more stability."
+    },
+    {
+     "feature": "MonthlyCharges",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- Their **internet service type** and **monthly price** also point toward staying rather than leaving."
+    }
+   ],
+   [
+    {
+     "feature": "tenure",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "The biggest reason is **longer time with the service**: people who have stayed longer are usually more likely to keep it."
+    },
+    {
+     "feature": "Contract_One_year",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "Being on a **one-year contract** also lowers the chance of leaving, since longer commitments often mean more stability."
+    },
+    {
+     "feature": "MonthlyCharges",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "Their **internet service type** and **monthly price** also point toward staying rather than leaving."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "churn",
+  "prompt": "verification",
+  "case_id": 1861,
+  "runs": [
+   [
+    {
+     "feature": "tenure",
+     "direction": null,
+     "rank": 1,
+     "evidence_text": "The biggest drivers were the subscriber’s tenure and contract type."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "Fiber-optic internet service also pushed the prediction upward."
+    },
+    {
+     "feature": "Contract_One_year",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "One-year contract status and total charges also added to the higher risk."
+    },
+    {
+     "feature": "TotalCharges",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "One-year contract status and total charges also added to the higher risk."
+    }
+   ],
+   [
+    {
+     "feature": "tenure",
+     "direction": null,
+     "rank": 1,
+     "evidence_text": "- The biggest drivers were the subscriber’s tenure and contract type."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- Fiber-optic internet service also pushed the prediction upward."
+    },
+    {
+     "feature": "Contract_One_year",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- One-year contract status and total charges also added to the higher risk."
+    },
+    {
+     "feature": "TotalCharges",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- One-year contract status and total charges also added to the higher risk."
+    }
+   ],
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest drivers were the subscriber’s tenure and contract type."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- Fiber-optic internet service also pushed the prediction upward."
+    },
+    {
+     "feature": "Contract_One_year",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- One-year contract status and total charges also added to the higher risk."
+    },
+    {
+     "feature": "TotalCharges",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- One-year contract status and total charges also added to the higher risk."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "credit",
+  "prompt": "basic",
+  "case_id": 8552,
+  "runs": [
+   [
+    {
+     "feature": "loan_percent_income",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason pushing the risk **up** was the applicant’s **loan amount compared with income**."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- Another factor increasing risk was that the applicant **rents their home**."
+    }
+   ],
+   [
+    {
+     "feature": "loan_percent_income",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason pushing the risk **up** was the applicant’s **loan amount compared with income**."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- Another factor increasing risk was that the applicant **rents their home**."
+    }
+   ],
+   [
+    {
+     "feature": "loan_percent_income",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason pushing the risk **up** was the applicant’s **loan amount compared with income**."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- Another factor increasing risk was that the applicant **rents their home**."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "churn",
+  "prompt": "constrained",
+  "case_id": 1589,
+  "runs": [
+   [
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- **Two-year contract**: raised the assessment."
+    },
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- **Longer tenure**: raised the assessment."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- **Fiber-optic internet service**: raised the assessment."
+    },
+    {
+     "feature": "Contract_One_year",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- **One-year contract**: raised the assessment."
+    },
+    {
+     "feature": "InternetService_No",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- **No internet service**: raised the assessment."
+    }
+   ],
+   [
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- **Two-year contract**: raised the assessment."
+    },
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- **Longer tenure**: raised the assessment."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- **Fiber-optic internet service**: raised the assessment."
+    },
+    {
+     "feature": "Contract_One_year",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- **One-year contract**: raised the assessment."
+    },
+    {
+     "feature": "InternetService_No",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- **No internet service**: raised the assessment."
+    }
+   ],
+   [
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- **Two-year contract**: raised the assessment."
+    },
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- **Longer tenure**: raised the assessment."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- **Fiber-optic internet service**: raised the assessment."
+    },
+    {
+     "feature": "Contract_One_year",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- **One-year contract**: raised the assessment."
+    },
+    {
+     "feature": "InternetService_No",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- **No internet service**: raised the assessment."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "churn",
+  "prompt": "basic",
+  "case_id": 21,
+  "runs": [
+   [
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "The strongest reason is the contract pattern, especially the two-year and one-year contract signals, which pushed the assessment up."
+    },
+    {
+     "feature": "Contract_One_year",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "The strongest reason is the contract pattern, especially the two-year and one-year contract signals, which pushed the assessment up."
+    },
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "Length of service also mattered: tenure increased the chance of leaving."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "Having fiber optic internet was another factor that pushed the assessment higher."
+    },
+    {
+     "feature": "TotalCharges",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "Total charges added a smaller extra push upward."
+    }
+   ],
+   [
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "The strongest reason is the contract pattern, especially the two-year and one-year contract signals, which pushed the assessment up."
+    },
+    {
+     "feature": "Contract_One_year",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "The strongest reason is the contract pattern, especially the two-year and one-year contract signals, which pushed the assessment up."
+    },
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "Length of service also mattered: tenure increased the chance of leaving."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "Having fiber optic internet was another factor that pushed the assessment higher."
+    },
+    {
+     "feature": "TotalCharges",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "Total charges added a smaller extra push upward."
+    }
+   ],
+   [
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "The strongest reason is the contract pattern, especially the two-year and one-year contract signals, which pushed the assessment up."
+    },
+    {
+     "feature": "Contract_One_year",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "The strongest reason is the contract pattern, especially the two-year and one-year contract signals, which pushed the assessment up."
+    },
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "Length of service also mattered: tenure increased the chance of leaving."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "Having fiber optic internet was another factor that pushed the assessment higher."
+    },
+    {
+     "feature": "TotalCharges",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "Total charges added a smaller extra push upward."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "credit",
+  "prompt": "constrained",
+  "case_id": 7192,
+  "runs": [
+   [
+    {
+     "feature": "loan_grade_D",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "**loan_grade_D** lowered the assessment."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "**loan_grade_E** lowered the assessment."
+    },
+    {
+     "feature": "loan_grade_F",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "**loan_grade_F** lowered the assessment."
+    },
+    {
+     "feature": "person_home_ownership_OTHER",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "**person_home_ownership_OTHER** lowered the assessment, while **person_home_ownership_RENT** raised it."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "**person_home_ownership_OTHER** lowered the assessment, while **person_home_ownership_RENT** raised it."
+    }
+   ],
+   [
+    {
+     "feature": "loan_grade_D",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "- **loan_grade_D** lowered the assessment."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "- **loan_grade_E** lowered the assessment."
+    },
+    {
+     "feature": "loan_grade_F",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- **loan_grade_F** lowered the assessment."
+    },
+    {
+     "feature": "person_home_ownership_OTHER",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "- **person_home_ownership_OTHER** lowered the assessment, while **person_home_ownership_RENT** raised it."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- **person_home_ownership_OTHER** lowered the assessment, while **person_home_ownership_RENT** raised it."
+    }
+   ],
+   [
+    {
+     "feature": "loan_grade_D",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "- **loan_grade_D** lowered the assessment."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "- **loan_grade_E** lowered the assessment."
+    },
+    {
+     "feature": "loan_grade_F",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- **loan_grade_F** lowered the assessment."
+    },
+    {
+     "feature": "person_home_ownership_OTHER",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "- **person_home_ownership_OTHER** lowered the assessment, while **person_home_ownership_RENT** raised it."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- **person_home_ownership_OTHER** lowered the assessment, while **person_home_ownership_RENT** raised it."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "churn",
+  "prompt": "basic",
+  "case_id": 1368,
+  "runs": [
+   [
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest reasons are **fiber-optic internet** and **paying by electronic check**, which are linked with higher churn risk."
+    },
+    {
+     "feature": "PaymentMethod_Electronic_check",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- The biggest reasons are **fiber-optic internet** and **paying by electronic check**, which are linked with higher churn risk."
+    },
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- A **two-year contract** also pushed the score up, which is unusual and suggests this case may have mixed signals in the data."
+    },
+    {
+     "feature": "SeniorCitizen",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- Being a **senior citizen** added to the risk as well."
+    }
+   ],
+   [
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest reasons are **fiber-optic internet** and **paying by electronic check**, which are linked with higher churn risk."
+    },
+    {
+     "feature": "PaymentMethod_Electronic_check",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- The biggest reasons are **fiber-optic internet** and **paying by electronic check**, which are linked with higher churn risk."
+    },
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- A **two-year contract** also pushed the score up, which is unusual and suggests this case may have mixed signals in the data."
+    },
+    {
+     "feature": "SeniorCitizen",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- Being a **senior citizen** added to the risk as well."
+    }
+   ],
+   [
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "The biggest reasons are **fiber-optic internet** and **paying by electronic check**, which are linked with higher churn risk."
+    },
+    {
+     "feature": "PaymentMethod_Electronic_check",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "The biggest reasons are **fiber-optic internet** and **paying by electronic check**, which are linked with higher churn risk."
+    },
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "A **two-year contract** also pushed the score up, which is unusual and suggests this case may have mixed signals in the data."
+    },
+    {
+     "feature": "SeniorCitizen",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "Being a **senior citizen** added to the risk as well."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "churn",
+  "prompt": "basic",
+  "case_id": 1589,
+  "runs": [
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason is **tenure**: how long they’ve been a customer pushed the assessment up the most."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- Having **fiber-optic internet** also pushed the chance of leaving upward."
+    },
+    {
+     "feature": "PaperlessBilling_Yes",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- **Paperless billing** pulled the assessment down a bit, meaning it slightly reduced the risk."
+    },
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- A **two-year contract** and paying by **electronic check** both nudged the risk upward."
+    },
+    {
+     "feature": "PaymentMethod_Electronic_check",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- A **two-year contract** and paying by **electronic check** both nudged the risk upward."
+    }
+   ],
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason is **tenure**: how long they’ve been a customer pushed the assessment up the most."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- Having **fiber-optic internet** also pushed the chance of leaving upward."
+    },
+    {
+     "feature": "PaperlessBilling_Yes",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- **Paperless billing** pulled the assessment down a bit, meaning it slightly reduced the risk."
+    },
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- A **two-year contract** and paying by **electronic check** both nudged the risk upward."
+    },
+    {
+     "feature": "PaymentMethod_Electronic_check",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- A **two-year contract** and paying by **electronic check** both nudged the risk upward."
+    }
+   ],
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason is **tenure**: how long they’ve been a customer pushed the assessment up the most."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- Having **fiber-optic internet** also pushed the chance of leaving upward."
+    },
+    {
+     "feature": "PaperlessBilling_Yes",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- **Paperless billing** pulled the assessment down a bit, meaning it slightly reduced the risk."
+    },
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- A **two-year contract** and paying by **electronic check** both nudged the risk upward."
+    },
+    {
+     "feature": "PaymentMethod_Electronic_check",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- A **two-year contract** and paying by **electronic check** both nudged the risk upward."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "credit",
+  "prompt": "verification",
+  "case_id": 193,
+  "runs": [
+   [
+    {
+     "feature": "loan_grade_D",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "The biggest reason is the applicant’s loan grade D, which pushed the risk up."
+    },
+    {
+     "feature": "loan_int_rate",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "A high interest rate also pushed the risk up."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "Renting the home added to the risk, and owning the home also pushed the risk up in this case."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "Renting the home added to the risk, and owning the home also pushed the risk up in this case."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "One factor, loan grade E, worked in the opposite direction and pulled the risk down a bit, but not enough to offset the other factors."
+    }
+   ],
+   [
+    {
+     "feature": "loan_grade_D",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "The biggest reason is the applicant’s loan grade D, which pushed the risk up."
+    },
+    {
+     "feature": "loan_int_rate",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "A high interest rate also pushed the risk up."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "Renting the home added to the risk, and owning the home also pushed the risk up in this case."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "Renting the home added to the risk, and owning the home also pushed the risk up in this case."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "One factor, loan grade E, worked in the opposite direction and pulled the risk down a bit, but not enough to offset the other factors."
+    }
+   ],
+   [
+    {
+     "feature": "loan_grade_D",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason is the applicant’s loan grade D, which pushed the risk up."
+    },
+    {
+     "feature": "loan_int_rate",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- A high interest rate also pushed the risk up."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- Renting the home added to the risk, and owning the home also pushed the risk up in this case."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- Renting the home added to the risk, and owning the home also pushed the risk up in this case."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "- One factor, loan grade E, worked in the opposite direction and pulled the risk down a bit, but not enough to offset the other factors."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "churn",
+  "prompt": "constrained",
+  "case_id": 1861,
+  "runs": [
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- **tenure** raised the assessment."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- **InternetService_Fiber_optic** raised the assessment."
+    },
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- **Contract_Two_year** raised the assessment."
+    },
+    {
+     "feature": "TotalCharges",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- **TotalCharges** raised the assessment."
+    },
+    {
+     "feature": "PaymentMethod_Electronic_check",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- **PaymentMethod_Electronic_check** raised the assessment."
+    }
+   ],
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- **tenure** raised the assessment."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- **InternetService_Fiber_optic** raised the assessment."
+    },
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- **Contract_Two_year** raised the assessment."
+    },
+    {
+     "feature": "TotalCharges",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- **TotalCharges** raised the assessment."
+    },
+    {
+     "feature": "PaymentMethod_Electronic_check",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- **PaymentMethod_Electronic_check** raised the assessment."
+    }
+   ],
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- **tenure** raised the assessment."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- **InternetService_Fiber_optic** raised the assessment."
+    },
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- **Contract_Two_year** raised the assessment."
+    },
+    {
+     "feature": "TotalCharges",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- **TotalCharges** raised the assessment."
+    },
+    {
+     "feature": "PaymentMethod_Electronic_check",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- **PaymentMethod_Electronic_check** raised the assessment."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "credit",
+  "prompt": "basic",
+  "case_id": 4942,
+  "runs": [
+   [
+    {
+     "feature": "loan_percent_income",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "The biggest reasons lowering risk were: the loan is not large compared with income, the applicant’s income is relatively strong, and renting status also pointed to lower risk here."
+    },
+    {
+     "feature": "person_income",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "The biggest reasons lowering risk were: the loan is not large compared with income, the applicant’s income is relatively strong, and renting status also pointed to lower risk here."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "The biggest reasons lowering risk were: the loan is not large compared with income, the applicant’s income is relatively strong, and renting status also pointed to lower risk here."
+    },
+    {
+     "feature": "cb_person_default_on_file_Y",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "One factor increased risk a bit: there is a past default flag on file."
+    },
+    {
+     "feature": "loan_intent_HOMEIMPROVEMENT",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "The home-improvement loan purpose also slightly lowered the risk."
+    }
+   ],
+   [
+    {
+     "feature": "loan_percent_income",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "The biggest reasons lowering risk were: the loan is not large compared with income, the applicant’s income is relatively strong, and renting status also pointed to lower risk here."
+    },
+    {
+     "feature": "person_income",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "The biggest reasons lowering risk were: the loan is not large compared with income, the applicant’s income is relatively strong, and renting status also pointed to lower risk here."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "The biggest reasons lowering risk were: the loan is not large compared with income, the applicant’s income is relatively strong, and renting status also pointed to lower risk here."
+    },
+    {
+     "feature": "cb_person_default_on_file_Y",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "One factor increased risk a bit: there is a past default flag on file."
+    },
+    {
+     "feature": "loan_intent_HOMEIMPROVEMENT",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "The home-improvement loan purpose also slightly lowered the risk."
+    }
+   ],
+   [
+    {
+     "feature": "loan_percent_income",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "The biggest reasons lowering risk were: the loan is not large compared with income, the applicant’s income is relatively strong, and renting status also pointed to lower risk here."
+    },
+    {
+     "feature": "person_income",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "The biggest reasons lowering risk were: the loan is not large compared with income, the applicant’s income is relatively strong, and renting status also pointed to lower risk here."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "The biggest reasons lowering risk were: the loan is not large compared with income, the applicant’s income is relatively strong, and renting status also pointed to lower risk here."
+    },
+    {
+     "feature": "cb_person_default_on_file_Y",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "One factor increased risk a bit: there is a past default flag on file."
+    },
+    {
+     "feature": "loan_intent_HOMEIMPROVEMENT",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "The home-improvement loan purpose also slightly lowered the risk."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "credit",
+  "prompt": "constrained",
+  "case_id": 358,
+  "runs": [
+   [
+    {
+     "feature": "loan_grade_G",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "- **loan_grade_G** lowered the assessment."
+    },
+    {
+     "feature": "loan_grade_D",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "- **loan_grade_D** lowered the assessment."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- **person_home_ownership_OWN** raised the assessment."
+    },
+    {
+     "feature": "loan_percent_income",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- **loan_percent_income** raised the assessment."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "- **loan_grade_E** lowered the assessment."
+    }
+   ],
+   [
+    {
+     "feature": "loan_grade_G",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "- **loan_grade_G** lowered the assessment."
+    },
+    {
+     "feature": "loan_grade_D",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "- **loan_grade_D** lowered the assessment."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- **person_home_ownership_OWN** raised the assessment."
+    },
+    {
+     "feature": "loan_percent_income",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- **loan_percent_income** raised the assessment."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "- **loan_grade_E** lowered the assessment."
+    }
+   ],
+   [
+    {
+     "feature": "loan_grade_G",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "- **loan_grade_G** lowered the assessment."
+    },
+    {
+     "feature": "loan_grade_D",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "- **loan_grade_D** lowered the assessment."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- **person_home_ownership_OWN** raised the assessment."
+    },
+    {
+     "feature": "loan_percent_income",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- **loan_percent_income** raised the assessment."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "- **loan_grade_E** lowered the assessment."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "credit",
+  "prompt": "verification",
+  "case_id": 4942,
+  "runs": [
+   [
+    {
+     "feature": "loan_percent_income",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "The biggest reasons pushing the risk **down** were the **loan amount compared with income** and the applicant’s **income level**."
+    },
+    {
+     "feature": "person_income",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "The biggest reasons pushing the risk **down** were the **loan amount compared with income** and the applicant’s **income level**."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "Being a **renter** also pushed the risk **down**."
+    },
+    {
+     "feature": "cb_person_default_on_file_Y",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "One factor pushed the risk **up**: there is a **past default on file**."
+    },
+    {
+     "feature": "loan_intent_HOMEIMPROVEMENT",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "The loan’s purpose being **home improvement** also slightly lowered the risk."
+    }
+   ],
+   [
+    {
+     "feature": "loan_percent_income",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "The biggest reasons pushing the risk **down** were the **loan amount compared with income** and the applicant’s **income level**."
+    },
+    {
+     "feature": "person_income",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "The biggest reasons pushing the risk **down** were the **loan amount compared with income** and the applicant’s **income level**."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "Being a **renter** also pushed the risk **down**."
+    },
+    {
+     "feature": "cb_person_default_on_file_Y",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "One factor pushed the risk **up**: there is a **past default on file**."
+    },
+    {
+     "feature": "loan_intent_HOMEIMPROVEMENT",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "The loan’s purpose being **home improvement** also slightly lowered the risk."
+    }
+   ],
+   [
+    {
+     "feature": "loan_percent_income",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "The biggest reasons pushing the risk **down** were the **loan amount compared with income** and the applicant’s **income level**."
+    },
+    {
+     "feature": "person_income",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "The biggest reasons pushing the risk **down** were the **loan amount compared with income** and the applicant’s **income level**."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "Being a **renter** also pushed the risk **down**."
+    },
+    {
+     "feature": "cb_person_default_on_file_Y",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "One factor pushed the risk **up**: there is a **past default on file**."
+    },
+    {
+     "feature": "loan_intent_HOMEIMPROVEMENT",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "The loan’s purpose being **home improvement** also slightly lowered the risk."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "churn",
+  "prompt": "basic",
+  "case_id": 1221,
+  "runs": [
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason is **shorter tenure**: they have not been with the service very long."
+    },
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- A **two-year contract** also pushed the result up, along with **higher total charges**, which can sometimes signal a customer at risk."
+    },
+    {
+     "feature": "TotalCharges",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- A **two-year contract** also pushed the result up, along with **higher total charges**, which can sometimes signal a customer at risk."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "- One factor pushed the other way: having **fiber-optic internet** lowered the concern a bit."
+    },
+    {
+     "feature": "PaymentMethod_Electronic_check",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- Using **electronic check** for payment also increased the likelihood of leaving."
+    }
+   ],
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason is **shorter tenure**: they have not been with the service very long."
+    },
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- A **two-year contract** also pushed the result up, along with **higher total charges**, which can sometimes signal a customer at risk."
+    },
+    {
+     "feature": "TotalCharges",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- A **two-year contract** also pushed the result up, along with **higher total charges**, which can sometimes signal a customer at risk."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "- One factor pushed the other way: having **fiber-optic internet** lowered the concern a bit."
+    },
+    {
+     "feature": "PaymentMethod_Electronic_check",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- Using **electronic check** for payment also increased the likelihood of leaving."
+    }
+   ],
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason is **shorter tenure**: they have not been with the service very long."
+    },
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- A **two-year contract** also pushed the result up, along with **higher total charges**, which can sometimes signal a customer at risk."
+    },
+    {
+     "feature": "TotalCharges",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- A **two-year contract** also pushed the result up, along with **higher total charges**, which can sometimes signal a customer at risk."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "- One factor pushed the other way: having **fiber-optic internet** lowered the concern a bit."
+    },
+    {
+     "feature": "PaymentMethod_Electronic_check",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- Using **electronic check** for payment also increased the likelihood of leaving."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "credit",
+  "prompt": "verification",
+  "case_id": 358,
+  "runs": [
+   [
+    {
+     "feature": "loan_percent_income",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "The strongest reason is the **loan is large compared with the applicant’s income**, which pushed the risk up."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "**Renting the home** also pushed the risk up."
+    },
+    {
+     "feature": "person_income",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "A **higher income** pushed the risk down a bit, which slightly offset the risk."
+    },
+    {
+     "feature": "loan_amnt",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "The **loan amount itself** and **owning a home** both pushed the risk up, but less strongly than the first two factors."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "The **loan amount itself** and **owning a home** both pushed the risk up, but less strongly than the first two factors."
+    }
+   ],
+   [
+    {
+     "feature": "loan_percent_income",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "The strongest reason is the **loan is large compared with the applicant’s income**, which pushed the risk up."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "**Renting the home** also pushed the risk up."
+    },
+    {
+     "feature": "person_income",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "A **higher income** pushed the risk down a bit, which slightly offset the risk."
+    },
+    {
+     "feature": "loan_amnt",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "The **loan amount itself** and **owning a home** both pushed the risk up, but less strongly than the first two factors."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "The **loan amount itself** and **owning a home** both pushed the risk up, but less strongly than the first two factors."
+    }
+   ],
+   [
+    {
+     "feature": "loan_percent_income",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "The strongest reason is the **loan is large compared with the applicant’s income**, which pushed the risk up."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "**Renting the home** also pushed the risk up."
+    },
+    {
+     "feature": "person_income",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "A **higher income** pushed the risk down a bit, which slightly offset the risk."
+    },
+    {
+     "feature": "loan_amnt",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "The **loan amount itself** and **owning a home** both pushed the risk up, but less strongly than the first two factors."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "The **loan amount itself** and **owning a home** both pushed the risk up, but less strongly than the first two factors."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "credit",
+  "prompt": "basic",
+  "case_id": 4942,
+  "runs": [
+   [
+    {
+     "feature": "loan_grade_D",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason pulling the score **down** was the loan being in **grade D**, which generally signals a safer repayment outlook in this case."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "- Other loan grades, **E** and **F**, also pushed the risk **down**, adding to the lower-risk view."
+    },
+    {
+     "feature": "loan_grade_F",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- Other loan grades, **E** and **F**, also pushed the risk **down**, adding to the lower-risk view."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- Two things pushed the risk **up** a bit: **owning a home** and the loan being for a **venture**."
+    },
+    {
+     "feature": "loan_intent_VENTURE",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- Two things pushed the risk **up** a bit: **owning a home** and the loan being for a **venture**."
+    }
+   ],
+   [
+    {
+     "feature": "loan_grade_D",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason pulling the score **down** was the loan being in **grade D**, which generally signals a safer repayment outlook in this case."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "- Other loan grades, **E** and **F**, also pushed the risk **down**, adding to the lower-risk view."
+    },
+    {
+     "feature": "loan_grade_F",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- Other loan grades, **E** and **F**, also pushed the risk **down**, adding to the lower-risk view."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- Two things pushed the risk **up** a bit: **owning a home** and the loan being for a **venture**."
+    },
+    {
+     "feature": "loan_intent_VENTURE",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- Two things pushed the risk **up** a bit: **owning a home** and the loan being for a **venture**."
+    }
+   ],
+   [
+    {
+     "feature": "loan_grade_D",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason pulling the score **down** was the loan being in **grade D**, which generally signals a safer repayment outlook in this case."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "- Other loan grades, **E** and **F**, also pushed the risk **down**, adding to the lower-risk view."
+    },
+    {
+     "feature": "loan_grade_F",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- Other loan grades, **E** and **F**, also pushed the risk **down**, adding to the lower-risk view."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- Two things pushed the risk **up** a bit: **owning a home** and the loan being for a **venture**."
+    },
+    {
+     "feature": "loan_intent_VENTURE",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- Two things pushed the risk **up** a bit: **owning a home** and the loan being for a **venture**."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "credit",
+  "prompt": "constrained",
+  "case_id": 6125,
+  "runs": [
+   [
+    {
+     "feature": "loan_grade_G",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "**loan_grade_G** lowered the assessment."
+    },
+    {
+     "feature": "loan_grade_D",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "**loan_grade_D** raised the assessment."
+    },
+    {
+     "feature": "loan_percent_income",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "**loan_percent_income** raised the assessment."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "**loan_grade_E** lowered the assessment."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "**person_home_ownership_OWN** raised the assessment."
+    }
+   ],
+   [
+    {
+     "feature": "loan_grade_G",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "- **loan_grade_G** lowered the assessment."
+    },
+    {
+     "feature": "loan_grade_D",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- **loan_grade_D** raised the assessment."
+    },
+    {
+     "feature": "loan_percent_income",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- **loan_percent_income** raised the assessment."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "- **loan_grade_E** lowered the assessment."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- **person_home_ownership_OWN** raised the assessment."
+    }
+   ],
+   [
+    {
+     "feature": "loan_grade_G",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "- **loan_grade_G** lowered the assessment."
+    },
+    {
+     "feature": "loan_grade_D",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- **loan_grade_D** raised the assessment."
+    },
+    {
+     "feature": "loan_percent_income",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- **loan_percent_income** raised the assessment."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "- **loan_grade_E** lowered the assessment."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- **person_home_ownership_OWN** raised the assessment."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "churn",
+  "prompt": "verification",
+  "case_id": 1589,
+  "runs": [
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "Time with the service also pushed the result up."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "The kind of internet service provided was another upward factor, especially fiber optic service."
+    },
+    {
+     "feature": "Contract_One_year",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "A one-year contract and having no internet service also pushed the result up."
+    },
+    {
+     "feature": "InternetService_No",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "A one-year contract and having no internet service also pushed the result up."
+    }
+   ],
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "Time with the service also pushed the result up."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "The kind of internet service provided was another upward factor, especially fiber optic service."
+    },
+    {
+     "feature": "Contract_One_year",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "A one-year contract and having no internet service also pushed the result up."
+    },
+    {
+     "feature": "InternetService_No",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "A one-year contract and having no internet service also pushed the result up."
+    }
+   ],
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- Time with the service also pushed the result up."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- The kind of internet service provided was another upward factor, especially fiber optic service."
+    },
+    {
+     "feature": "Contract_One_year",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- A one-year contract and having no internet service also pushed the result up."
+    },
+    {
+     "feature": "InternetService_No",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- A one-year contract and having no internet service also pushed the result up."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "churn",
+  "prompt": "constrained",
+  "case_id": 1403,
+  "runs": [
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- Longer tenure raised the assessment, meaning the subscriber’s time with the service pushed the result upward."
+    },
+    {
+     "feature": "TotalCharges",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- TotalCharges raised the assessment, so the amount already paid also pushed the result upward."
+    },
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- A two-year contract raised the assessment, which increased the likelihood estimate."
+    },
+    {
+     "feature": "MonthlyCharges",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "- MonthlyCharges lowered the assessment, and fiber-optic internet also lowered it, both pushing the result downward."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "- MonthlyCharges lowered the assessment, and fiber-optic internet also lowered it, both pushing the result downward."
+    }
+   ],
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- Longer tenure raised the assessment, meaning the subscriber’s time with the service pushed the result upward."
+    },
+    {
+     "feature": "TotalCharges",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- TotalCharges raised the assessment, so the amount already paid also pushed the result upward."
+    },
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- A two-year contract raised the assessment, which increased the likelihood estimate."
+    },
+    {
+     "feature": "MonthlyCharges",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "- MonthlyCharges lowered the assessment, and fiber-optic internet also lowered it, both pushing the result downward."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "- MonthlyCharges lowered the assessment, and fiber-optic internet also lowered it, both pushing the result downward."
+    }
+   ],
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- Longer tenure raised the assessment, meaning the subscriber’s time with the service pushed the result upward."
+    },
+    {
+     "feature": "TotalCharges",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- TotalCharges raised the assessment, so the amount already paid also pushed the result upward."
+    },
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- A two-year contract raised the assessment, which increased the likelihood estimate."
+    },
+    {
+     "feature": "MonthlyCharges",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "- MonthlyCharges lowered the assessment, and fiber-optic internet also lowered it, both pushing the result downward."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "- MonthlyCharges lowered the assessment, and fiber-optic internet also lowered it, both pushing the result downward."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "credit",
+  "prompt": "constrained",
+  "case_id": 6336,
+  "runs": [
+   [
+    {
+     "feature": "loan_grade_D",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- A **D loan grade** raised the risk the most."
+    },
+    {
+     "feature": "loan_int_rate",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- A **higher interest rate** also raised the risk."
+    },
+    {
+     "feature": "loan_intent_HOMEIMPROVEMENT",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- The loan being for **home improvement**, **venture**, and **education** each raised the risk."
+    },
+    {
+     "feature": "loan_intent_VENTURE",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- The loan being for **home improvement**, **venture**, and **education** each raised the risk."
+    },
+    {
+     "feature": "loan_intent_EDUCATION",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- The loan being for **home improvement**, **venture**, and **education** each raised the risk."
+    }
+   ],
+   [
+    {
+     "feature": "loan_grade_D",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- A **D loan grade** raised the risk the most."
+    },
+    {
+     "feature": "loan_int_rate",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- A **higher interest rate** also raised the risk."
+    },
+    {
+     "feature": "loan_intent_HOMEIMPROVEMENT",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- The loan being for **home improvement**, **venture**, and **education** each raised the risk."
+    },
+    {
+     "feature": "loan_intent_VENTURE",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- The loan being for **home improvement**, **venture**, and **education** each raised the risk."
+    },
+    {
+     "feature": "loan_intent_EDUCATION",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- The loan being for **home improvement**, **venture**, and **education** each raised the risk."
+    }
+   ],
+   [
+    {
+     "feature": "loan_grade_D",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- A **D loan grade** raised the risk the most."
+    },
+    {
+     "feature": "loan_int_rate",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- A **higher interest rate** also raised the risk."
+    },
+    {
+     "feature": "loan_intent_HOMEIMPROVEMENT",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- The loan being for **home improvement**, **venture**, and **education** each raised the risk."
+    },
+    {
+     "feature": "loan_intent_VENTURE",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- The loan being for **home improvement**, **venture**, and **education** each raised the risk."
+    },
+    {
+     "feature": "loan_intent_EDUCATION",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- The loan being for **home improvement**, **venture**, and **education** each raised the risk."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "credit",
+  "prompt": "basic",
+  "case_id": 358,
+  "runs": [
+   [
+    {
+     "feature": "loan_grade_G",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "The biggest factor was the loan grade category, especially grade G, which pushed the result down. Grade D and grade E also pushed it down."
+    },
+    {
+     "feature": "loan_grade_D",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "The biggest factor was the loan grade category, especially grade G, which pushed the result down. Grade D and grade E also pushed it down."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "The biggest factor was the loan grade category, especially grade G, which pushed the result down. Grade D and grade E also pushed it down."
+    },
+    {
+     "feature": "loan_percent_income",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "A higher share of the person’s income going toward the loan pushed the result up, meaning more risk."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "Owning a home also slightly pushed the result up."
+    }
+   ],
+   [
+    {
+     "feature": "loan_grade_G",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "The biggest factor was the loan grade category, especially grade G, which pushed the result down. Grade D and grade E also pushed it down."
+    },
+    {
+     "feature": "loan_grade_D",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "The biggest factor was the loan grade category, especially grade G, which pushed the result down. Grade D and grade E also pushed it down."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "The biggest factor was the loan grade category, especially grade G, which pushed the result down. Grade D and grade E also pushed it down."
+    },
+    {
+     "feature": "loan_percent_income",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "A higher share of the person’s income going toward the loan pushed the result up, meaning more risk."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "Owning a home also slightly pushed the result up."
+    }
+   ],
+   [
+    {
+     "feature": "loan_grade_G",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "The biggest factor was the loan grade category, especially grade G, which pushed the result down. Grade D and grade E also pushed it down."
+    },
+    {
+     "feature": "loan_grade_D",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "The biggest factor was the loan grade category, especially grade G, which pushed the result down. Grade D and grade E also pushed it down."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "The biggest factor was the loan grade category, especially grade G, which pushed the result down. Grade D and grade E also pushed it down."
+    },
+    {
+     "feature": "loan_percent_income",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "A higher share of the person’s income going toward the loan pushed the result up, meaning more risk."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "Owning a home also slightly pushed the result up."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "credit",
+  "prompt": "constrained",
+  "case_id": 6125,
+  "runs": [
+   [
+    {
+     "feature": "loan_percent_income",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "The biggest reason is that the loan amount is large compared with the applicant’s income, which raised the risk."
+    },
+    {
+     "feature": "person_income",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "The applicant’s income itself also raised the risk."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "Renting a home raised the risk, and having a D-grade loan also raised the risk."
+    },
+    {
+     "feature": "loan_grade_D",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "Renting a home raised the risk, and having a D-grade loan also raised the risk."
+    },
+    {
+     "feature": "loan_int_rate",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "A higher interest rate further raised the risk."
+    }
+   ],
+   [
+    {
+     "feature": "loan_percent_income",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason is that the loan amount is large compared with the applicant’s income, which raised the risk."
+    },
+    {
+     "feature": "person_income",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- The applicant’s income itself also raised the risk."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- Renting a home raised the risk, and having a D-grade loan also raised the risk."
+    },
+    {
+     "feature": "loan_grade_D",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- Renting a home raised the risk, and having a D-grade loan also raised the risk."
+    },
+    {
+     "feature": "loan_int_rate",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- A higher interest rate further raised the risk."
+    }
+   ],
+   [
+    {
+     "feature": "loan_percent_income",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason is that the loan amount is large compared with the applicant’s income, which raised the risk."
+    },
+    {
+     "feature": "person_income",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- The applicant’s income itself also raised the risk."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- Renting a home raised the risk, and having a D-grade loan also raised the risk."
+    },
+    {
+     "feature": "loan_grade_D",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- Renting a home raised the risk, and having a D-grade loan also raised the risk."
+    },
+    {
+     "feature": "loan_int_rate",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- A higher interest rate further raised the risk."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "credit",
+  "prompt": "basic",
+  "case_id": 193,
+  "runs": [
+   [
+    {
+     "feature": "loan_grade_G",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "The strongest factor pushing the risk down was the loan being in grade G."
+    },
+    {
+     "feature": "loan_grade_D",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "Factors pushing the risk up were a grade D loan, owning the home, and a higher loan interest rate."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "Factors pushing the risk up were a grade D loan, owning the home, and a higher loan interest rate."
+    },
+    {
+     "feature": "loan_int_rate",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "Factors pushing the risk up were a grade D loan, owning the home, and a higher loan interest rate."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "Another grade factor, grade E, pulled the risk down a bit."
+    }
+   ],
+   [
+    {
+     "feature": "loan_grade_G",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "The strongest factor pushing the risk down was the loan being in grade G."
+    },
+    {
+     "feature": "loan_grade_D",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "Factors pushing the risk up were a grade D loan, owning the home, and a higher loan interest rate."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "Factors pushing the risk up were a grade D loan, owning the home, and a higher loan interest rate."
+    },
+    {
+     "feature": "loan_int_rate",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "Factors pushing the risk up were a grade D loan, owning the home, and a higher loan interest rate."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "Another grade factor, grade E, pulled the risk down a bit."
+    }
+   ],
+   [
+    {
+     "feature": "loan_grade_G",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "The strongest factor pushing the risk down was the loan being in grade G."
+    },
+    {
+     "feature": "loan_grade_D",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "Factors pushing the risk up were a grade D loan, owning the home, and a higher loan interest rate."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "Factors pushing the risk up were a grade D loan, owning the home, and a higher loan interest rate."
+    },
+    {
+     "feature": "loan_int_rate",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "Factors pushing the risk up were a grade D loan, owning the home, and a higher loan interest rate."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "Another grade factor, grade E, pulled the risk down a bit."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "credit",
+  "prompt": "basic",
+  "case_id": 5410,
+  "runs": [
+   [
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason lowering the risk is that the applicant **rents their home**, which the model sees as a favorable sign here."
+    },
+    {
+     "feature": "loan_percent_income",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- The main factor pushing risk up is that the **loan is large compared with the applicant’s income**."
+    },
+    {
+     "feature": "loan_intent_VENTURE",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- The loan’s **purpose is for a venture**, which also slightly lowers the risk in this case."
+    },
+    {
+     "feature": "person_income",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "- The applicant’s **income** and the **interest rate** both slightly helped reduce the concern."
+    },
+    {
+     "feature": "loan_int_rate",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "- The applicant’s **income** and the **interest rate** both slightly helped reduce the concern."
+    }
+   ],
+   [
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason lowering the risk is that the applicant **rents their home**, which the model sees as a favorable sign here."
+    },
+    {
+     "feature": "loan_percent_income",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- The main factor pushing risk up is that the **loan is large compared with the applicant’s income**."
+    },
+    {
+     "feature": "loan_intent_VENTURE",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- The loan’s **purpose is for a venture**, which also slightly lowers the risk in this case."
+    },
+    {
+     "feature": "person_income",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "- The applicant’s **income** and the **interest rate** both slightly helped reduce the concern."
+    },
+    {
+     "feature": "loan_int_rate",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "- The applicant’s **income** and the **interest rate** both slightly helped reduce the concern."
+    }
+   ],
+   [
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason lowering the risk is that the applicant **rents their home**, which the model sees as a favorable sign here."
+    },
+    {
+     "feature": "loan_percent_income",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- The main factor pushing risk up is that the **loan is large compared with the applicant’s income**."
+    },
+    {
+     "feature": "loan_intent_VENTURE",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- The loan’s **purpose is for a venture**, which also slightly lowers the risk in this case."
+    },
+    {
+     "feature": "person_income",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "- The applicant’s **income** and the **interest rate** both slightly helped reduce the concern."
+    },
+    {
+     "feature": "loan_int_rate",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "- The applicant’s **income** and the **interest rate** both slightly helped reduce the concern."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "churn",
+  "prompt": "basic",
+  "case_id": 1861,
+  "runs": [
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason is **tenure**: based on this pattern, the subscriber’s time with the service is linked to a higher chance of leaving."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- **Fiber optic internet** also pushed the assessment up, along with using **electronic check** as a payment method."
+    },
+    {
+     "feature": "PaymentMethod_Electronic_check",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- **Fiber optic internet** also pushed the assessment up, along with using **electronic check** as a payment method."
+    },
+    {
+     "feature": "Contract_Two_year",
+     "direction": null,
+     "rank": 4,
+     "evidence_text": "- A **two-year contract** contributed to the result as well, and **total charges** also nudged it upward."
+    },
+    {
+     "feature": "TotalCharges",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- A **two-year contract** contributed to the result as well, and **total charges** also nudged it upward."
+    }
+   ],
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason is **tenure**: based on this pattern, the subscriber’s time with the service is linked to a higher chance of leaving."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- **Fiber optic internet** also pushed the assessment up, along with using **electronic check** as a payment method."
+    },
+    {
+     "feature": "PaymentMethod_Electronic_check",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- **Fiber optic internet** also pushed the assessment up, along with using **electronic check** as a payment method."
+    },
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- A **two-year contract** contributed to the result as well, and **total charges** also nudged it upward."
+    },
+    {
+     "feature": "TotalCharges",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- A **two-year contract** contributed to the result as well, and **total charges** also nudged it upward."
+    }
+   ],
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason is **tenure**: based on this pattern, the subscriber’s time with the service is linked to a higher chance of leaving."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- **Fiber optic internet** also pushed the assessment up, along with using **electronic check** as a payment method."
+    },
+    {
+     "feature": "PaymentMethod_Electronic_check",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- **Fiber optic internet** also pushed the assessment up, along with using **electronic check** as a payment method."
+    },
+    {
+     "feature": "Contract_Two_year",
+     "direction": null,
+     "rank": 4,
+     "evidence_text": "- A **two-year contract** contributed to the result as well, and **total charges** also nudged it upward."
+    },
+    {
+     "feature": "TotalCharges",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- A **two-year contract** contributed to the result as well, and **total charges** also nudged it upward."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "credit",
+  "prompt": "verification",
+  "case_id": 7541,
+  "runs": [
+   [
+    {
+     "feature": "loan_grade_G",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason is the loan’s grade mix: **grades G, D, E, and F all pushed the risk down**."
+    },
+    {
+     "feature": "loan_grade_D",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "- The biggest reason is the loan’s grade mix: **grades G, D, E, and F all pushed the risk down**."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- The biggest reason is the loan’s grade mix: **grades G, D, E, and F all pushed the risk down**."
+    },
+    {
+     "feature": "loan_grade_F",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "- The biggest reason is the loan’s grade mix: **grades G, D, E, and F all pushed the risk down**."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- One factor worked in the opposite direction: **owning a home pushed the risk up a bit**."
+    }
+   ],
+   [
+    {
+     "feature": "loan_grade_G",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason is the loan’s grade mix: **grades G, D, E, and F all pushed the risk down**."
+    },
+    {
+     "feature": "loan_grade_D",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "- The biggest reason is the loan’s grade mix: **grades G, D, E, and F all pushed the risk down**."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- The biggest reason is the loan’s grade mix: **grades G, D, E, and F all pushed the risk down**."
+    },
+    {
+     "feature": "loan_grade_F",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "- The biggest reason is the loan’s grade mix: **grades G, D, E, and F all pushed the risk down**."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- One factor worked in the opposite direction: **owning a home pushed the risk up a bit**."
+    }
+   ],
+   [
+    {
+     "feature": "loan_grade_G",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason is the loan’s grade mix: **grades G, D, E, and F all pushed the risk down**."
+    },
+    {
+     "feature": "loan_grade_D",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "- The biggest reason is the loan’s grade mix: **grades G, D, E, and F all pushed the risk down**."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- The biggest reason is the loan’s grade mix: **grades G, D, E, and F all pushed the risk down**."
+    },
+    {
+     "feature": "loan_grade_F",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "- The biggest reason is the loan’s grade mix: **grades G, D, E, and F all pushed the risk down**."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- One factor worked in the opposite direction: **owning a home pushed the risk up a bit**."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "credit",
+  "prompt": "verification",
+  "case_id": 3714,
+  "runs": [
+   [
+    {
+     "feature": "loan_grade_D",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "The biggest reason is that the loan is in grade D, which pushed the risk up."
+    },
+    {
+     "feature": "loan_int_rate",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "A high interest rate also pushed the risk up."
+    },
+    {
+     "feature": "person_income",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "The applicant’s income helped reduce the risk somewhat."
+    },
+    {
+     "feature": "loan_intent_VENTURE",
+     "direction": null,
+     "rank": 4,
+     "evidence_text": "The loan being for a venture and a lower loan-to-income share had mixed effects, but the upward pressure from the first two factors was stronger."
+    },
+    {
+     "feature": "loan_percent_income",
+     "direction": null,
+     "rank": 5,
+     "evidence_text": "The loan being for a venture and a lower loan-to-income share had mixed effects, but the upward pressure from the first two factors was stronger."
+    }
+   ],
+   [
+    {
+     "feature": "loan_grade_D",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "The biggest reason is that the loan is in grade D, which pushed the risk up."
+    },
+    {
+     "feature": "loan_int_rate",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "A high interest rate also pushed the risk up."
+    },
+    {
+     "feature": "person_income",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "The applicant’s income helped reduce the risk somewhat."
+    },
+    {
+     "feature": "loan_intent_VENTURE",
+     "direction": null,
+     "rank": 4,
+     "evidence_text": "The loan being for a venture and a lower loan-to-income share had mixed effects, but the upward pressure from the first two factors was stronger."
+    },
+    {
+     "feature": "loan_percent_income",
+     "direction": null,
+     "rank": 5,
+     "evidence_text": "The loan being for a venture and a lower loan-to-income share had mixed effects, but the upward pressure from the first two factors was stronger."
+    }
+   ],
+   [
+    {
+     "feature": "loan_grade_D",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "The biggest reason is that the loan is in grade D, which pushed the risk up."
+    },
+    {
+     "feature": "loan_int_rate",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "A high interest rate also pushed the risk up."
+    },
+    {
+     "feature": "person_income",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "The applicant’s income helped reduce the risk somewhat."
+    },
+    {
+     "feature": "loan_intent_VENTURE",
+     "direction": null,
+     "rank": 4,
+     "evidence_text": "The loan being for a venture and a lower loan-to-income share had mixed effects, but the upward pressure from the first two factors was stronger."
+    },
+    {
+     "feature": "loan_percent_income",
+     "direction": null,
+     "rank": 5,
+     "evidence_text": "The loan being for a venture and a lower loan-to-income share had mixed effects, but the upward pressure from the first two factors was stronger."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "churn",
+  "prompt": "constrained",
+  "case_id": 830,
+  "runs": [
+   [
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- **Contract_Two_year** raised the assessment."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- **InternetService_Fiber_optic** raised the assessment."
+    },
+    {
+     "feature": "tenure",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- **tenure** lowered the assessment."
+    },
+    {
+     "feature": "MonthlyCharges",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- **MonthlyCharges** raised the assessment, and **Contract_One_year** also raised it."
+    },
+    {
+     "feature": "Contract_One_year",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- **MonthlyCharges** raised the assessment, and **Contract_One_year** also raised it."
+    }
+   ],
+   [
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- **Contract_Two_year** raised the assessment."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- **InternetService_Fiber_optic** raised the assessment."
+    },
+    {
+     "feature": "tenure",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- **tenure** lowered the assessment."
+    },
+    {
+     "feature": "MonthlyCharges",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- **MonthlyCharges** raised the assessment, and **Contract_One_year** also raised it."
+    },
+    {
+     "feature": "Contract_One_year",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- **MonthlyCharges** raised the assessment, and **Contract_One_year** also raised it."
+    }
+   ],
+   [
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- **Contract_Two_year** raised the assessment."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- **InternetService_Fiber_optic** raised the assessment."
+    },
+    {
+     "feature": "tenure",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- **tenure** lowered the assessment."
+    },
+    {
+     "feature": "MonthlyCharges",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- **MonthlyCharges** raised the assessment, and **Contract_One_year** also raised it."
+    },
+    {
+     "feature": "Contract_One_year",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- **MonthlyCharges** raised the assessment, and **Contract_One_year** also raised it."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "credit",
+  "prompt": "basic",
+  "case_id": 4942,
+  "runs": [
+   [
+    {
+     "feature": "loan_grade_D",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "The main reason is the applicant’s **loan grade**: grades **D, E, and F** pushed the risk estimate down the most."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "The main reason is the applicant’s **loan grade**: grades **D, E, and F** pushed the risk estimate down the most."
+    },
+    {
+     "feature": "loan_grade_F",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "The main reason is the applicant’s **loan grade**: grades **D, E, and F** pushed the risk estimate down the most."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "Their **home situation** also mattered: **renting** lowered the risk estimate, while **owning a home** pushed it up a little."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "Their **home situation** also mattered: **renting** lowered the risk estimate, while **owning a home** pushed it up a little."
+    }
+   ],
+   [
+    {
+     "feature": "loan_grade_D",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "- The main reason is the applicant’s **loan grade**: grades **D, E, and F** pushed the risk estimate down the most."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "- The main reason is the applicant’s **loan grade**: grades **D, E, and F** pushed the risk estimate down the most."
+    },
+    {
+     "feature": "loan_grade_F",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- The main reason is the applicant’s **loan grade**: grades **D, E, and F** pushed the risk estimate down the most."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "- Their **home situation** also mattered: **renting** lowered the risk estimate, while **owning a home** pushed it up a little."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- Their **home situation** also mattered: **renting** lowered the risk estimate, while **owning a home** pushed it up a little."
+    }
+   ],
+   [
+    {
+     "feature": "loan_grade_D",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "The main reason is the applicant’s **loan grade**: grades **D, E, and F** pushed the risk estimate down the most."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "The main reason is the applicant’s **loan grade**: grades **D, E, and F** pushed the risk estimate down the most."
+    },
+    {
+     "feature": "loan_grade_F",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "The main reason is the applicant’s **loan grade**: grades **D, E, and F** pushed the risk estimate down the most."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "Their **home situation** also mattered: **renting** lowered the risk estimate, while **owning a home** pushed it up a little."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "Their **home situation** also mattered: **renting** lowered the risk estimate, while **owning a home** pushed it up a little."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "churn",
+  "prompt": "basic",
+  "case_id": 1403,
+  "runs": [
+   [
+    {
+     "feature": "tenure",
+     "direction": null,
+     "rank": 1,
+     "evidence_text": "- The biggest reason is **tenure**: the customer has been with the service long enough to meaningfully affect the result."
+    },
+    {
+     "feature": "TotalCharges",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- **TotalCharges** also pushed the result upward, meaning the amount billed so far added to the churn concern."
+    },
+    {
+     "feature": "MonthlyCharges",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- **MonthlyCharges** pushed the result down, so the current monthly cost reduced the likelihood somewhat."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "- **Fiber optic internet** and **paperless billing** also lowered the concern a bit."
+    },
+    {
+     "feature": "PaperlessBilling_Yes",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "- **Fiber optic internet** and **paperless billing** also lowered the concern a bit."
+    }
+   ],
+   [
+    {
+     "feature": "tenure",
+     "direction": null,
+     "rank": 1,
+     "evidence_text": "- The biggest reason is **tenure**: the customer has been with the service long enough to meaningfully affect the result."
+    },
+    {
+     "feature": "TotalCharges",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- **TotalCharges** also pushed the result upward, meaning the amount billed so far added to the churn concern."
+    },
+    {
+     "feature": "MonthlyCharges",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- **MonthlyCharges** pushed the result down, so the current monthly cost reduced the likelihood somewhat."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "- **Fiber optic internet** and **paperless billing** also lowered the concern a bit."
+    },
+    {
+     "feature": "PaperlessBilling_Yes",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "- **Fiber optic internet** and **paperless billing** also lowered the concern a bit."
+    }
+   ],
+   [
+    {
+     "feature": "tenure",
+     "direction": null,
+     "rank": 1,
+     "evidence_text": "- The biggest reason is **tenure**: the customer has been with the service long enough to meaningfully affect the result."
+    },
+    {
+     "feature": "TotalCharges",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- **TotalCharges** also pushed the result upward, meaning the amount billed so far added to the churn concern."
+    },
+    {
+     "feature": "MonthlyCharges",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- **MonthlyCharges** pushed the result down, so the current monthly cost reduced the likelihood somewhat."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "- **Fiber optic internet** and **paperless billing** also lowered the concern a bit."
+    },
+    {
+     "feature": "PaperlessBilling_Yes",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "- **Fiber optic internet** and **paperless billing** also lowered the concern a bit."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "credit",
+  "prompt": "basic",
+  "case_id": 5410,
+  "runs": [
+   [
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "The biggest reason is **housing situation**: renting home ownership tended to **reduce the risk** in this case."
+    },
+    {
+     "feature": "loan_percent_income",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "A **larger loan compared with income** pushed the risk **up** somewhat."
+    },
+    {
+     "feature": "loan_int_rate",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "The **interest rate**, the loan being for a **venture**, and **higher income** all helped **bring the risk down**."
+    },
+    {
+     "feature": "loan_intent_VENTURE",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "The **interest rate**, the loan being for a **venture**, and **higher income** all helped **bring the risk down**."
+    },
+    {
+     "feature": "person_income",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "The **interest rate**, the loan being for a **venture**, and **higher income** all helped **bring the risk down**."
+    }
+   ],
+   [
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason is **housing situation**: renting home ownership tended to **reduce the risk** in this case."
+    },
+    {
+     "feature": "loan_percent_income",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- A **larger loan compared with income** pushed the risk **up** somewhat."
+    },
+    {
+     "feature": "loan_int_rate",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- The **interest rate**, the loan being for a **venture**, and **higher income** all helped **bring the risk down**."
+    },
+    {
+     "feature": "loan_intent_VENTURE",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "- The **interest rate**, the loan being for a **venture**, and **higher income** all helped **bring the risk down**."
+    },
+    {
+     "feature": "person_income",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "- The **interest rate**, the loan being for a **venture**, and **higher income** all helped **bring the risk down**."
+    }
+   ],
+   [
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "The biggest reason is **housing situation**: renting home ownership tended to **reduce the risk** in this case."
+    },
+    {
+     "feature": "loan_percent_income",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "A **larger loan compared with income** pushed the risk **up** somewhat."
+    },
+    {
+     "feature": "loan_int_rate",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "The **interest rate**, the loan being for a **venture**, and **higher income** all helped **bring the risk down**."
+    },
+    {
+     "feature": "loan_intent_VENTURE",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "The **interest rate**, the loan being for a **venture**, and **higher income** all helped **bring the risk down**."
+    },
+    {
+     "feature": "person_income",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "The **interest rate**, the loan being for a **venture**, and **higher income** all helped **bring the risk down**."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "credit",
+  "prompt": "constrained",
+  "case_id": 8552,
+  "runs": [
+   [
+    {
+     "feature": "loan_grade_G",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "- **loan_grade_G** lowered the assessment."
+    },
+    {
+     "feature": "loan_grade_D",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "- **loan_grade_D** lowered the assessment."
+    },
+    {
+     "feature": "loan_percent_income",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- **loan_percent_income** raised the assessment."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- **person_home_ownership_OWN** raised the assessment."
+    },
+    {
+     "feature": "loan_grade_F",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "- **loan_grade_F** lowered the assessment."
+    }
+   ],
+   [
+    {
+     "feature": "loan_grade_G",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "- **loan_grade_G** lowered the assessment."
+    },
+    {
+     "feature": "loan_grade_D",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "- **loan_grade_D** lowered the assessment."
+    },
+    {
+     "feature": "loan_percent_income",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- **loan_percent_income** raised the assessment."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- **person_home_ownership_OWN** raised the assessment."
+    },
+    {
+     "feature": "loan_grade_F",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "- **loan_grade_F** lowered the assessment."
+    }
+   ],
+   [
+    {
+     "feature": "loan_grade_G",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "- **loan_grade_G** lowered the assessment."
+    },
+    {
+     "feature": "loan_grade_D",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "- **loan_grade_D** lowered the assessment."
+    },
+    {
+     "feature": "loan_percent_income",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- **loan_percent_income** raised the assessment."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- **person_home_ownership_OWN** raised the assessment."
+    },
+    {
+     "feature": "loan_grade_F",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "- **loan_grade_F** lowered the assessment."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "churn",
+  "prompt": "verification",
+  "case_id": 1589,
+  "runs": [
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest factor was tenure, which pushed the risk up."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- Fiber optic internet also pushed the risk up."
+    },
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- Having a two-year contract raised the risk, and one-year contract also raised it."
+    },
+    {
+     "feature": "Contract_One_year",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- Having a two-year contract raised the risk, and one-year contract also raised it."
+    },
+    {
+     "feature": "TotalCharges",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- Total charges influenced the result too, and it also pushed the risk up."
+    }
+   ],
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "The biggest factor was tenure, which pushed the risk up."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "Fiber optic internet also pushed the risk up."
+    },
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "Having a two-year contract raised the risk, and one-year contract also raised it."
+    },
+    {
+     "feature": "Contract_One_year",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "Having a two-year contract raised the risk, and one-year contract also raised it."
+    },
+    {
+     "feature": "TotalCharges",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "Total charges influenced the result too, and it also pushed the risk up."
+    }
+   ],
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest factor was tenure, which pushed the risk up."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- Fiber optic internet also pushed the risk up."
+    },
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- Having a two-year contract raised the risk, and one-year contract also raised it."
+    },
+    {
+     "feature": "Contract_One_year",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- Having a two-year contract raised the risk, and one-year contract also raised it."
+    },
+    {
+     "feature": "TotalCharges",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- Total charges influenced the result too, and it also pushed the risk up."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "credit",
+  "prompt": "constrained",
+  "case_id": 7192,
+  "runs": [
+   [
+    {
+     "feature": "loan_grade_G",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "- **loan_grade_G** lowered the assessment."
+    },
+    {
+     "feature": "loan_grade_D",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "- **loan_grade_D** lowered the assessment."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- **person_home_ownership_OWN** raised the assessment."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "- **loan_grade_E** lowered the assessment."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- **person_home_ownership_RENT** raised the assessment."
+    }
+   ],
+   [
+    {
+     "feature": "loan_grade_G",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "- **loan_grade_G** lowered the assessment."
+    },
+    {
+     "feature": "loan_grade_D",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "- **loan_grade_D** lowered the assessment."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- **person_home_ownership_OWN** raised the assessment."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "- **loan_grade_E** lowered the assessment."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- **person_home_ownership_RENT** raised the assessment."
+    }
+   ],
+   [
+    {
+     "feature": "loan_grade_G",
+     "direction": "decreases",
+     "rank": 1,
+     "evidence_text": "**loan_grade_G** lowered the assessment."
+    },
+    {
+     "feature": "loan_grade_D",
+     "direction": "decreases",
+     "rank": 2,
+     "evidence_text": "**loan_grade_D** lowered the assessment."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "**person_home_ownership_OWN** raised the assessment."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "**loan_grade_E** lowered the assessment."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "**person_home_ownership_RENT** raised the assessment."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "credit",
+  "prompt": "basic",
+  "case_id": 3714,
+  "runs": [
+   [
+    {
+     "feature": "loan_grade_D",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "The biggest reason is that the loan is in grade D, which pushed the risk up."
+    },
+    {
+     "feature": "loan_int_rate",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "A high interest rate also pushed the risk up."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "The D, E, F, and G grade signals are all part of the decision, with D increasing risk the most and the others partly offsetting it."
+    },
+    {
+     "feature": "loan_grade_F",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "The D, E, F, and G grade signals are all part of the decision, with D increasing risk the most and the others partly offsetting it."
+    },
+    {
+     "feature": "loan_grade_G",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "The D, E, F, and G grade signals are all part of the decision, with D increasing risk the most and the others partly offsetting it."
+    }
+   ],
+   [
+    {
+     "feature": "loan_grade_D",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "The biggest reason is that the loan is in grade D, which pushed the risk up."
+    },
+    {
+     "feature": "loan_int_rate",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "A high interest rate also pushed the risk up."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "The D, E, F, and G grade signals are all part of the decision, with D increasing risk the most and the others partly offsetting it."
+    },
+    {
+     "feature": "loan_grade_F",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "The D, E, F, and G grade signals are all part of the decision, with D increasing risk the most and the others partly offsetting it."
+    },
+    {
+     "feature": "loan_grade_G",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "The D, E, F, and G grade signals are all part of the decision, with D increasing risk the most and the others partly offsetting it."
+    }
+   ],
+   [
+    {
+     "feature": "loan_grade_D",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "The biggest reason is that the loan is in grade D, which pushed the risk up."
+    },
+    {
+     "feature": "loan_int_rate",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "A high interest rate also pushed the risk up."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "The D, E, F, and G grade signals are all part of the decision, with D increasing risk the most and the others partly offsetting it."
+    },
+    {
+     "feature": "loan_grade_F",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "The D, E, F, and G grade signals are all part of the decision, with D increasing risk the most and the others partly offsetting it."
+    },
+    {
+     "feature": "loan_grade_G",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "The D, E, F, and G grade signals are all part of the decision, with D increasing risk the most and the others partly offsetting it."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "credit",
+  "prompt": "constrained",
+  "case_id": 6336,
+  "runs": [
+   [
+    {
+     "feature": "loan_grade_D",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- **loan_grade_D** raised the assessment."
+    },
+    {
+     "feature": "loan_int_rate",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- **loan_int_rate** also raised the assessment."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- **loan_grade_E** lowered the assessment, and **loan_grade_F** lowered it too."
+    },
+    {
+     "feature": "loan_grade_F",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "- **loan_grade_E** lowered the assessment, and **loan_grade_F** lowered it too."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- **person_home_ownership_OWN** raised the assessment."
+    }
+   ],
+   [
+    {
+     "feature": "loan_grade_D",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- **loan_grade_D** raised the assessment."
+    },
+    {
+     "feature": "loan_int_rate",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- **loan_int_rate** also raised the assessment."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- **loan_grade_E** lowered the assessment, and **loan_grade_F** lowered it too."
+    },
+    {
+     "feature": "loan_grade_F",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "- **loan_grade_E** lowered the assessment, and **loan_grade_F** lowered it too."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- **person_home_ownership_OWN** raised the assessment."
+    }
+   ],
+   [
+    {
+     "feature": "loan_grade_D",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- **loan_grade_D** raised the assessment."
+    },
+    {
+     "feature": "loan_int_rate",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- **loan_int_rate** also raised the assessment."
+    },
+    {
+     "feature": "loan_grade_E",
+     "direction": "decreases",
+     "rank": 3,
+     "evidence_text": "- **loan_grade_E** lowered the assessment, and **loan_grade_F** lowered it too."
+    },
+    {
+     "feature": "loan_grade_F",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "- **loan_grade_E** lowered the assessment, and **loan_grade_F** lowered it too."
+    },
+    {
+     "feature": "person_home_ownership_OWN",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- **person_home_ownership_OWN** raised the assessment."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "churn",
+  "prompt": "basic",
+  "case_id": 1403,
+  "runs": [
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "The biggest reason pushing the assessment up was **tenure**: the customer’s time with the service increased the chance of leaving."
+    },
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "**Two-year contract** and **one-year contract** also pushed the assessment up, which suggests the contract pattern here was linked with higher risk."
+    },
+    {
+     "feature": "Contract_One_year",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "**Two-year contract** and **one-year contract** also pushed the assessment up, which suggests the contract pattern here was linked with higher risk."
+    },
+    {
+     "feature": "TotalCharges",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "**Total charges** added to the risk as well, meaning the overall billing history was a factor."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "One factor, **fiber-optic internet service**, pulled the assessment down a bit, slightly offsetting the higher-risk signals."
+    }
+   ],
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason pushing the assessment up was **tenure**: the customer’s time with the service increased the chance of leaving."
+    },
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- **Two-year contract** and **one-year contract** also pushed the assessment up, which suggests the contract pattern here was linked with higher risk."
+    },
+    {
+     "feature": "Contract_One_year",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- **Two-year contract** and **one-year contract** also pushed the assessment up, which suggests the contract pattern here was linked with higher risk."
+    },
+    {
+     "feature": "TotalCharges",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- **Total charges** added to the risk as well, meaning the overall billing history was a factor."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "- One factor, **fiber-optic internet service**, pulled the assessment down a bit, slightly offsetting the higher-risk signals."
+    }
+   ],
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason pushing the assessment up was **tenure**: the customer’s time with the service increased the chance of leaving."
+    },
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- **Two-year contract** and **one-year contract** also pushed the assessment up, which suggests the contract pattern here was linked with higher risk."
+    },
+    {
+     "feature": "Contract_One_year",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- **Two-year contract** and **one-year contract** also pushed the assessment up, which suggests the contract pattern here was linked with higher risk."
+    },
+    {
+     "feature": "TotalCharges",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- **Total charges** added to the risk as well, meaning the overall billing history was a factor."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "- One factor, **fiber-optic internet service**, pulled the assessment down a bit, slightly offsetting the higher-risk signals."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "churn",
+  "prompt": "basic",
+  "case_id": 1861,
+  "runs": [
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "The biggest reason is short service history: newer subscribers are often less settled and more likely to cancel."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "Using fiber-optic internet added more pressure toward leaving, compared with other service types."
+    },
+    {
+     "feature": "TotalCharges",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "Total charges also contributed somewhat, but it was a smaller factor than the contract and service history."
+    }
+   ],
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason is short service history: newer subscribers are often less settled and more likely to cancel."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- Using fiber-optic internet added more pressure toward leaving, compared with other service types."
+    },
+    {
+     "feature": "TotalCharges",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- Total charges also contributed somewhat, but it was a smaller factor than the contract and service history."
+    }
+   ],
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "The biggest reason is short service history: newer subscribers are often less settled and more likely to cancel."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "Using fiber-optic internet added more pressure toward leaving, compared with other service types."
+    },
+    {
+     "feature": "TotalCharges",
+     "direction": null,
+     "rank": 3,
+     "evidence_text": "Total charges also contributed somewhat, but it was a smaller factor than the contract and service history."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "churn",
+  "prompt": "basic",
+  "case_id": 1648,
+  "runs": [
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason is **tenure**: their time with the service strongly pushed the prediction up."
+    },
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- Their **contract type** also mattered a lot, especially a **two-year contract**, which increased the likelihood in this case."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- **Fiber optic internet service** was another strong factor raising the chance they may leave."
+    },
+    {
+     "feature": "SeniorCitizen",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- Being a **senior citizen** also added a smaller push toward leaving."
+    }
+   ],
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "The biggest reason is **tenure**: their time with the service strongly pushed the prediction up."
+    },
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "Their **contract type** also mattered a lot, especially a **two-year contract**, which increased the likelihood in this case."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "**Fiber optic internet service** was another strong factor raising the chance they may leave."
+    },
+    {
+     "feature": "SeniorCitizen",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "Being a **senior citizen** also added a smaller push toward leaving."
+    }
+   ],
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason is **tenure**: their time with the service strongly pushed the prediction up."
+    },
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- Their **contract type** also mattered a lot, especially a **two-year contract**, which increased the likelihood in this case."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- **Fiber optic internet service** was another strong factor raising the chance they may leave."
+    },
+    {
+     "feature": "SeniorCitizen",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- Being a **senior citizen** also added a smaller push toward leaving."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "churn",
+  "prompt": "basic",
+  "case_id": 1403,
+  "runs": [
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason is **tenure**: how long they’ve been a customer pushed the result up the most."
+    },
+    {
+     "feature": "TotalCharges",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- **Total charges** and being on a **two-year contract** also pushed the result up."
+    },
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- **Total charges** and being on a **two-year contract** also pushed the result up."
+    },
+    {
+     "feature": "MonthlyCharges",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "- On the other hand, **monthly charges** helped lower the likelihood a bit."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "- Having **fiber-optic internet** also slightly lowered the likelihood."
+    }
+   ],
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason is **tenure**: how long they’ve been a customer pushed the result up the most."
+    },
+    {
+     "feature": "TotalCharges",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- **Total charges** and being on a **two-year contract** also pushed the result up."
+    },
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- **Total charges** and being on a **two-year contract** also pushed the result up."
+    },
+    {
+     "feature": "MonthlyCharges",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "- On the other hand, **monthly charges** helped lower the likelihood a bit."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "- Having **fiber-optic internet** also slightly lowered the likelihood."
+    }
+   ],
+   [
+    {
+     "feature": "tenure",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason is **tenure**: how long they’ve been a customer pushed the result up the most."
+    },
+    {
+     "feature": "TotalCharges",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- **Total charges** and being on a **two-year contract** also pushed the result up."
+    },
+    {
+     "feature": "Contract_Two_year",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- **Total charges** and being on a **two-year contract** also pushed the result up."
+    },
+    {
+     "feature": "MonthlyCharges",
+     "direction": "decreases",
+     "rank": 4,
+     "evidence_text": "- On the other hand, **monthly charges** helped lower the likelihood a bit."
+    },
+    {
+     "feature": "InternetService_Fiber_optic",
+     "direction": "decreases",
+     "rank": 5,
+     "evidence_text": "- Having **fiber-optic internet** also slightly lowered the likelihood."
+    }
+   ]
+  ]
+ },
+ {
+  "domain": "credit",
+  "prompt": "basic",
+  "case_id": 6125,
+  "runs": [
+   [
+    {
+     "feature": "loan_percent_income",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "The biggest reason is that the **loan amount is large compared with the applicant’s income**."
+    },
+    {
+     "feature": "loan_int_rate",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "A **higher interest rate** also pushed the risk up, suggesting the loan may be harder to manage."
+    },
+    {
+     "feature": "loan_grade_D",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "The applicant’s **D-grade loan rating** and **renting their home** also increased the risk."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "The applicant’s **D-grade loan rating** and **renting their home** also increased the risk."
+    },
+    {
+     "feature": "person_income",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "**Lower income** added to the concern as well, since it may make repayment more difficult."
+    }
+   ],
+   [
+    {
+     "feature": "loan_percent_income",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "- The biggest reason is that the **loan amount is large compared with the applicant’s income**."
+    },
+    {
+     "feature": "loan_int_rate",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "- A **higher interest rate** also pushed the risk up, suggesting the loan may be harder to manage."
+    },
+    {
+     "feature": "loan_grade_D",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "- The applicant’s **D-grade loan rating** and **renting their home** also increased the risk."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "- The applicant’s **D-grade loan rating** and **renting their home** also increased the risk."
+    },
+    {
+     "feature": "person_income",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "- **Lower income** added to the concern as well, since it may make repayment more difficult."
+    }
+   ],
+   [
+    {
+     "feature": "loan_percent_income",
+     "direction": "increases",
+     "rank": 1,
+     "evidence_text": "The biggest reason is that the **loan amount is large compared with the applicant’s income**."
+    },
+    {
+     "feature": "loan_int_rate",
+     "direction": "increases",
+     "rank": 2,
+     "evidence_text": "A **higher interest rate** also pushed the risk up, suggesting the loan may be harder to manage."
+    },
+    {
+     "feature": "loan_grade_D",
+     "direction": "increases",
+     "rank": 3,
+     "evidence_text": "The applicant’s **D-grade loan rating** and **renting their home** also increased the risk."
+    },
+    {
+     "feature": "person_home_ownership_RENT",
+     "direction": "increases",
+     "rank": 4,
+     "evidence_text": "The applicant’s **D-grade loan rating** and **renting their home** also increased the risk."
+    },
+    {
+     "feature": "person_income",
+     "direction": "increases",
+     "rank": 5,
+     "evidence_text": "**Lower income** added to the concern as well, since it may make repayment more difficult."
+    }
+   ]
+  ]
+ }
+]

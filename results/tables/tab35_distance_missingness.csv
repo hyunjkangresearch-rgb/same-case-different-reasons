@@ -1,0 +1,22 @@
+﻿Block,Contrast,N pairs,Feature undefined,Direction undefined,Rank undefined
+A,model_change,16200,0.0001,0.0201,0.264
+A,multi_change,16200,0.0,0.227,0.9551
+A,repeat,5400,0.0002,0.0039,0.1422
+A,xai_change,8100,0.0,0.1756,0.9572
+A_prime,model_change,16200,0.0,0.0021,0.2345
+A_prime,multi_change,16200,0.0,0.0041,0.3757
+A_prime,repeat,5400,0.0,0.0013,0.0869
+A_prime,xai_change,8100,0.0,0.0054,0.3157
+B,llm_change,24300,0.0,0.0035,0.0019
+B,multi_change,48600,0.0,0.0035,0.0017
+B,prompt_change,24300,0.0,0.0035,0.0017
+B,repeat,8100,0.0,0.0035,0.0017
+C,llm_change,7200,0.0,0.0088,0.1165
+C,model_change,7200,0.0,0.0281,0.2278
+C,multi_change,43200,0.0,0.1498,0.7084
+C,repeat,1800,0.0,0.0094,0.1106
+C,xai_change,3600,0.0,0.1711,0.9433
+D,llm_change,72000,0.0,0.0057,0.0048
+D,repeat,34200,0.0001,0.0058,0.0038
+D0,llm_change,72000,0.0,0.0028,0.0035
+D0,repeat,34200,0.0,0.0027,0.0036

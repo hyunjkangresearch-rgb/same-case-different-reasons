@@ -1,0 +1,4 @@
+﻿Metric,Baseline tau=1.0,CI tau=1.0,Baseline tau=0,CI tau=0,Reduction,CI low,CI high,N cases,Residual instability at tau=0,Excludes zero
+Feature distance,0.0486,"[0.0399, 0.0575]",0.0378,"[0.0296, 0.0464]",0.0108,0.0059,0.0161,60,0.0378,True
+Direction distance,0.0136,"[0.0064, 0.0222]",0.0122,"[0.0041, 0.0229]",0.0014,-0.0046,0.0071,60,0.0122,False
+Rank distance,0.0692,"[0.0513, 0.0883]",0.0549,"[0.0408, 0.0715]",0.0143,0.0057,0.0233,60,0.0549,True

@@ -1,0 +1,5 @@
+﻿Block,Specification,Residual variance,ICC case,N claims
+A,feature + model + xai,0.141421,0.0,23926
+B,feature + llm + prompt,0.156309,0.0,39492
+D,feature,0.17046,0.0,17129
+D0,feature,0.169181,0.0,17168

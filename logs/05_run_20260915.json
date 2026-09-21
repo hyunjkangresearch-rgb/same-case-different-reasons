@@ -1,0 +1,82 @@
+{
+  "approach": "llm_only",
+  "extractor_model": "gpt-5.6-terra",
+  "n_coded_records": 300,
+  "n_gold_claims": 1426,
+  "n_excluded_unadjudicated": 2,
+  "inter_coder": [
+    {
+      "Level": "Feature",
+      "Cohen's kappa": 0.982,
+      "N units": 3600
+    },
+    {
+      "Level": "Direction",
+      "Cohen's kappa": 0.9985,
+      "N units": 1412
+    },
+    {
+      "Level": "Rank",
+      "Cohen's kappa": 0.9764,
+      "N units": 1420
+    }
+  ],
+  "extractor": {
+    "Extractor": "gpt-5.6-terra",
+    "Feature precision": 0.9979,
+    "Feature recall": 0.9923,
+    "Feature F1": 0.9951,
+    "Feature kappa": 0.9919,
+    "Direction accuracy": 1.0,
+    "Direction kappa": 1.0,
+    "Rank kappa": 0.9951,
+    "Rank tau": 0.9909,
+    "N feature units": 3600,
+    "N direction units": 1407,
+    "N rank units": 1415
+  },
+  "gates": [
+    {
+      "Metric": "Feature kappa",
+      "Observed": 0.9919,
+      "Coder ceiling": 0.982,
+      "Threshold": 0.8,
+      "Met": true,
+      "Action if unmet": "Revise the extractor prompt or allowed-feature list in 04"
+    },
+    {
+      "Metric": "Direction kappa",
+      "Observed": 1.0,
+      "Coder ceiling": 0.9985,
+      "Threshold": 0.8,
+      "Met": true,
+      "Action if unmet": "Sharpen the direction definition in the extractor prompt"
+    },
+    {
+      "Metric": "Rank kappa",
+      "Observed": 0.9951,
+      "Coder ceiling": 0.9764,
+      "Threshold": 0.7,
+      "Met": true,
+      "Action if unmet": "Retain rank as an appendix-only secondary metric"
+    }
+  ],
+  "proceed": true,
+  "rank_primary": true,
+  "measurement_error": {
+    "feature_fnr": 0.0077,
+    "feature_fpr_proxy": 0.0021,
+    "direction_error_rate": 0.0
+  },
+  "extractor_self_stability": {
+    "N narratives": 50,
+    "Runs each": 3,
+    "Identical across runs": 0.58,
+    "Feature Jaccard": 1.0,
+    "Direction agreement": 1.0
+  },
+  "condition_spread": {
+    "feature_kappa": 0.0249,
+    "direction_accuracy": 0.0
+  }
+}

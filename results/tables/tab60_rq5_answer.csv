@@ -1,0 +1,9 @@
+﻿Quantity,Value
+question,Do existing quality metrics detect content variability?
+judge_agreement_overall,0.2094
+median_correlation_distance_quality,0.0401
+median_correlation_distance_accuracy,0.021
+blind_spot_share,0.057
+direction_conflict_among_high_quality,0.0173
+quality_drop_across_distance_quartiles,0.0421
+judge_accuracy_vs_measured_fidelity,0.1112

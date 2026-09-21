@@ -1,0 +1,9 @@
+﻿Block,Specification,Added factor,Residual variance,Variance explained,ICC case
+A,case only,-,0.161734,0.0,0.0
+A,C(feature),feature,0.123022,0.2394,0.0
+A,C(feature) + C(model),model,0.123013,0.0001,0.0
+A,C(feature) + C(model) + C(xai),xai,0.12298,0.0003,0.0
+B,case only,-,0.172908,0.0,0.0
+B,C(feature),feature,0.103717,0.4002,0.0
+B,C(feature) + C(llm),llm,0.10374,-0.0002,0.0
+B,C(feature) + C(llm) + C(prompt),prompt,0.103694,0.0005,0.0

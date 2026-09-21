@@ -1,0 +1,31 @@
+{
+  "notebook": "03_attribution",
+  "timestamp": "2026-09-11T14:38:36.314364",
+  "seed": 42,
+  "top_k": 5,
+  "n_cases": {
+    "main": 300,
+    "bridge": 100,
+    "deep": 60
+  },
+  "sampling": {
+    "reference_model": "XGBoost",
+    "threshold": 0.5,
+    "boundary_width": 0.05,
+    "quota": {
+      "boundary": 0.25,
+      "low": 0.375,
+      "high": 0.375
+    }
+  },
+  "lime": {
+    "n_samples": 5000,
+    "seed": 42
+  },
+  "library_versions": {
+    "shap": "0.51.0",
+    "numpy": "2.3.5",
+    "pandas": "3.0.5"
+  },
+  "n_evidence_blocks": 3600
+}

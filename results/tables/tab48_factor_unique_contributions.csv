@@ -1,0 +1,5 @@
+﻿Block,Factor,Residual without factor,Residual with factor,Unique contribution
+A,model,0.122988,0.12298,0.0001
+A,xai,0.123013,0.12298,0.0003
+B,llm,0.103697,0.103694,0.0
+B,prompt,0.10374,0.103694,0.0005

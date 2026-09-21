@@ -1,0 +1,137 @@
+{
+  "notebook": "07_generation",
+  "timestamp": "2026-09-16T18:38:59.766553",
+  "design": {
+    "n_cases_main": 300,
+    "n_repeats_main": 3,
+    "n_cases_deep": 60,
+    "n_repeats_deep": 20,
+    "top_k": 5
+  },
+  "llms": {
+    "gpt-5.6-terra": {
+      "vendor": "openai",
+      "api_name": "gpt-5.6-terra",
+      "generation": "5.6",
+      "tier": "mid"
+    },
+    "gpt-5.6-luna": {
+      "vendor": "openai",
+      "api_name": "gpt-5.6-luna",
+      "generation": "5.6",
+      "tier": "budget"
+    },
+    "gpt-5.4-mini": {
+      "vendor": "openai",
+      "api_name": "gpt-5.4-mini",
+      "generation": "5.4",
+      "tier": "budget"
+    }
+  },
+  "reference_conditions": {
+    "llm": "gpt-5.4-mini",
+    "prompt": "basic",
+    "model": "XGBoost",
+    "xai": "SHAP"
+  },
+  "prompt_hashes": {
+    "basic": "54f8220a04f7",
+    "constrained": "a3f8c0d0c2af",
+    "verification": "9731ae8d0177"
+  },
+  "temperature": {
+    "main": 1.0
+  },
+  "seed": {
+    "fixed": 42,
+    "free": null
+  },
+  "max_tokens": 400,
+  "planned_total": 29700,
+  "generated_total": 29700,
+  "completeness": [
+    {
+      "block": "A",
+      "cells": 1800,
+      "planned": 5400,
+      "actual": 5400,
+      "incomplete_cells": 0,
+      "completion_rate": 1.0
+    },
+    {
+      "block": "A_prime",
+      "cells": 1800,
+      "planned": 5400,
+      "actual": 5400,
+      "incomplete_cells": 0,
+      "completion_rate": 1.0
+    },
+    {
+      "block": "B",
+      "cells": 2700,
+      "planned": 8100,
+      "actual": 8100,
+      "incomplete_cells": 0,
+      "completion_rate": 1.0
+    },
+    {
+      "block": "C",
+      "cells": 1800,
+      "planned": 3600,
+      "actual": 3600,
+      "incomplete_cells": 0,
+      "completion_rate": 1.0
+    },
+    {
+      "block": "D",
+      "cells": 180,
+      "planned": 3600,
+      "actual": 3600,
+      "incomplete_cells": 0,
+      "completion_rate": 1.0
+    },
+    {
+      "block": "D0",
+      "cells": 180,
+      "planned": 3600,
+      "actual": 3600,
+      "incomplete_cells": 0,
+      "completion_rate": 1.0
+    }
+  ],
+  "flagged_rate": 0.00114,
+  "token_usage": [
+    {
+      "LLM": "gpt-5.6-terra",
+      "Vendor": "openai",
+      "Generations": 6300,
+      "Input tokens": 1732987,
+      "Output tokens": 623627,
+      "Mean output tokens": 99.0
+    },
+    {
+      "LLM": "gpt-5.6-luna",
+      "Vendor": "openai",
+      "Generations": 6300,
+      "Input tokens": 1732987,
+      "Output tokens": 936436,
+      "Mean output tokens": 148.6
+    },
+    {
+      "LLM": "gpt-5.4-mini",
+      "Vendor": "openai",
+      "Generations": 17100,
+      "Input tokens": 4551172,
+      "Output tokens": 1826254,
+      "Mean output tokens": 106.8
+    },
+    {
+      "LLM": "Total",
+      "Vendor": "",
+      "Generations": 29700,
+      "Input tokens": 8017146,
+      "Output tokens": 3386317,
+      "Mean output tokens": null
+    }
+  ]
+}

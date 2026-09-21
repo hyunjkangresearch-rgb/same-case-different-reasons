@@ -1,0 +1,23 @@
+{
+  "approach": "llm_only",
+  "rationale": "A rule-based parser was trialled and abandoned. One-hot encoded feature names required dataset-specific synonym lists tuned against the pilot, which would have fitted the parser to its own validation data, and its recall remained near one third of supplied drivers. The LLM extractor recovers almost every supplied driver without such tuning.",
+  "top_k": 5,
+  "max_words": 150,
+  "candidate_cap": 40,
+  "prompt_variants": [
+    "basic",
+    "constrained",
+    "verification"
+  ],
+  "prompt_version": "v1",
+  "extractor_model": "gpt-5.6-terra",
+  "extractor_temperature": null,
+  "extractor_system_prompt": "You convert an explanation into structured claims.\n\nRead the explanation and list every factor it mentions as influencing the assessment.\n\nFor each factor return:\n- feature: the exact identifier from the ALLOWED FEATURES list that the factor refers to.\n           Match on meaning, not on wording: a narrative saying \"a two-year contract\"\n           refers to the identifier Contract_Two_year.\n           If the factor matches none of the allowed features, return the literal\n           string OUT_OF_LIST.\n- direction: \"increases\" if the factor pushed the assessment upward,\n             \"decreases\" if it pushed the assessment downward,\n             \"unclear\" if the explanation does not say.\n- rank: the order of first mention, starting at 1.\n- evidence_text: the exact sentence or bullet the factor came from.\n\nRules:\n- Report only factors the explanation actually mentions.\n- Do not infer factors from background knowledge.\n- Direction refers to the effect on the assessment, not to whether the feature\n  value is high or low. \"Low income raised the risk\" is direction=increases.\n- Do not report the same identifier twice.\n- Return JSON only, with no surrounding text or code fences.",
+  "stability": {
+    "N narratives": 50,
+    "Runs each": 3,
+    "Identical across runs": 0.58,
+    "Feature Jaccard": 1.0,
+    "Direction agreement": 1.0
+  }
+}

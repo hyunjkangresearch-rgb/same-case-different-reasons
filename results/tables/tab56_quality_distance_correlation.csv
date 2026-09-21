@@ -1,0 +1,73 @@
+﻿Block,Contrast,Distance metric,Quality measure,Spearman rho,CI low,CI high,N pairs,Excludes zero
+A,multi_change,feature distance,Overall quality,0.1125,0.0623,0.1653,6480,True
+A,multi_change,feature distance,Accuracy,0.0555,0.0105,0.0974,6480,True
+A,multi_change,direction distance,Overall quality,-0.0271,-0.0787,0.0237,4915,False
+A,multi_change,direction distance,Accuracy,0.0254,-0.0256,0.0703,4915,False
+A,multi_change,rank distance,Overall quality,0.1485,-0.051,0.3704,270,False
+A,multi_change,rank distance,Accuracy,0.2352,0.0639,0.4067,270,True
+A,repeat,feature distance,Overall quality,0.0825,0.0356,0.1327,2160,True
+A,repeat,feature distance,Accuracy,0.0378,-0.0094,0.0833,2160,False
+A,repeat,direction distance,Overall quality,0.0431,-0.009,0.0963,2150,False
+A,repeat,direction distance,Accuracy,0.046,-0.0009,0.0933,2150,False
+A,repeat,rank distance,Overall quality,0.0286,-0.0164,0.0749,1858,False
+A,repeat,rank distance,Accuracy,0.0186,-0.0308,0.0676,1858,False
+A,model_change,feature distance,Overall quality,0.1123,0.0704,0.1546,6480,True
+A,model_change,feature distance,Accuracy,0.083,0.0405,0.1263,6480,True
+A,model_change,direction distance,Overall quality,0.0236,-0.0138,0.0597,6378,False
+A,model_change,direction distance,Accuracy,0.0175,-0.0167,0.0497,6378,False
+A,model_change,rank distance,Overall quality,0.063,0.0133,0.1107,4769,True
+A,model_change,rank distance,Accuracy,0.0733,0.0308,0.1144,4769,True
+A,xai_change,feature distance,Overall quality,0.1274,0.0704,0.1844,3240,True
+A,xai_change,feature distance,Accuracy,0.1116,0.0533,0.1644,3240,True
+A,xai_change,direction distance,Overall quality,0.002,-0.0557,0.0596,2593,False
+A,xai_change,direction distance,Accuracy,0.0356,-0.0234,0.0878,2593,False
+A,xai_change,rank distance,Overall quality,-0.1315,-0.352,0.0653,123,False
+A,xai_change,rank distance,Accuracy,-0.1626,-0.4147,0.0836,123,False
+B,multi_change,feature distance,Overall quality,0.0327,-0.0065,0.0728,19440,False
+B,multi_change,feature distance,Accuracy,0.0196,-0.0174,0.0579,19440,False
+B,multi_change,direction distance,Overall quality,0.0402,0.0155,0.0642,19332,True
+B,multi_change,direction distance,Accuracy,0.0321,0.0068,0.0566,19332,True
+B,multi_change,rank distance,Overall quality,-0.0666,-0.1033,-0.0308,19380,True
+B,multi_change,rank distance,Accuracy,-0.0501,-0.0834,-0.0137,19380,True
+B,repeat,feature distance,Overall quality,0.0422,0.0029,0.0836,3240,True
+B,repeat,feature distance,Accuracy,0.001,-0.0352,0.0378,3240,False
+B,repeat,direction distance,Overall quality,0.0401,0.006,0.0705,3222,True
+B,repeat,direction distance,Accuracy,0.0191,-0.0202,0.06,3222,False
+B,repeat,rank distance,Overall quality,-0.0401,-0.0792,0.002,3230,False
+B,repeat,rank distance,Accuracy,-0.0185,-0.0545,0.0191,3230,False
+B,prompt_change,feature distance,Overall quality,0.0221,-0.0128,0.0602,9720,False
+B,prompt_change,feature distance,Accuracy,0.0073,-0.0307,0.0402,9720,False
+B,prompt_change,direction distance,Overall quality,0.0538,0.0302,0.0782,9666,True
+B,prompt_change,direction distance,Accuracy,0.0681,0.0386,0.0963,9666,True
+B,prompt_change,rank distance,Overall quality,-0.0522,-0.0892,-0.0178,9690,True
+B,prompt_change,rank distance,Accuracy,-0.0342,-0.0676,0.003,9690,False
+B,llm_change,feature distance,Overall quality,0.0295,-0.0029,0.063,9720,False
+B,llm_change,feature distance,Accuracy,0.0068,-0.0285,0.0457,9720,False
+B,llm_change,direction distance,Overall quality,0.0363,0.0109,0.0609,9666,True
+B,llm_change,direction distance,Accuracy,0.0224,-0.0054,0.0535,9666,False
+B,llm_change,rank distance,Overall quality,-0.0087,-0.0466,0.0337,9687,False
+B,llm_change,rank distance,Accuracy,0.0024,-0.0326,0.0333,9687,False
+D,llm_change,feature distance,Overall quality,0.0641,0.028,0.0998,72000,True
+D,llm_change,feature distance,Accuracy,0.015,-0.0159,0.044,72000,False
+D,llm_change,direction distance,Overall quality,0.1034,0.0663,0.1349,71592,True
+D,llm_change,direction distance,Accuracy,0.0832,0.0428,0.1166,71592,True
+D,llm_change,rank distance,Overall quality,-0.0471,-0.0992,0.0037,71654,False
+D,llm_change,rank distance,Accuracy,-0.0203,-0.0666,0.0262,71654,False
+D,repeat,feature distance,Overall quality,0.0482,0.0128,0.0828,34198,True
+D,repeat,feature distance,Accuracy,0.0071,-0.0199,0.0311,34198,False
+D,repeat,direction distance,Overall quality,0.0898,0.0545,0.1208,34003,True
+D,repeat,direction distance,Accuracy,0.0695,0.0388,0.0967,34003,True
+D,repeat,rank distance,Overall quality,-0.0098,-0.0584,0.0362,34069,False
+D,repeat,rank distance,Accuracy,0.0176,-0.0192,0.0514,34069,False
+D0,llm_change,feature distance,Overall quality,0.0841,0.0298,0.14,72000,True
+D0,llm_change,feature distance,Accuracy,0.0624,0.0183,0.1138,72000,True
+D0,llm_change,direction distance,Overall quality,0.0438,-0.0053,0.0862,71800,False
+D0,llm_change,direction distance,Accuracy,0.0317,-0.0158,0.0789,71800,False
+D0,llm_change,rank distance,Overall quality,-0.048,-0.102,0.008,71750,False
+D0,llm_change,rank distance,Accuracy,-0.0201,-0.072,0.0344,71750,False
+D0,repeat,feature distance,Overall quality,0.0985,0.0581,0.1353,34199,True
+D0,repeat,feature distance,Accuracy,0.054,0.0229,0.0834,34199,True
+D0,repeat,direction distance,Overall quality,0.0505,0.0052,0.0846,34107,True
+D0,repeat,direction distance,Accuracy,0.0546,0.0156,0.0911,34107,True
+D0,repeat,rank distance,Overall quality,-0.0278,-0.0824,0.0264,34077,False
+D0,repeat,rank distance,Accuracy,0.0072,-0.0284,0.0457,34077,False

@@ -1,0 +1,30 @@
+{
+  "notebook": "06_power_simulation",
+  "timestamp": "2026-09-15T17:06:00.571271",
+  "seed": 42,
+  "n_sim_precision": 100,
+  "n_sim_delta": 100,
+  "bootstrap_b": 1000,
+  "targets": {
+    "baseline_ci_halfwidth": 0.05,
+    "delta_ci_halfwidth": 0.05,
+    "delta_detect": 0.1,
+    "power": 0.8
+  },
+  "planned": {
+    "n_cases_main": 300,
+    "n_repeats_main": 3,
+    "n_cases_deep": 60,
+    "n_repeats_deep": 20,
+    "top_k": 5
+  },
+  "final": {
+    "n_cases_main": 300,
+    "n_repeats_main": 3,
+    "n_cases_deep": 60,
+    "n_repeats_deep": 20,
+    "top_k": 5
+  },
+  "design_adequate": true,
+  "total_generations": 33600
+}

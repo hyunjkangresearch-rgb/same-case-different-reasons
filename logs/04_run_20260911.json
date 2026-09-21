@@ -1,0 +1,77 @@
+{
+  "notebook": "04_claim_parser_dev",
+  "timestamp": "2026-09-11T16:31:02.778936",
+  "seed": 42,
+  "pilot_generator": "gpt-5.4-mini",
+  "pilot_temperature": 1.0,
+  "pilot_blocks": 120,
+  "pilot_narratives": 360,
+  "extractor_model": "gpt-5.6-terra",
+  "claims_extracted": 1711,
+  "drivers_supplied": 1800,
+  "extraction_ratio": 0.9506,
+  "stability": {
+    "N narratives": 50,
+    "Runs each": 3,
+    "Identical across runs": 0.58,
+    "Feature Jaccard": 1.0,
+    "Direction agreement": 1.0
+  },
+  "pilot_fidelity": [
+    {
+      "domain": "churn",
+      "prompt": "basic",
+      "n": 60,
+      "omission": 0.1,
+      "hallucination": 0.0,
+      "direction_agreement": 0.9892,
+      "direction_unresolved": 0.01
+    },
+    {
+      "domain": "churn",
+      "prompt": "constrained",
+      "n": 60,
+      "omission": 0.0,
+      "hallucination": 0.0,
+      "direction_agreement": 1.0,
+      "direction_unresolved": 0.0
+    },
+    {
+      "domain": "churn",
+      "prompt": "verification",
+      "n": 60,
+      "omission": 0.0467,
+      "hallucination": 0.0,
+      "direction_agreement": 1.0,
+      "direction_unresolved": 0.0108
+    },
+    {
+      "domain": "credit",
+      "prompt": "basic",
+      "n": 60,
+      "omission": 0.1233,
+      "hallucination": 0.0,
+      "direction_agreement": 0.9933,
+      "direction_unresolved": 0.0033
+    },
+    {
+      "domain": "credit",
+      "prompt": "constrained",
+      "n": 60,
+      "omission": 0.0,
+      "hallucination": 0.0,
+      "direction_agreement": 1.0,
+      "direction_unresolved": 0.0
+    },
+    {
+      "domain": "credit",
+      "prompt": "verification",
+      "n": 60,
+      "omission": 0.0267,
+      "hallucination": 0.0,
+      "direction_agreement": 1.0,
+      "direction_unresolved": 0.01
+    }
+  ],
+  "manual_coding_n": 300
+}
