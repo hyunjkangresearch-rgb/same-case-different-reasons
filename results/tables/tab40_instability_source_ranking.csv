@@ -1,13 +1,13 @@
 ﻿Metric,Rank,Factor,Block,Delta,CI,Excludes zero
-Feature distance,1,XAI method,A,0.7048,"[0.6917, 0.7182]",True
-Feature distance,2,Model,A,0.325,"[0.3128, 0.3367]",True
-Feature distance,3,Prompt,B,0.0157,"[0.0128, 0.0186]",True
-Feature distance,4,LLM,B,0.0086,"[0.0066, 0.0107]",True
-Direction distance,1,XAI method,A,0.0594,"[0.0387, 0.0801]",True
-Direction distance,2,LLM,B,0.0066,"[0.0035, 0.0105]",True
-Direction distance,3,Prompt,B,0.0062,"[0.0032, 0.0096]",True
-Direction distance,4,Model,A,0.0039,"[0.0005, 0.0079]",True
-Rank distance,1,XAI method,A,0.4957,"[0.3427, 0.6553]",True
-Rank distance,2,Model,A,0.3094,"[0.2848, 0.3359]",True
-Rank distance,3,Prompt,B,0.0534,"[0.0449, 0.0621]",True
-Rank distance,4,LLM,B,0.0321,"[0.0252, 0.0394]",True
+Feature distance,1,XAI method,A,0.7082,"[0.695, 0.7216]",True
+Feature distance,2,Model,A,0.3255,"[0.3135, 0.3371]",True
+Feature distance,3,Prompt,B,0.0203,"[0.0172, 0.0235]",True
+Feature distance,4,LLM,B,0.012,"[0.0098, 0.0142]",True
+Direction distance,1,XAI method,A,0.0575,"[0.037, 0.0793]",True
+Direction distance,2,Model,A,0.004,"[0.0007, 0.0081]",True
+Direction distance,3,LLM,B,0.0003,"[-0.0, 0.0007]",False
+Direction distance,4,Prompt,B,0.0003,"[0.0, 0.0006]",True
+Rank distance,1,XAI method,A,0.4546,"[0.2993, 0.6219]",True
+Rank distance,2,Model,A,0.3002,"[0.2758, 0.3265]",True
+Rank distance,3,Prompt,B,0.0663,"[0.0562, 0.0769]",True
+Rank distance,4,LLM,B,0.0383,"[0.0312, 0.0455]",True

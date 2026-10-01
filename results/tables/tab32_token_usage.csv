@@ -1,0 +1,5 @@
+﻿LLM,Vendor,Generations,Input tokens,Output tokens,Mean output tokens
+gpt-5.6-terra,openai,6300,1732987,626599,99.5
+gpt-5.6-luna,openai,6300,1732987,726460,115.3
+gpt-5.4-mini,openai,17100,4551172,1828040,106.9
+Total,,29700,8017146,3181099,

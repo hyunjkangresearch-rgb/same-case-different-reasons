@@ -1,0 +1,1762 @@
+{
+  "notebook": "12_fidelity_analysis",
+  "timestamp": "2026-10-01T09:15:22.677373",
+  "seed": 42,
+  "bootstrap_draws": 2000,
+  "fidelity_block": "B",
+  "fidelity_with_intervals": [
+    {
+      "LLM": "gpt-5.4-mini",
+      "Prompt": "basic",
+      "N generations": 900,
+      "Omission": 0.09133,
+      "Omission CI": "[0.0816, 0.1007]",
+      "Hallucination": 0.00133,
+      "Hallucination CI": "[0.0004, 0.0024]",
+      "Direction agreement": 0.99644,
+      "Direction agreement CI": "[0.9942, 0.9983]"
+    },
+    {
+      "LLM": "gpt-5.4-mini",
+      "Prompt": "constrained",
+      "N generations": 900,
+      "Omission": 0.00133,
+      "Omission CI": "[0.0000, 0.0033]",
+      "Hallucination": 0.0,
+      "Hallucination CI": "[0.0000, 0.0000]",
+      "Direction agreement": 0.99978,
+      "Direction agreement CI": "[0.9993, 1.0000]"
+    },
+    {
+      "LLM": "gpt-5.4-mini",
+      "Prompt": "verification",
+      "N generations": 900,
+      "Omission": 0.03756,
+      "Omission CI": "[0.0311, 0.0442]",
+      "Hallucination": 0.0,
+      "Hallucination CI": "[0.0000, 0.0000]",
+      "Direction agreement": 0.99911,
+      "Direction agreement CI": "[0.9982, 0.9998]"
+    },
+    {
+      "LLM": "gpt-5.6-luna",
+      "Prompt": "basic",
+      "N generations": 900,
+      "Omission": 0.03089,
+      "Omission CI": "[0.0244, 0.0378]",
+      "Hallucination": 0.00022,
+      "Hallucination CI": "[0.0000, 0.0007]",
+      "Direction agreement": 0.99856,
+      "Direction agreement CI": "[0.9971, 0.9998]"
+    },
+    {
+      "LLM": "gpt-5.6-luna",
+      "Prompt": "constrained",
+      "N generations": 900,
+      "Omission": 0.0,
+      "Omission CI": "[0.0000, 0.0000]",
+      "Hallucination": 0.0,
+      "Hallucination CI": "[0.0000, 0.0000]",
+      "Direction agreement": 1.0,
+      "Direction agreement CI": "[1.0000, 1.0000]"
+    },
+    {
+      "LLM": "gpt-5.6-luna",
+      "Prompt": "verification",
+      "N generations": 900,
+      "Omission": 0.00844,
+      "Omission CI": "[0.0053, 0.0118]",
+      "Hallucination": 0.0,
+      "Hallucination CI": "[0.0000, 0.0000]",
+      "Direction agreement": 0.99889,
+      "Direction agreement CI": "[0.9971, 1.0000]"
+    },
+    {
+      "LLM": "gpt-5.6-terra",
+      "Prompt": "basic",
+      "N generations": 900,
+      "Omission": 0.05978,
+      "Omission CI": "[0.0511, 0.0687]",
+      "Hallucination": 0.00074,
+      "Hallucination CI": "[0.0000, 0.0017]",
+      "Direction agreement": 0.99978,
+      "Direction agreement CI": "[0.9993, 1.0000]"
+    },
+    {
+      "LLM": "gpt-5.6-terra",
+      "Prompt": "constrained",
+      "N generations": 900,
+      "Omission": 0.0,
+      "Omission CI": "[0.0000, 0.0000]",
+      "Hallucination": 0.0,
+      "Hallucination CI": "[0.0000, 0.0000]",
+      "Direction agreement": 1.0,
+      "Direction agreement CI": "[1.0000, 1.0000]"
+    },
+    {
+      "LLM": "gpt-5.6-terra",
+      "Prompt": "verification",
+      "N generations": 900,
+      "Omission": 0.018,
+      "Omission CI": "[0.0133, 0.0227]",
+      "Hallucination": 0.0,
+      "Hallucination CI": "[0.0000, 0.0000]",
+      "Direction agreement": 0.99978,
+      "Direction agreement CI": "[0.9993, 1.0000]"
+    }
+  ],
+  "prompt_contrasts": [
+    {
+      "LLM": "gpt-5.4-mini",
+      "Contrast": "basic - constrained",
+      "Metric": "Omission",
+      "Difference": 0.09,
+      "CI low": 0.07977,
+      "CI high": 0.10001,
+      "N cases": 300,
+      "Excludes zero": true
+    },
+    {
+      "LLM": "gpt-5.4-mini",
+      "Contrast": "basic - constrained",
+      "Metric": "Hallucination",
+      "Difference": 0.00133,
+      "CI low": 0.00044,
+      "CI high": 0.00244,
+      "N cases": 300,
+      "Excludes zero": true
+    },
+    {
+      "LLM": "gpt-5.4-mini",
+      "Contrast": "basic - constrained",
+      "Metric": "Direction agreement",
+      "Difference": -0.00333,
+      "CI low": -0.00533,
+      "CI high": -0.00156,
+      "N cases": 300,
+      "Excludes zero": true
+    },
+    {
+      "LLM": "gpt-5.4-mini",
+      "Contrast": "basic - verification",
+      "Metric": "Omission",
+      "Difference": 0.05378,
+      "CI low": 0.04533,
+      "CI high": 0.06222,
+      "N cases": 300,
+      "Excludes zero": true
+    },
+    {
+      "LLM": "gpt-5.4-mini",
+      "Contrast": "basic - verification",
+      "Metric": "Hallucination",
+      "Difference": 0.00133,
+      "CI low": 0.00044,
+      "CI high": 0.00244,
+      "N cases": 300,
+      "Excludes zero": true
+    },
+    {
+      "LLM": "gpt-5.4-mini",
+      "Contrast": "basic - verification",
+      "Metric": "Direction agreement",
+      "Difference": -0.00267,
+      "CI low": -0.00506,
+      "CI high": -0.00056,
+      "N cases": 300,
+      "Excludes zero": true
+    },
+    {
+      "LLM": "gpt-5.4-mini",
+      "Contrast": "constrained - verification",
+      "Metric": "Omission",
+      "Difference": -0.03622,
+      "CI low": -0.04289,
+      "CI high": -0.02956,
+      "N cases": 300,
+      "Excludes zero": true
+    },
+    {
+      "LLM": "gpt-5.4-mini",
+      "Contrast": "constrained - verification",
+      "Metric": "Hallucination",
+      "Difference": 0.0,
+      "CI low": 0.0,
+      "CI high": 0.0,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "LLM": "gpt-5.4-mini",
+      "Contrast": "constrained - verification",
+      "Metric": "Direction agreement",
+      "Difference": 0.00067,
+      "CI low": -0.00022,
+      "CI high": 0.00156,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "LLM": "gpt-5.6-luna",
+      "Contrast": "basic - constrained",
+      "Metric": "Omission",
+      "Difference": 0.03089,
+      "CI low": 0.02467,
+      "CI high": 0.038,
+      "N cases": 300,
+      "Excludes zero": true
+    },
+    {
+      "LLM": "gpt-5.6-luna",
+      "Contrast": "basic - constrained",
+      "Metric": "Hallucination",
+      "Difference": 0.00022,
+      "CI low": 0.0,
+      "CI high": 0.00067,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "LLM": "gpt-5.6-luna",
+      "Contrast": "basic - constrained",
+      "Metric": "Direction agreement",
+      "Difference": -0.00144,
+      "CI low": -0.00294,
+      "CI high": -0.00028,
+      "N cases": 300,
+      "Excludes zero": true
+    },
+    {
+      "LLM": "gpt-5.6-luna",
+      "Contrast": "basic - verification",
+      "Metric": "Omission",
+      "Difference": 0.02244,
+      "CI low": 0.01666,
+      "CI high": 0.02822,
+      "N cases": 300,
+      "Excludes zero": true
+    },
+    {
+      "LLM": "gpt-5.6-luna",
+      "Contrast": "basic - verification",
+      "Metric": "Hallucination",
+      "Difference": 0.00022,
+      "CI low": 0.0,
+      "CI high": 0.00067,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "LLM": "gpt-5.6-luna",
+      "Contrast": "basic - verification",
+      "Metric": "Direction agreement",
+      "Difference": -0.00033,
+      "CI low": -0.00222,
+      "CI high": 0.00178,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "LLM": "gpt-5.6-luna",
+      "Contrast": "constrained - verification",
+      "Metric": "Omission",
+      "Difference": -0.00844,
+      "CI low": -0.012,
+      "CI high": -0.00533,
+      "N cases": 300,
+      "Excludes zero": true
+    },
+    {
+      "LLM": "gpt-5.6-luna",
+      "Contrast": "constrained - verification",
+      "Metric": "Hallucination",
+      "Difference": 0.0,
+      "CI low": 0.0,
+      "CI high": 0.0,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "LLM": "gpt-5.6-luna",
+      "Contrast": "constrained - verification",
+      "Metric": "Direction agreement",
+      "Difference": 0.00111,
+      "CI low": 0.0,
+      "CI high": 0.00267,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "LLM": "gpt-5.6-terra",
+      "Contrast": "basic - constrained",
+      "Metric": "Omission",
+      "Difference": 0.05978,
+      "CI low": 0.05133,
+      "CI high": 0.06867,
+      "N cases": 300,
+      "Excludes zero": true
+    },
+    {
+      "LLM": "gpt-5.6-terra",
+      "Contrast": "basic - constrained",
+      "Metric": "Hallucination",
+      "Difference": 0.00074,
+      "CI low": 0.0,
+      "CI high": 0.00167,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "LLM": "gpt-5.6-terra",
+      "Contrast": "basic - constrained",
+      "Metric": "Direction agreement",
+      "Difference": -0.00022,
+      "CI low": -0.00067,
+      "CI high": 0.0,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "LLM": "gpt-5.6-terra",
+      "Contrast": "basic - verification",
+      "Metric": "Omission",
+      "Difference": 0.04178,
+      "CI low": 0.03399,
+      "CI high": 0.05,
+      "N cases": 300,
+      "Excludes zero": true
+    },
+    {
+      "LLM": "gpt-5.6-terra",
+      "Contrast": "basic - verification",
+      "Metric": "Hallucination",
+      "Difference": 0.00074,
+      "CI low": 0.0,
+      "CI high": 0.00185,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "LLM": "gpt-5.6-terra",
+      "Contrast": "basic - verification",
+      "Metric": "Direction agreement",
+      "Difference": 0.0,
+      "CI low": -0.00067,
+      "CI high": 0.00067,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "LLM": "gpt-5.6-terra",
+      "Contrast": "constrained - verification",
+      "Metric": "Omission",
+      "Difference": -0.018,
+      "CI low": -0.02289,
+      "CI high": -0.01355,
+      "N cases": 300,
+      "Excludes zero": true
+    },
+    {
+      "LLM": "gpt-5.6-terra",
+      "Contrast": "constrained - verification",
+      "Metric": "Hallucination",
+      "Difference": 0.0,
+      "CI low": 0.0,
+      "CI high": 0.0,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "LLM": "gpt-5.6-terra",
+      "Contrast": "constrained - verification",
+      "Metric": "Direction agreement",
+      "Difference": 0.00022,
+      "CI low": 0.0,
+      "CI high": 0.00067,
+      "N cases": 300,
+      "Excludes zero": false
+    }
+  ],
+  "generator_contrasts": [
+    {
+      "Prompt": "basic",
+      "Contrast": "gpt-5.4-mini - gpt-5.6-luna",
+      "Metric": "Omission",
+      "Difference": 0.06044,
+      "CI low": 0.04956,
+      "CI high": 0.07089,
+      "N cases": 300,
+      "Excludes zero": true
+    },
+    {
+      "Prompt": "basic",
+      "Contrast": "gpt-5.4-mini - gpt-5.6-luna",
+      "Metric": "Hallucination",
+      "Difference": 0.00111,
+      "CI low": 0.0,
+      "CI high": 0.00222,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Prompt": "basic",
+      "Contrast": "gpt-5.4-mini - gpt-5.6-luna",
+      "Metric": "Direction agreement",
+      "Difference": -0.00211,
+      "CI low": -0.00461,
+      "CI high": 0.00028,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Prompt": "basic",
+      "Contrast": "gpt-5.4-mini - gpt-5.6-terra",
+      "Metric": "Omission",
+      "Difference": 0.03156,
+      "CI low": 0.02244,
+      "CI high": 0.04089,
+      "N cases": 300,
+      "Excludes zero": true
+    },
+    {
+      "Prompt": "basic",
+      "Contrast": "gpt-5.4-mini - gpt-5.6-terra",
+      "Metric": "Hallucination",
+      "Difference": 0.00059,
+      "CI low": -0.0007,
+      "CI high": 0.002,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Prompt": "basic",
+      "Contrast": "gpt-5.4-mini - gpt-5.6-terra",
+      "Metric": "Direction agreement",
+      "Difference": -0.00333,
+      "CI low": -0.00561,
+      "CI high": -0.00155,
+      "N cases": 300,
+      "Excludes zero": true
+    },
+    {
+      "Prompt": "basic",
+      "Contrast": "gpt-5.6-luna - gpt-5.6-terra",
+      "Metric": "Omission",
+      "Difference": -0.02889,
+      "CI low": -0.03711,
+      "CI high": -0.02111,
+      "N cases": 300,
+      "Excludes zero": true
+    },
+    {
+      "Prompt": "basic",
+      "Contrast": "gpt-5.6-luna - gpt-5.6-terra",
+      "Metric": "Hallucination",
+      "Difference": -0.00052,
+      "CI low": -0.00163,
+      "CI high": 0.00044,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Prompt": "basic",
+      "Contrast": "gpt-5.6-luna - gpt-5.6-terra",
+      "Metric": "Direction agreement",
+      "Difference": -0.00122,
+      "CI low": -0.00272,
+      "CI high": 0.0,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Prompt": "constrained",
+      "Contrast": "gpt-5.4-mini - gpt-5.6-luna",
+      "Metric": "Omission",
+      "Difference": 0.00133,
+      "CI low": 0.0,
+      "CI high": 0.00333,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Prompt": "constrained",
+      "Contrast": "gpt-5.4-mini - gpt-5.6-luna",
+      "Metric": "Hallucination",
+      "Difference": 0.0,
+      "CI low": 0.0,
+      "CI high": 0.0,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Prompt": "constrained",
+      "Contrast": "gpt-5.4-mini - gpt-5.6-luna",
+      "Metric": "Direction agreement",
+      "Difference": -0.00022,
+      "CI low": -0.00067,
+      "CI high": 0.0,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Prompt": "constrained",
+      "Contrast": "gpt-5.4-mini - gpt-5.6-terra",
+      "Metric": "Omission",
+      "Difference": 0.00133,
+      "CI low": 0.0,
+      "CI high": 0.00333,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Prompt": "constrained",
+      "Contrast": "gpt-5.4-mini - gpt-5.6-terra",
+      "Metric": "Hallucination",
+      "Difference": 0.0,
+      "CI low": 0.0,
+      "CI high": 0.0,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Prompt": "constrained",
+      "Contrast": "gpt-5.4-mini - gpt-5.6-terra",
+      "Metric": "Direction agreement",
+      "Difference": -0.00022,
+      "CI low": -0.00067,
+      "CI high": 0.0,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Prompt": "constrained",
+      "Contrast": "gpt-5.6-luna - gpt-5.6-terra",
+      "Metric": "Omission",
+      "Difference": 0.0,
+      "CI low": 0.0,
+      "CI high": 0.0,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Prompt": "constrained",
+      "Contrast": "gpt-5.6-luna - gpt-5.6-terra",
+      "Metric": "Hallucination",
+      "Difference": 0.0,
+      "CI low": 0.0,
+      "CI high": 0.0,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Prompt": "constrained",
+      "Contrast": "gpt-5.6-luna - gpt-5.6-terra",
+      "Metric": "Direction agreement",
+      "Difference": 0.0,
+      "CI low": 0.0,
+      "CI high": 0.0,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Prompt": "verification",
+      "Contrast": "gpt-5.4-mini - gpt-5.6-luna",
+      "Metric": "Omission",
+      "Difference": 0.02911,
+      "CI low": 0.02177,
+      "CI high": 0.03644,
+      "N cases": 300,
+      "Excludes zero": true
+    },
+    {
+      "Prompt": "verification",
+      "Contrast": "gpt-5.4-mini - gpt-5.6-luna",
+      "Metric": "Hallucination",
+      "Difference": 0.0,
+      "CI low": 0.0,
+      "CI high": 0.0,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Prompt": "verification",
+      "Contrast": "gpt-5.4-mini - gpt-5.6-luna",
+      "Metric": "Direction agreement",
+      "Difference": 0.00022,
+      "CI low": -0.00133,
+      "CI high": 0.002,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Prompt": "verification",
+      "Contrast": "gpt-5.4-mini - gpt-5.6-terra",
+      "Metric": "Omission",
+      "Difference": 0.01956,
+      "CI low": 0.01244,
+      "CI high": 0.02689,
+      "N cases": 300,
+      "Excludes zero": true
+    },
+    {
+      "Prompt": "verification",
+      "Contrast": "gpt-5.4-mini - gpt-5.6-terra",
+      "Metric": "Hallucination",
+      "Difference": 0.0,
+      "CI low": 0.0,
+      "CI high": 0.0,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Prompt": "verification",
+      "Contrast": "gpt-5.4-mini - gpt-5.6-terra",
+      "Metric": "Direction agreement",
+      "Difference": -0.00067,
+      "CI low": -0.00178,
+      "CI high": 0.00022,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Prompt": "verification",
+      "Contrast": "gpt-5.6-luna - gpt-5.6-terra",
+      "Metric": "Omission",
+      "Difference": -0.00956,
+      "CI low": -0.01489,
+      "CI high": -0.00467,
+      "N cases": 300,
+      "Excludes zero": true
+    },
+    {
+      "Prompt": "verification",
+      "Contrast": "gpt-5.6-luna - gpt-5.6-terra",
+      "Metric": "Hallucination",
+      "Difference": 0.0,
+      "CI low": 0.0,
+      "CI high": 0.0,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Prompt": "verification",
+      "Contrast": "gpt-5.6-luna - gpt-5.6-terra",
+      "Metric": "Direction agreement",
+      "Difference": -0.00089,
+      "CI low": -0.00244,
+      "CI high": 0.00022,
+      "N cases": 300,
+      "Excludes zero": false
+    }
+  ],
+  "prompt_by_generator": [
+    {
+      "Prompt": "constrained",
+      "LLM": "gpt-5.4-mini",
+      "Omission change vs basic": -0.09,
+      "CI low": -0.09978,
+      "CI high": -0.08022,
+      "Excludes zero": true
+    },
+    {
+      "Prompt": "constrained",
+      "LLM": "gpt-5.6-luna",
+      "Omission change vs basic": -0.03089,
+      "CI low": -0.03756,
+      "CI high": -0.02422,
+      "Excludes zero": true
+    },
+    {
+      "Prompt": "constrained",
+      "LLM": "gpt-5.6-terra",
+      "Omission change vs basic": -0.05978,
+      "CI low": -0.06844,
+      "CI high": -0.05133,
+      "Excludes zero": true
+    },
+    {
+      "Prompt": "verification",
+      "LLM": "gpt-5.4-mini",
+      "Omission change vs basic": -0.05378,
+      "CI low": -0.06244,
+      "CI high": -0.04511,
+      "Excludes zero": true
+    },
+    {
+      "Prompt": "verification",
+      "LLM": "gpt-5.6-luna",
+      "Omission change vs basic": -0.02244,
+      "CI low": -0.02889,
+      "CI high": -0.01667,
+      "Excludes zero": true
+    },
+    {
+      "Prompt": "verification",
+      "LLM": "gpt-5.6-terra",
+      "Omission change vs basic": -0.04178,
+      "CI low": -0.04933,
+      "CI high": -0.034,
+      "Excludes zero": true
+    }
+  ],
+  "repeat_noise": [
+    {
+      "LLM": "gpt-5.4-mini",
+      "Prompt": "basic",
+      "Metric": "Omission",
+      "Within-case SD across repeats": 0.05642
+    },
+    {
+      "LLM": "gpt-5.4-mini",
+      "Prompt": "basic",
+      "Metric": "Hallucination",
+      "Within-case SD across repeats": 0.00231
+    },
+    {
+      "LLM": "gpt-5.4-mini",
+      "Prompt": "basic",
+      "Metric": "Direction agreement",
+      "Within-case SD across repeats": 0.00529
+    },
+    {
+      "LLM": "gpt-5.4-mini",
+      "Prompt": "constrained",
+      "Metric": "Omission",
+      "Within-case SD across repeats": 0.0
+    },
+    {
+      "LLM": "gpt-5.4-mini",
+      "Prompt": "constrained",
+      "Metric": "Hallucination",
+      "Within-case SD across repeats": 0.0
+    },
+    {
+      "LLM": "gpt-5.4-mini",
+      "Prompt": "constrained",
+      "Metric": "Direction agreement",
+      "Within-case SD across repeats": 0.00038
+    },
+    {
+      "LLM": "gpt-5.4-mini",
+      "Prompt": "verification",
+      "Metric": "Omission",
+      "Within-case SD across repeats": 0.03657
+    },
+    {
+      "LLM": "gpt-5.4-mini",
+      "Prompt": "verification",
+      "Metric": "Hallucination",
+      "Within-case SD across repeats": 0.0
+    },
+    {
+      "LLM": "gpt-5.4-mini",
+      "Prompt": "verification",
+      "Metric": "Direction agreement",
+      "Within-case SD across repeats": 0.00154
+    },
+    {
+      "LLM": "gpt-5.6-luna",
+      "Prompt": "basic",
+      "Metric": "Omission",
+      "Within-case SD across repeats": 0.02656
+    },
+    {
+      "LLM": "gpt-5.6-luna",
+      "Prompt": "basic",
+      "Metric": "Hallucination",
+      "Within-case SD across repeats": 0.00038
+    },
+    {
+      "LLM": "gpt-5.6-luna",
+      "Prompt": "basic",
+      "Metric": "Direction agreement",
+      "Within-case SD across repeats": 0.00208
+    },
+    {
+      "LLM": "gpt-5.6-luna",
+      "Prompt": "constrained",
+      "Metric": "Omission",
+      "Within-case SD across repeats": 0.0
+    },
+    {
+      "LLM": "gpt-5.6-luna",
+      "Prompt": "constrained",
+      "Metric": "Hallucination",
+      "Within-case SD across repeats": 0.0
+    },
+    {
+      "LLM": "gpt-5.6-luna",
+      "Prompt": "constrained",
+      "Metric": "Direction agreement",
+      "Within-case SD across repeats": 0.0
+    },
+    {
+      "LLM": "gpt-5.6-luna",
+      "Prompt": "verification",
+      "Metric": "Omission",
+      "Within-case SD across repeats": 0.01039
+    },
+    {
+      "LLM": "gpt-5.6-luna",
+      "Prompt": "verification",
+      "Metric": "Hallucination",
+      "Within-case SD across repeats": 0.0
+    },
+    {
+      "LLM": "gpt-5.6-luna",
+      "Prompt": "verification",
+      "Metric": "Direction agreement",
+      "Within-case SD across repeats": 0.00077
+    },
+    {
+      "LLM": "gpt-5.6-terra",
+      "Prompt": "basic",
+      "Metric": "Omission",
+      "Within-case SD across repeats": 0.03608
+    },
+    {
+      "LLM": "gpt-5.6-terra",
+      "Prompt": "basic",
+      "Metric": "Hallucination",
+      "Within-case SD across repeats": 0.00096
+    },
+    {
+      "LLM": "gpt-5.6-terra",
+      "Prompt": "basic",
+      "Metric": "Direction agreement",
+      "Within-case SD across repeats": 0.00038
+    },
+    {
+      "LLM": "gpt-5.6-terra",
+      "Prompt": "constrained",
+      "Metric": "Omission",
+      "Within-case SD across repeats": 0.0
+    },
+    {
+      "LLM": "gpt-5.6-terra",
+      "Prompt": "constrained",
+      "Metric": "Hallucination",
+      "Within-case SD across repeats": 0.0
+    },
+    {
+      "LLM": "gpt-5.6-terra",
+      "Prompt": "constrained",
+      "Metric": "Direction agreement",
+      "Within-case SD across repeats": 0.0
+    },
+    {
+      "LLM": "gpt-5.6-terra",
+      "Prompt": "verification",
+      "Metric": "Omission",
+      "Within-case SD across repeats": 0.01963
+    },
+    {
+      "LLM": "gpt-5.6-terra",
+      "Prompt": "verification",
+      "Metric": "Hallucination",
+      "Within-case SD across repeats": 0.0
+    },
+    {
+      "LLM": "gpt-5.6-terra",
+      "Prompt": "verification",
+      "Metric": "Direction agreement",
+      "Within-case SD across repeats": 0.00038
+    }
+  ],
+  "natural_experiment": [
+    {
+      "Block": "A",
+      "LLM": "gpt-5.4-mini",
+      "Prompt": "basic",
+      "Metric": "Omission",
+      "First run": 0.06856,
+      "Corrected run": 0.08622,
+      "Change": 0.01767,
+      "CI low": 0.01167,
+      "CI high": 0.02389,
+      "N cases": 300,
+      "Excludes zero": true
+    },
+    {
+      "Block": "A",
+      "LLM": "gpt-5.4-mini",
+      "Prompt": "basic",
+      "Metric": "Hallucination",
+      "First run": 0.00095,
+      "Corrected run": 0.00088,
+      "Change": -7e-05,
+      "CI low": -0.00094,
+      "CI high": 0.00079,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Block": "A",
+      "LLM": "gpt-5.4-mini",
+      "Prompt": "basic",
+      "Metric": "Direction agreement",
+      "First run": 0.99052,
+      "Corrected run": 0.99356,
+      "Change": 0.00304,
+      "CI low": -0.00053,
+      "CI high": 0.00721,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Block": "A_prime",
+      "LLM": "gpt-5.4-mini",
+      "Prompt": "basic",
+      "Metric": "Omission",
+      "First run": 0.04667,
+      "Corrected run": 0.06733,
+      "Change": 0.02067,
+      "CI low": 0.01356,
+      "CI high": 0.02756,
+      "N cases": 300,
+      "Excludes zero": true
+    },
+    {
+      "Block": "A_prime",
+      "LLM": "gpt-5.4-mini",
+      "Prompt": "basic",
+      "Metric": "Hallucination",
+      "First run": 9e-05,
+      "Corrected run": 0.00023,
+      "Change": 0.00014,
+      "CI low": -0.00019,
+      "CI high": 0.00056,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Block": "A_prime",
+      "LLM": "gpt-5.4-mini",
+      "Prompt": "basic",
+      "Metric": "Direction agreement",
+      "First run": 0.9875,
+      "Corrected run": 0.99197,
+      "Change": 0.00447,
+      "CI low": 0.00191,
+      "CI high": 0.00735,
+      "N cases": 300,
+      "Excludes zero": true
+    },
+    {
+      "Block": "B",
+      "LLM": "gpt-5.4-mini",
+      "Prompt": "basic",
+      "Metric": "Omission",
+      "First run": 0.07244,
+      "Corrected run": 0.09133,
+      "Change": 0.01889,
+      "CI low": 0.01067,
+      "CI high": 0.02689,
+      "N cases": 300,
+      "Excludes zero": true
+    },
+    {
+      "Block": "B",
+      "LLM": "gpt-5.4-mini",
+      "Prompt": "basic",
+      "Metric": "Hallucination",
+      "First run": 0.00019,
+      "Corrected run": 0.00133,
+      "Change": 0.00115,
+      "CI low": 7e-05,
+      "CI high": 0.00244,
+      "N cases": 300,
+      "Excludes zero": true
+    },
+    {
+      "Block": "B",
+      "LLM": "gpt-5.4-mini",
+      "Prompt": "basic",
+      "Metric": "Direction agreement",
+      "First run": 0.99476,
+      "Corrected run": 0.99644,
+      "Change": 0.00169,
+      "CI low": -0.00115,
+      "CI high": 0.00491,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Block": "B",
+      "LLM": "gpt-5.4-mini",
+      "Prompt": "constrained",
+      "Metric": "Omission",
+      "First run": 0.00111,
+      "Corrected run": 0.00133,
+      "Change": 0.00022,
+      "CI low": -0.00178,
+      "CI high": 0.00245,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Block": "B",
+      "LLM": "gpt-5.4-mini",
+      "Prompt": "constrained",
+      "Metric": "Hallucination",
+      "First run": 0.0,
+      "Corrected run": 0.0,
+      "Change": 0.0,
+      "CI low": 0.0,
+      "CI high": 0.0,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Block": "B",
+      "LLM": "gpt-5.4-mini",
+      "Prompt": "constrained",
+      "Metric": "Direction agreement",
+      "First run": 0.99978,
+      "Corrected run": 0.99978,
+      "Change": 0.0,
+      "CI low": -0.00067,
+      "CI high": 0.00067,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Block": "B",
+      "LLM": "gpt-5.4-mini",
+      "Prompt": "verification",
+      "Metric": "Omission",
+      "First run": 0.02622,
+      "Corrected run": 0.03756,
+      "Change": 0.01133,
+      "CI low": 0.00556,
+      "CI high": 0.01711,
+      "N cases": 300,
+      "Excludes zero": true
+    },
+    {
+      "Block": "B",
+      "LLM": "gpt-5.4-mini",
+      "Prompt": "verification",
+      "Metric": "Hallucination",
+      "First run": 0.0,
+      "Corrected run": 0.0,
+      "Change": 0.0,
+      "CI low": 0.0,
+      "CI high": 0.0,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Block": "B",
+      "LLM": "gpt-5.4-mini",
+      "Prompt": "verification",
+      "Metric": "Direction agreement",
+      "First run": 0.99933,
+      "Corrected run": 0.99911,
+      "Change": -0.00022,
+      "CI low": -0.00133,
+      "CI high": 0.00089,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Block": "B",
+      "LLM": "gpt-5.6-luna",
+      "Prompt": "basic",
+      "Metric": "Omission",
+      "First run": 0.02956,
+      "Corrected run": 0.03089,
+      "Change": 0.00133,
+      "CI low": -0.00533,
+      "CI high": 0.00822,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Block": "B",
+      "LLM": "gpt-5.6-luna",
+      "Prompt": "basic",
+      "Metric": "Hallucination",
+      "First run": 0.0,
+      "Corrected run": 0.00022,
+      "Change": 0.00022,
+      "CI low": 0.0,
+      "CI high": 0.00067,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Block": "B",
+      "LLM": "gpt-5.6-luna",
+      "Prompt": "basic",
+      "Metric": "Direction agreement",
+      "First run": 0.99911,
+      "Corrected run": 0.99856,
+      "Change": -0.00056,
+      "CI low": -0.00222,
+      "CI high": 0.00106,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Block": "B",
+      "LLM": "gpt-5.6-luna",
+      "Prompt": "constrained",
+      "Metric": "Omission",
+      "First run": 0.00133,
+      "Corrected run": 0.0,
+      "Change": -0.00133,
+      "CI low": -0.00378,
+      "CI high": 0.0,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Block": "B",
+      "LLM": "gpt-5.6-luna",
+      "Prompt": "constrained",
+      "Metric": "Hallucination",
+      "First run": 0.0,
+      "Corrected run": 0.0,
+      "Change": 0.0,
+      "CI low": 0.0,
+      "CI high": 0.0,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Block": "B",
+      "LLM": "gpt-5.6-luna",
+      "Prompt": "constrained",
+      "Metric": "Direction agreement",
+      "First run": 0.99778,
+      "Corrected run": 1.0,
+      "Change": 0.00222,
+      "CI low": 0.0,
+      "CI high": 0.00556,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Block": "B",
+      "LLM": "gpt-5.6-luna",
+      "Prompt": "verification",
+      "Metric": "Omission",
+      "First run": 0.00511,
+      "Corrected run": 0.00844,
+      "Change": 0.00333,
+      "CI low": -0.00044,
+      "CI high": 0.00689,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Block": "B",
+      "LLM": "gpt-5.6-luna",
+      "Prompt": "verification",
+      "Metric": "Hallucination",
+      "First run": 0.0,
+      "Corrected run": 0.0,
+      "Change": 0.0,
+      "CI low": 0.0,
+      "CI high": 0.0,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Block": "B",
+      "LLM": "gpt-5.6-luna",
+      "Prompt": "verification",
+      "Metric": "Direction agreement",
+      "First run": 1.0,
+      "Corrected run": 0.99889,
+      "Change": -0.00111,
+      "CI low": -0.00267,
+      "CI high": 0.0,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Block": "B",
+      "LLM": "gpt-5.6-terra",
+      "Prompt": "basic",
+      "Metric": "Omission",
+      "First run": 0.04733,
+      "Corrected run": 0.05978,
+      "Change": 0.01244,
+      "CI low": 0.00556,
+      "CI high": 0.01978,
+      "N cases": 300,
+      "Excludes zero": true
+    },
+    {
+      "Block": "B",
+      "LLM": "gpt-5.6-terra",
+      "Prompt": "basic",
+      "Metric": "Hallucination",
+      "First run": 0.00019,
+      "Corrected run": 0.00074,
+      "Change": 0.00056,
+      "CI low": -0.00037,
+      "CI high": 0.00167,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Block": "B",
+      "LLM": "gpt-5.6-terra",
+      "Prompt": "basic",
+      "Metric": "Direction agreement",
+      "First run": 0.95017,
+      "Corrected run": 0.99978,
+      "Change": 0.05578,
+      "CI low": 0.03489,
+      "CI high": 0.07811,
+      "N cases": 300,
+      "Excludes zero": true
+    },
+    {
+      "Block": "B",
+      "LLM": "gpt-5.6-terra",
+      "Prompt": "constrained",
+      "Metric": "Omission",
+      "First run": 0.00022,
+      "Corrected run": 0.0,
+      "Change": -0.00022,
+      "CI low": -0.00067,
+      "CI high": 0.0,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Block": "B",
+      "LLM": "gpt-5.6-terra",
+      "Prompt": "constrained",
+      "Metric": "Hallucination",
+      "First run": 0.0,
+      "Corrected run": 0.0,
+      "Change": 0.0,
+      "CI low": 0.0,
+      "CI high": 0.0,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Block": "B",
+      "LLM": "gpt-5.6-terra",
+      "Prompt": "constrained",
+      "Metric": "Direction agreement",
+      "First run": 1.0,
+      "Corrected run": 1.0,
+      "Change": 0.0,
+      "CI low": 0.0,
+      "CI high": 0.0,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Block": "B",
+      "LLM": "gpt-5.6-terra",
+      "Prompt": "verification",
+      "Metric": "Omission",
+      "First run": 0.01044,
+      "Corrected run": 0.018,
+      "Change": 0.00756,
+      "CI low": 0.00333,
+      "CI high": 0.01222,
+      "N cases": 300,
+      "Excludes zero": true
+    },
+    {
+      "Block": "B",
+      "LLM": "gpt-5.6-terra",
+      "Prompt": "verification",
+      "Metric": "Hallucination",
+      "First run": 0.0,
+      "Corrected run": 0.0,
+      "Change": 0.0,
+      "CI low": 0.0,
+      "CI high": 0.0,
+      "N cases": 300,
+      "Excludes zero": false
+    },
+    {
+      "Block": "B",
+      "LLM": "gpt-5.6-terra",
+      "Prompt": "verification",
+      "Metric": "Direction agreement",
+      "First run": 0.99444,
+      "Corrected run": 0.99978,
+      "Change": 0.00533,
+      "CI low": 0.00089,
+      "CI high": 0.01022,
+      "N cases": 300,
+      "Excludes zero": true
+    },
+    {
+      "Block": "C",
+      "LLM": "gpt-5.4-mini",
+      "Prompt": "basic",
+      "Metric": "Omission",
+      "First run": 0.058,
+      "Corrected run": 0.089,
+      "Change": 0.031,
+      "CI low": 0.0165,
+      "CI high": 0.04501,
+      "N cases": 100,
+      "Excludes zero": true
+    },
+    {
+      "Block": "C",
+      "LLM": "gpt-5.4-mini",
+      "Prompt": "basic",
+      "Metric": "Hallucination",
+      "First run": 0.0005,
+      "Corrected run": 0.001,
+      "Change": 0.0005,
+      "CI low": -0.001,
+      "CI high": 0.002,
+      "N cases": 100,
+      "Excludes zero": false
+    },
+    {
+      "Block": "C",
+      "LLM": "gpt-5.4-mini",
+      "Prompt": "basic",
+      "Metric": "Direction agreement",
+      "First run": 0.99338,
+      "Corrected run": 0.99838,
+      "Change": 0.005,
+      "CI low": 0.0,
+      "CI high": 0.01087,
+      "N cases": 100,
+      "Excludes zero": false
+    },
+    {
+      "Block": "C",
+      "LLM": "gpt-5.6-luna",
+      "Prompt": "basic",
+      "Metric": "Omission",
+      "First run": 0.02,
+      "Corrected run": 0.0245,
+      "Change": 0.0045,
+      "CI low": -0.0015,
+      "CI high": 0.0105,
+      "N cases": 100,
+      "Excludes zero": false
+    },
+    {
+      "Block": "C",
+      "LLM": "gpt-5.6-luna",
+      "Prompt": "basic",
+      "Metric": "Hallucination",
+      "First run": 0.0,
+      "Corrected run": 0.0,
+      "Change": 0.0,
+      "CI low": 0.0,
+      "CI high": 0.0,
+      "N cases": 100,
+      "Excludes zero": false
+    },
+    {
+      "Block": "C",
+      "LLM": "gpt-5.6-luna",
+      "Prompt": "basic",
+      "Metric": "Direction agreement",
+      "First run": 0.999,
+      "Corrected run": 0.99787,
+      "Change": -0.00112,
+      "CI low": -0.00425,
+      "CI high": 0.0015,
+      "N cases": 100,
+      "Excludes zero": false
+    },
+    {
+      "Block": "C",
+      "LLM": "gpt-5.6-terra",
+      "Prompt": "basic",
+      "Metric": "Omission",
+      "First run": 0.04,
+      "Corrected run": 0.05,
+      "Change": 0.01,
+      "CI low": -0.00051,
+      "CI high": 0.0205,
+      "N cases": 100,
+      "Excludes zero": false
+    },
+    {
+      "Block": "C",
+      "LLM": "gpt-5.6-terra",
+      "Prompt": "basic",
+      "Metric": "Hallucination",
+      "First run": 0.0,
+      "Corrected run": 0.0,
+      "Change": 0.0,
+      "CI low": 0.0,
+      "CI high": 0.0,
+      "N cases": 100,
+      "Excludes zero": false
+    },
+    {
+      "Block": "C",
+      "LLM": "gpt-5.6-terra",
+      "Prompt": "basic",
+      "Metric": "Direction agreement",
+      "First run": 0.96942,
+      "Corrected run": 1.0,
+      "Change": 0.03133,
+      "CI low": 0.01133,
+      "CI high": 0.05417,
+      "N cases": 100,
+      "Excludes zero": true
+    },
+    {
+      "Block": "D",
+      "LLM": "gpt-5.4-mini",
+      "Prompt": "basic",
+      "Metric": "Omission",
+      "First run": 0.0645,
+      "Corrected run": 0.08617,
+      "Change": 0.02167,
+      "CI low": 0.013,
+      "CI high": 0.03117,
+      "N cases": 60,
+      "Excludes zero": true
+    },
+    {
+      "Block": "D",
+      "LLM": "gpt-5.4-mini",
+      "Prompt": "basic",
+      "Metric": "Hallucination",
+      "First run": 0.0,
+      "Corrected run": 0.00047,
+      "Change": 0.00047,
+      "CI low": 0.0,
+      "CI high": 0.00108,
+      "N cases": 60,
+      "Excludes zero": false
+    },
+    {
+      "Block": "D",
+      "LLM": "gpt-5.4-mini",
+      "Prompt": "basic",
+      "Metric": "Direction agreement",
+      "First run": 0.99426,
+      "Corrected run": 0.99635,
+      "Change": 0.00208,
+      "CI low": -8e-05,
+      "CI high": 0.00456,
+      "N cases": 60,
+      "Excludes zero": false
+    },
+    {
+      "Block": "D",
+      "LLM": "gpt-5.6-luna",
+      "Prompt": "basic",
+      "Metric": "Omission",
+      "First run": 0.0235,
+      "Corrected run": 0.02617,
+      "Change": 0.00267,
+      "CI low": -0.00833,
+      "CI high": 0.01367,
+      "N cases": 60,
+      "Excludes zero": false
+    },
+    {
+      "Block": "D",
+      "LLM": "gpt-5.6-luna",
+      "Prompt": "basic",
+      "Metric": "Hallucination",
+      "First run": 0.00051,
+      "Corrected run": 0.00083,
+      "Change": 0.00032,
+      "CI low": -0.00088,
+      "CI high": 0.00182,
+      "N cases": 60,
+      "Excludes zero": false
+    },
+    {
+      "Block": "D",
+      "LLM": "gpt-5.6-luna",
+      "Prompt": "basic",
+      "Metric": "Direction agreement",
+      "First run": 0.99925,
+      "Corrected run": 0.99983,
+      "Change": 0.00058,
+      "CI low": -0.00017,
+      "CI high": 0.00175,
+      "N cases": 60,
+      "Excludes zero": false
+    },
+    {
+      "Block": "D",
+      "LLM": "gpt-5.6-terra",
+      "Prompt": "basic",
+      "Metric": "Omission",
+      "First run": 0.04283,
+      "Corrected run": 0.05067,
+      "Change": 0.00783,
+      "CI low": -0.00184,
+      "CI high": 0.01767,
+      "N cases": 60,
+      "Excludes zero": false
+    },
+    {
+      "Block": "D",
+      "LLM": "gpt-5.6-terra",
+      "Prompt": "basic",
+      "Metric": "Hallucination",
+      "First run": 0.00058,
+      "Corrected run": 0.00028,
+      "Change": -0.00031,
+      "CI low": -0.00078,
+      "CI high": 0.0,
+      "N cases": 60,
+      "Excludes zero": false
+    },
+    {
+      "Block": "D",
+      "LLM": "gpt-5.6-terra",
+      "Prompt": "basic",
+      "Metric": "Direction agreement",
+      "First run": 0.97389,
+      "Corrected run": 1.0,
+      "Change": 0.02763,
+      "CI low": 0.0055,
+      "CI high": 0.05787,
+      "N cases": 60,
+      "Excludes zero": true
+    },
+    {
+      "Block": "D0",
+      "LLM": "gpt-5.4-mini",
+      "Prompt": "basic",
+      "Metric": "Omission",
+      "First run": 0.06633,
+      "Corrected run": 0.08717,
+      "Change": 0.02083,
+      "CI low": 0.008,
+      "CI high": 0.03467,
+      "N cases": 60,
+      "Excludes zero": true
+    },
+    {
+      "Block": "D0",
+      "LLM": "gpt-5.4-mini",
+      "Prompt": "basic",
+      "Metric": "Hallucination",
+      "First run": 0.00071,
+      "Corrected run": 0.00017,
+      "Change": -0.00054,
+      "CI low": -0.00142,
+      "CI high": 0.0,
+      "N cases": 60,
+      "Excludes zero": false
+    },
+    {
+      "Block": "D0",
+      "LLM": "gpt-5.4-mini",
+      "Prompt": "basic",
+      "Metric": "Direction agreement",
+      "First run": 0.9936,
+      "Corrected run": 0.99683,
+      "Change": 0.00324,
+      "CI low": -0.00275,
+      "CI high": 0.00858,
+      "N cases": 60,
+      "Excludes zero": false
+    },
+    {
+      "Block": "D0",
+      "LLM": "gpt-5.6-luna",
+      "Prompt": "basic",
+      "Metric": "Omission",
+      "First run": 0.01983,
+      "Corrected run": 0.02583,
+      "Change": 0.006,
+      "CI low": -0.005,
+      "CI high": 0.01834,
+      "N cases": 60,
+      "Excludes zero": false
+    },
+    {
+      "Block": "D0",
+      "LLM": "gpt-5.6-luna",
+      "Prompt": "basic",
+      "Metric": "Hallucination",
+      "First run": 0.0,
+      "Corrected run": 0.00042,
+      "Change": 0.00042,
+      "CI low": 0.0,
+      "CI high": 0.00097,
+      "N cases": 60,
+      "Excludes zero": false
+    },
+    {
+      "Block": "D0",
+      "LLM": "gpt-5.6-luna",
+      "Prompt": "basic",
+      "Metric": "Direction agreement",
+      "First run": 0.99967,
+      "Corrected run": 0.99946,
+      "Change": -0.00019,
+      "CI low": -0.00082,
+      "CI high": 0.00035,
+      "N cases": 60,
+      "Excludes zero": false
+    },
+    {
+      "Block": "D0",
+      "LLM": "gpt-5.6-terra",
+      "Prompt": "basic",
+      "Metric": "Omission",
+      "First run": 0.03733,
+      "Corrected run": 0.0505,
+      "Change": 0.01317,
+      "CI low": -0.00117,
+      "CI high": 0.02733,
+      "N cases": 60,
+      "Excludes zero": false
+    },
+    {
+      "Block": "D0",
+      "LLM": "gpt-5.6-terra",
+      "Prompt": "basic",
+      "Metric": "Hallucination",
+      "First run": 0.0,
+      "Corrected run": 0.0,
+      "Change": 0.0,
+      "CI low": 0.0,
+      "CI high": 0.0,
+      "N cases": 60,
+      "Excludes zero": false
+    },
+    {
+      "Block": "D0",
+      "LLM": "gpt-5.6-terra",
+      "Prompt": "basic",
+      "Metric": "Direction agreement",
+      "First run": 0.97791,
+      "Corrected run": 1.0,
+      "Change": 0.02298,
+      "CI low": 0.00183,
+      "CI high": 0.04821,
+      "N cases": 60,
+      "Excludes zero": true
+    }
+  ],
+  "reversal_by_rank": [
+    {
+      "run": "corrected run",
+      "evidence_rank": 1,
+      "Flip rate": 0.00204,
+      "N claims": 19076
+    },
+    {
+      "run": "corrected run",
+      "evidence_rank": 2,
+      "Flip rate": 0.00051,
+      "N claims": 19461
+    },
+    {
+      "run": "corrected run",
+      "evidence_rank": 3,
+      "Flip rate": 0.00297,
+      "N claims": 19198
+    },
+    {
+      "run": "corrected run",
+      "evidence_rank": 4,
+      "Flip rate": 0.00329,
+      "N claims": 18861
+    },
+    {
+      "run": "corrected run",
+      "evidence_rank": 5,
+      "Flip rate": 0.00214,
+      "N claims": 18665
+    },
+    {
+      "run": "first run",
+      "evidence_rank": 1,
+      "Flip rate": 0.00828,
+      "N claims": 19446
+    },
+    {
+      "run": "first run",
+      "evidence_rank": 2,
+      "Flip rate": 0.00637,
+      "N claims": 19614
+    },
+    {
+      "run": "first run",
+      "evidence_rank": 3,
+      "Flip rate": 0.00972,
+      "N claims": 19234
+    },
+    {
+      "run": "first run",
+      "evidence_rank": 4,
+      "Flip rate": 0.00956,
+      "N claims": 18941
+    },
+    {
+      "run": "first run",
+      "evidence_rank": 5,
+      "Flip rate": 0.0078,
+      "N claims": 18841
+    }
+  ],
+  "reversal_by_verdict": [
+    {
+      "Run": "corrected run",
+      "Driver opposed the shown verdict": false,
+      "Flip rate": 0.0021,
+      "N claims": 67299
+    },
+    {
+      "Run": "corrected run",
+      "Driver opposed the shown verdict": true,
+      "Flip rate": 0.0024,
+      "N claims": 27962
+    },
+    {
+      "Run": "first run",
+      "Driver opposed the shown verdict": false,
+      "Flip rate": 0.00478,
+      "N claims": 49989
+    },
+    {
+      "Run": "first run",
+      "Driver opposed the shown verdict": true,
+      "Flip rate": 0.01219,
+      "N claims": 46087
+    }
+  ],
+  "reversal_by_verdict_top_driver": [
+    {
+      "Run": "corrected run",
+      "Top driver opposed the shown verdict": false,
+      "Flip rate": 0.00057,
+      "N claims": 17528
+    },
+    {
+      "Run": "corrected run",
+      "Top driver opposed the shown verdict": true,
+      "Flip rate": 0.01873,
+      "N claims": 1548
+    },
+    {
+      "Run": "first run",
+      "Top driver opposed the shown verdict": false,
+      "Flip rate": 0.00258,
+      "N claims": 12421
+    },
+    {
+      "Run": "first run",
+      "Top driver opposed the shown verdict": true,
+      "Flip rate": 0.01836,
+      "N claims": 7025
+    }
+  ]
+}

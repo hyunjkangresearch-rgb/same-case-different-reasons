@@ -1,0 +1,7 @@
+﻿Prompt,LLM,Omission change vs basic,CI low,CI high,Excludes zero
+constrained,gpt-5.4-mini,-0.09,-0.09978,-0.08022,True
+constrained,gpt-5.6-luna,-0.03089,-0.03756,-0.02422,True
+constrained,gpt-5.6-terra,-0.05978,-0.06844,-0.05133,True
+verification,gpt-5.4-mini,-0.05378,-0.06244,-0.04511,True
+verification,gpt-5.6-luna,-0.02244,-0.02889,-0.01667,True
+verification,gpt-5.6-terra,-0.04178,-0.04933,-0.034,True

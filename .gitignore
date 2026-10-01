@@ -3,12 +3,8 @@
 
 # Raw public data: redistribute via the source links in README
 data/*.csv
-# ...except the human coding record, which is part of the method
-!data/manual_coding_sheet.csv
-!data/adjudication.csv
-!data/coding_auto_reference.csv
 
-# Large derived data and models: regenerable, or published as release archives
+# Large derived data and models: regenerable, or published as a release archive
 data/*.parquet
 data/*.joblib
 data/generations/
@@ -16,11 +12,10 @@ data/pilot_generations/
 data/claims_cache/
 data/judge_cache/
 
-# AI-generated coding drafts are not part of the reported procedure
-*AI_draft*
-
-# Keep empty directories
-!data/.gitkeep
+# Data produced under the mis-scaled SHAP baseline, retained locally for the
+# run comparison in notebook 12 but too large to version
+data/*_misref/
+data/*_misref.*
 
 # Jupyter, Python, OS
 .ipynb_checkpoints/

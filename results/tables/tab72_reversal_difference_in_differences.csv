@@ -1,0 +1,13 @@
+﻿Run,LLM,Verdict shown correctly in run 1,Flip rate,N claims
+corrected run,gpt-5.4-mini,False,0.00846,3072
+corrected run,gpt-5.4-mini,True,0.00019,5278
+corrected run,gpt-5.6-luna,False,0.0063,1904
+corrected run,gpt-5.6-luna,True,0.0,3557
+corrected run,gpt-5.6-terra,False,0.0,1876
+corrected run,gpt-5.6-terra,True,0.0,3389
+first run,gpt-5.4-mini,False,0.01038,3083
+first run,gpt-5.4-mini,True,0.00054,5528
+first run,gpt-5.6-luna,False,0.00156,1918
+first run,gpt-5.6-luna,True,0.0,3543
+first run,gpt-5.6-terra,False,0.06487,1896
+first run,gpt-5.6-terra,True,0.0,3478

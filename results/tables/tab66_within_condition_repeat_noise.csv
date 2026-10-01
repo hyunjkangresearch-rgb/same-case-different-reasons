@@ -1,0 +1,28 @@
+﻿LLM,Prompt,Metric,Within-case SD across repeats
+gpt-5.4-mini,basic,Omission,0.05642
+gpt-5.4-mini,basic,Hallucination,0.00231
+gpt-5.4-mini,basic,Direction agreement,0.00529
+gpt-5.4-mini,constrained,Omission,0.0
+gpt-5.4-mini,constrained,Hallucination,0.0
+gpt-5.4-mini,constrained,Direction agreement,0.00038
+gpt-5.4-mini,verification,Omission,0.03657
+gpt-5.4-mini,verification,Hallucination,0.0
+gpt-5.4-mini,verification,Direction agreement,0.00154
+gpt-5.6-luna,basic,Omission,0.02656
+gpt-5.6-luna,basic,Hallucination,0.00038
+gpt-5.6-luna,basic,Direction agreement,0.00208
+gpt-5.6-luna,constrained,Omission,0.0
+gpt-5.6-luna,constrained,Hallucination,0.0
+gpt-5.6-luna,constrained,Direction agreement,0.0
+gpt-5.6-luna,verification,Omission,0.01039
+gpt-5.6-luna,verification,Hallucination,0.0
+gpt-5.6-luna,verification,Direction agreement,0.00077
+gpt-5.6-terra,basic,Omission,0.03608
+gpt-5.6-terra,basic,Hallucination,0.00096
+gpt-5.6-terra,basic,Direction agreement,0.00038
+gpt-5.6-terra,constrained,Omission,0.0
+gpt-5.6-terra,constrained,Hallucination,0.0
+gpt-5.6-terra,constrained,Direction agreement,0.0
+gpt-5.6-terra,verification,Omission,0.01963
+gpt-5.6-terra,verification,Hallucination,0.0
+gpt-5.6-terra,verification,Direction agreement,0.00038

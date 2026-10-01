@@ -1,7 +1,7 @@
 ﻿Metric,Comparison,Difference,CI low,CI high,N cases,Excludes zero,Block
-Feature distance,Model - XAI method,-0.3798,-0.3939,-0.3654,300,True,A
-Feature distance,LLM - Prompt,-0.0071,-0.0094,-0.0048,300,True,B
-Direction distance,Model - XAI method,-0.0555,-0.0767,-0.0356,299,True,A
-Direction distance,LLM - Prompt,0.0004,-0.0001,0.0011,300,False,B
-Rank distance,Model - XAI method,-0.2043,-0.3643,-0.0409,58,True,A
-Rank distance,LLM - Prompt,-0.0213,-0.0286,-0.0148,300,True,B
+Feature distance,Model - XAI method,-0.3826,-0.397,-0.3678,300,True,A
+Feature distance,LLM - Prompt,-0.0083,-0.011,-0.0058,300,True,B
+Direction distance,Model - XAI method,-0.0534,-0.0753,-0.0333,299,True,A
+Direction distance,LLM - Prompt,0.0,-0.0001,0.0001,300,False,B
+Rank distance,Model - XAI method,-0.1585,-0.3122,-0.0055,56,True,A
+Rank distance,LLM - Prompt,-0.0279,-0.0369,-0.0197,300,True,B

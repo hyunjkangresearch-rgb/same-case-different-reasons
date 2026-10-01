@@ -1,0 +1,61 @@
+﻿Block,LLM,Prompt,Metric,First run,Corrected run,Change,CI low,CI high,N cases,Excludes zero
+A,gpt-5.4-mini,basic,Omission,0.06856,0.08622,0.01767,0.01167,0.02389,300,True
+A,gpt-5.4-mini,basic,Hallucination,0.00095,0.00088,-7e-05,-0.00094,0.00079,300,False
+A,gpt-5.4-mini,basic,Direction agreement,0.99052,0.99356,0.00304,-0.00053,0.00721,300,False
+A_prime,gpt-5.4-mini,basic,Omission,0.04667,0.06733,0.02067,0.01356,0.02756,300,True
+A_prime,gpt-5.4-mini,basic,Hallucination,9e-05,0.00023,0.00014,-0.00019,0.00056,300,False
+A_prime,gpt-5.4-mini,basic,Direction agreement,0.9875,0.99197,0.00447,0.00191,0.00735,300,True
+B,gpt-5.4-mini,basic,Omission,0.07244,0.09133,0.01889,0.01067,0.02689,300,True
+B,gpt-5.4-mini,basic,Hallucination,0.00019,0.00133,0.00115,7e-05,0.00244,300,True
+B,gpt-5.4-mini,basic,Direction agreement,0.99476,0.99644,0.00169,-0.00115,0.00491,300,False
+B,gpt-5.4-mini,constrained,Omission,0.00111,0.00133,0.00022,-0.00178,0.00245,300,False
+B,gpt-5.4-mini,constrained,Hallucination,0.0,0.0,0.0,0.0,0.0,300,False
+B,gpt-5.4-mini,constrained,Direction agreement,0.99978,0.99978,0.0,-0.00067,0.00067,300,False
+B,gpt-5.4-mini,verification,Omission,0.02622,0.03756,0.01133,0.00556,0.01711,300,True
+B,gpt-5.4-mini,verification,Hallucination,0.0,0.0,0.0,0.0,0.0,300,False
+B,gpt-5.4-mini,verification,Direction agreement,0.99933,0.99911,-0.00022,-0.00133,0.00089,300,False
+B,gpt-5.6-luna,basic,Omission,0.02956,0.03089,0.00133,-0.00533,0.00822,300,False
+B,gpt-5.6-luna,basic,Hallucination,0.0,0.00022,0.00022,0.0,0.00067,300,False
+B,gpt-5.6-luna,basic,Direction agreement,0.99911,0.99856,-0.00056,-0.00222,0.00106,300,False
+B,gpt-5.6-luna,constrained,Omission,0.00133,0.0,-0.00133,-0.00378,0.0,300,False
+B,gpt-5.6-luna,constrained,Hallucination,0.0,0.0,0.0,0.0,0.0,300,False
+B,gpt-5.6-luna,constrained,Direction agreement,0.99778,1.0,0.00222,0.0,0.00556,300,False
+B,gpt-5.6-luna,verification,Omission,0.00511,0.00844,0.00333,-0.00044,0.00689,300,False
+B,gpt-5.6-luna,verification,Hallucination,0.0,0.0,0.0,0.0,0.0,300,False
+B,gpt-5.6-luna,verification,Direction agreement,1.0,0.99889,-0.00111,-0.00267,0.0,300,False
+B,gpt-5.6-terra,basic,Omission,0.04733,0.05978,0.01244,0.00556,0.01978,300,True
+B,gpt-5.6-terra,basic,Hallucination,0.00019,0.00074,0.00056,-0.00037,0.00167,300,False
+B,gpt-5.6-terra,basic,Direction agreement,0.95017,0.99978,0.05578,0.03489,0.07811,300,True
+B,gpt-5.6-terra,constrained,Omission,0.00022,0.0,-0.00022,-0.00067,0.0,300,False
+B,gpt-5.6-terra,constrained,Hallucination,0.0,0.0,0.0,0.0,0.0,300,False
+B,gpt-5.6-terra,constrained,Direction agreement,1.0,1.0,0.0,0.0,0.0,300,False
+B,gpt-5.6-terra,verification,Omission,0.01044,0.018,0.00756,0.00333,0.01222,300,True
+B,gpt-5.6-terra,verification,Hallucination,0.0,0.0,0.0,0.0,0.0,300,False
+B,gpt-5.6-terra,verification,Direction agreement,0.99444,0.99978,0.00533,0.00089,0.01022,300,True
+C,gpt-5.4-mini,basic,Omission,0.058,0.089,0.031,0.0165,0.04501,100,True
+C,gpt-5.4-mini,basic,Hallucination,0.0005,0.001,0.0005,-0.001,0.002,100,False
+C,gpt-5.4-mini,basic,Direction agreement,0.99338,0.99838,0.005,0.0,0.01087,100,False
+C,gpt-5.6-luna,basic,Omission,0.02,0.0245,0.0045,-0.0015,0.0105,100,False
+C,gpt-5.6-luna,basic,Hallucination,0.0,0.0,0.0,0.0,0.0,100,False
+C,gpt-5.6-luna,basic,Direction agreement,0.999,0.99787,-0.00112,-0.00425,0.0015,100,False
+C,gpt-5.6-terra,basic,Omission,0.04,0.05,0.01,-0.00051,0.0205,100,False
+C,gpt-5.6-terra,basic,Hallucination,0.0,0.0,0.0,0.0,0.0,100,False
+C,gpt-5.6-terra,basic,Direction agreement,0.96942,1.0,0.03133,0.01133,0.05417,100,True
+D,gpt-5.4-mini,basic,Omission,0.0645,0.08617,0.02167,0.013,0.03117,60,True
+D,gpt-5.4-mini,basic,Hallucination,0.0,0.00047,0.00047,0.0,0.00108,60,False
+D,gpt-5.4-mini,basic,Direction agreement,0.99426,0.99635,0.00208,-8e-05,0.00456,60,False
+D,gpt-5.6-luna,basic,Omission,0.0235,0.02617,0.00267,-0.00833,0.01367,60,False
+D,gpt-5.6-luna,basic,Hallucination,0.00051,0.00083,0.00032,-0.00088,0.00182,60,False
+D,gpt-5.6-luna,basic,Direction agreement,0.99925,0.99983,0.00058,-0.00017,0.00175,60,False
+D,gpt-5.6-terra,basic,Omission,0.04283,0.05067,0.00783,-0.00184,0.01767,60,False
+D,gpt-5.6-terra,basic,Hallucination,0.00058,0.00028,-0.00031,-0.00078,0.0,60,False
+D,gpt-5.6-terra,basic,Direction agreement,0.97389,1.0,0.02763,0.0055,0.05787,60,True
+D0,gpt-5.4-mini,basic,Omission,0.06633,0.08717,0.02083,0.008,0.03467,60,True
+D0,gpt-5.4-mini,basic,Hallucination,0.00071,0.00017,-0.00054,-0.00142,0.0,60,False
+D0,gpt-5.4-mini,basic,Direction agreement,0.9936,0.99683,0.00324,-0.00275,0.00858,60,False
+D0,gpt-5.6-luna,basic,Omission,0.01983,0.02583,0.006,-0.005,0.01834,60,False
+D0,gpt-5.6-luna,basic,Hallucination,0.0,0.00042,0.00042,0.0,0.00097,60,False
+D0,gpt-5.6-luna,basic,Direction agreement,0.99967,0.99946,-0.00019,-0.00082,0.00035,60,False
+D0,gpt-5.6-terra,basic,Omission,0.03733,0.0505,0.01317,-0.00117,0.02733,60,False
+D0,gpt-5.6-terra,basic,Hallucination,0.0,0.0,0.0,0.0,0.0,60,False
+D0,gpt-5.6-terra,basic,Direction agreement,0.97791,1.0,0.02298,0.00183,0.04821,60,True

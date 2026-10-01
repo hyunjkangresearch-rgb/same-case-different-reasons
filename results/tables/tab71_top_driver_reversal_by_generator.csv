@@ -1,0 +1,13 @@
+﻿Run,LLM,Top driver opposed verdict,Flip rate,N claims
+corrected run,gpt-5.4-mini,False,0.00013,7615
+corrected run,gpt-5.4-mini,True,0.03537,735
+corrected run,gpt-5.6-luna,False,0.00178,5054
+corrected run,gpt-5.6-luna,True,0.00737,407
+corrected run,gpt-5.6-terra,False,0.0,4859
+corrected run,gpt-5.6-terra,True,0.0,406
+first run,gpt-5.4-mini,False,0.00582,5498
+first run,gpt-5.4-mini,True,0.00096,3113
+first run,gpt-5.6-luna,False,0.0,3494
+first run,gpt-5.6-luna,True,0.00153,1967
+first run,gpt-5.6-terra,False,0.0,3429
+first run,gpt-5.6-terra,True,0.06324,1945
